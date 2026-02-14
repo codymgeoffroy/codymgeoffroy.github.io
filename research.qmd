@@ -1,28 +1,108 @@
 ---
 title: "Research"
+subtitle: "Academic research in genomics and biotechnology"
+---
+
+## Overview
+
+My research experience spans undergraduate and graduate work in genomics, bioinformatics, and biotechnology. Below are highlights from my academic research projects.
+
 ---
 
 ## Undergraduate Research
 
-### [Project Title 1]
-**Lab:** [Professor/Lab Name]  
-**Duration:** [Dates]  
-**Role:** Undergraduate Researcher
+### Project Title
+**Role:** Undergraduate Researcher  
+**Duration:** Year - Year  
+**Advisor:** Dr. Name, Department, University
 
-**Description:**  
-[2-3 sentences about what you did, what question you were addressing]
+#### Abstract
+Brief description of the research project, its goals, and significance (2-3 sentences).
 
-**Skills Used:**  
-[Techniques, tools, analysis methods]
+#### Key Contributions
+- Specific contribution #1
+- Specific contribution #2
+- Specific contribution #3
 
-**Poster Presentation:**  
-[Conference name and date]
+#### Methods & Skills
+- Techniques used
+- Analysis methods applied
+- Software/tools utilized
 
-![Research Poster](images/poster1.jpg)
+#### Results
+Brief summary of findings or outcomes.
 
-[Download PDF](files/poster1.pdf)
+::: {.callout-note icon=false}
+## Presentation
+**Conference Name** | Location | Date  
+[View Poster (PDF)](files/poster1.pdf) | [Abstract](files/abstract1.pdf)
+:::
+
+![Research poster from [Conference Name]](images/poster1.jpg)
 
 ---
 
-### [Project Title 2]
-[Same structure as above]
+## Graduate Coursework Projects
+
+### Project Title
+**Course:** Course Name | Semester/Year  
+**Institution:** University Name
+
+#### Project Description
+Description of the graduate-level project (2-3 sentences).
+
+#### Objectives
+- Objective #1
+- Objective #2
+
+#### Approach
+Brief methodology description.
+
+#### Outcomes
+What you learned or produced.
+
+---
+
+## Skills Developed Through Research
+
+**Laboratory Techniques**
+- Specific wet-lab techniques (if applicable)
+- Experimental design
+- Data collection protocols
+
+**Computational Methods**
+- Sequence analysis
+- Statistical modeling
+- Data visualization
+- Pipeline development
+
+**Professional Skills**
+- Scientific writing
+- Poster/presentation design
+- Literature review
+- Collaboration
+
+---
+
+## Publications & Presentations
+
+### Conference Presentations
+1. **Author(s)**. "Presentation Title." *Conference Name*, Location. Date. [Poster]
+
+### Course Publications (if applicable)
+1. **Author(s)**. "Title." *Course/Department*, Year.
+
+---
+
+## Research Interests
+
+My research interests focus on:
+
+- **Genomics:** Understanding genetic variation and its functional implications
+- **Computational Biology:** Developing algorithms for biological data analysis
+- **Bioinformatics:** Building pipelines for high-throughput data processing
+- **Systems Biology:** Integrating multi-omics data to understand biological systems
+
+I'm interested in opportunities to apply computational methods to genomic research and contribute to data-driven biological discovery.
+
+[Current Projects →](projects.qmd) | [Contact Me](mailto:your.email@example.com)

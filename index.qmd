@@ -1,45 +1,58 @@
 ---
 title: "Cody Geoffroy"
+subtitle: "Bioinformatics | Computational Biology | Data Science"
 page-layout: full
+toc: false
+listing:
+  - id: blog-listing
+    contents: blog/posts
+    sort: "date desc"
+    type: grid
+    max-items: 3
 ---
 
-# Bioinformatics & Computational Biology
+::: {.hero-banner}
+# Building Computational Skills for Biological Discovery
 
-I'm building a foundation in bioinformatics through hands-on problem solving and data analysis. With a background in biomedical sciences and genomics, I'm passionate about using computational approaches to understand biological systems.
+I'm a biomedical sciences graduate with a focus on genomics and bioinformatics, developing expertise in Python, R, and computational problem-solving. My goal is to apply data science and algorithmic thinking to understand complex biological systems.
 
-**Currently:** Developing skills in Python, R, and bioinformatics algorithms | Solving Rosalind problems | Building analysis pipelines
+**Currently:** Solving bioinformatics challenges on Rosalind | Building analysis pipelines | Learning full-stack development
+
+[View My Work →](projects.qmd){.btn .btn-primary} [GitHub](https://github.com/codymgeoffroy){.btn .btn-outline-secondary} [LinkedIn](#){.btn .btn-outline-secondary}
+:::
 
 ---
 
-## Featured Work
+## Featured Projects
 
-::: {.grid}
+:::: {.grid}
 
-::: {.g-col-4}
-### Undergraduate Research
-![Poster](images/poster1.jpg)
-[Project description]
+::: {.g-col-12 .g-col-md-4}
+### 🧬 Rosalind Problems
+Computational biology algorithm implementations in Python and R
+
+[View Solutions →](projects.qmd#rosalind)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 📊 Data Analysis
+Genomic data visualization and statistical analysis projects
+
+[Explore →](projects.qmd#analysis)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🔬 Research
+Undergraduate and graduate research in genomics and biotech
+
 [Learn More →](research.qmd)
 :::
 
-::: {.g-col-4}
-### Rosalind Solutions
-Coming soon: computational biology problem sets
-[View Projects →](projects.qmd)
-:::
-
-::: {.g-col-4}
-### Analysis Blog
-Documenting my learning journey
-[Read More →](blog.qmd)
-:::
-
-:::
+::::
 
 ---
 
-## Let's Connect
+## Recent Blog Posts
 
-[GitHub](link) | [LinkedIn](link) | [Email](mailto:email)
-
-Interested in bioinformatics, data science opportunities, or collaboration? Feel free to reach out!
+::: {#blog-listing}
+:::

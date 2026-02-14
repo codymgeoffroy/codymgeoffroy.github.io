@@ -1,41 +1,69 @@
 ---
-title: "About"
+title: "About Me"
+about:
+  template: trestles
+  image: images/profile.jpg
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/codymgeoffroy
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourprofile
+    - icon: envelope
+      text: Email
+      href: mailto:your.email@example.com
 ---
-
-## Background
-
-I graduated with a Bachelor's in Biomedical Sciences and minors in Genomics and Bioinformatics as well as Anthropology. I'm currently developing my computational skills through self-directed learning in bioinformatics and data science.
 
 ## Education
 
-**Bachelor of Science, Biomedical Sciences**  
-University of Central Florida, 2023  
-Minor: Genomics and Bioinformatics  
-Minor: Anthropology
+**Bachelor of Science in Biomedical Sciences**  
+*Minor in Genomics & Bioinformatics | Minor in Anthropology*  
+University Name | Year
 
-**Relevant Coursework:**
-- [List key bioinformatics/genomics courses]
-- [Statistics/data analysis courses]
-- [Molecular biology courses]
+**Graduate Coursework in Biotechnology**  
+University Name | Years
+
+## My Journey
+
+My interest in bioinformatics emerged from a fascination with how computational approaches can decode biological complexity. With a foundation in biomedical sciences and genomics, I'm now focused on building strong programming and data analysis skills to bridge wet-lab biology and computational research.
+
+I'm working through bioinformatics problem sets, building analysis pipelines, and documenting my learning journey through this portfolio. My background includes teaching experience in gymnastics and education, which has strengthened my ability to break down complex concepts and communicate effectively.
 
 ## Technical Skills
 
-**Programming:** Python, R, Bash  
-**Bioinformatics:** [Tools you've used]  
-**Tools:** Git, Linux/WSL, VS Code, RStudio  
-**Currently Learning:** Rosalind problems, data analysis pipelines
+**Programming Languages**
+- Python (primary focus for bioinformatics)
+- R (statistical analysis and visualization)
+- Bash/Shell scripting
+- SQL for database querying
 
-## Research Interests
+**Bioinformatics Tools & Platforms**
+- Git/GitHub for version control
+- Linux/WSL development environment
+- Quarto for reproducible research
+- Data analysis libraries (pandas, NumPy, BioPython)
 
-- Computational genomics
-- Bioinformatics pipeline development
-- Data analysis and visualization
-- [Your specific interests]
+**Computational Biology**
+- Sequence analysis algorithms
+- Statistical methods for genomics
+- Data visualization
+- Pipeline development
 
-## Beyond Research
+## Interests Beyond Science
 
-When I'm not coding, I enjoy [your interests - Yu-Gi-Oh, philosophy, etc.]
+When I'm not coding or analyzing data, I enjoy:
+- **Philosophy:** Exploring existential questions and Taoist thought
+- **Competitive Yu-Gi-Oh:** Strategy and deck building
+- **Writing:** Working on a book project
+- **Film:** Action and tactical/espionage genres
+- **Music:** Gregorian chants and instrumental compositions
 
-## Connect
+## What's Next
 
-[GitHub](https://github.com/codymgeoffroy) | [LinkedIn](https://www.linkedin.com/in/cody-geoffroy) | [Email](mailto:geoffroycody@gmail.com)
+I'm actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I'm particularly interested in genomics, algorithm development, and data-driven biological discovery.
+
+**Open to:** Full-time positions, internships, collaborations, and freelance projects
+
+[Download CV](files/CV.pdf){.btn .btn-primary} [Contact Me](mailto:your.email@example.com){.btn .btn-outline-secondary}

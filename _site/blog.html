@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This space will document my learning journey, including: - Rosalind problem walkthroughs with code - Bioinformatics tool tutorials - Data analysis case studies - Course notes and reflections</p>
 <hr>
 <p><strong>Why a blog?</strong><br>
-Documenting what I learn reinforces concepts and demonstrates continuous growth in the field.</p>
+Documenting what I learn reinforces concepts and demonstrates continuous growth in the field. Cock and balls</p>
 
 
 
@@ -243,7 +243,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
