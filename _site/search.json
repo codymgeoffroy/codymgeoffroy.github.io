@@ -1,16 +1,100 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Blog & Notes",
     "section": "",
-    "text": "About this site"
+    "text": "Coming Soon\nThis space will document my learning journey, including: - Rosalind problem walkthroughs with code - Bioinformatics tool tutorials - Data analysis case studies - Course notes and reflections\n\nWhy a blog?\nDocumenting what I learn reinforces concepts and demonstrates continuous growth in the field."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Lab: [Professor/Lab Name]\nDuration: [Dates]\nRole: Undergraduate Researcher\nDescription:\n[2-3 sentences about what you did, what question you were addressing]\nSkills Used:\n[Techniques, tools, analysis methods]\nPoster Presentation:\n[Conference name and date]\n\n\n\nResearch Poster\n\n\nDownload PDF\n\n\n\n\n[Same structure as above]"
+  },
+  {
+    "objectID": "research.html#undergraduate-research",
+    "href": "research.html#undergraduate-research",
+    "title": "Research",
+    "section": "",
+    "text": "Lab: [Professor/Lab Name]\nDuration: [Dates]\nRole: Undergraduate Researcher\nDescription:\n[2-3 sentences about what you did, what question you were addressing]\nSkills Used:\n[Techniques, tools, analysis methods]\nPoster Presentation:\n[Conference name and date]\n\n\n\nResearch Poster\n\n\nDownload PDF\n\n\n\n\n[Same structure as above]"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Cody Geoffroy",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m building a foundation in bioinformatics through hands-on problem solving and data analysis. With a background in biomedical sciences and genomics, I’m passionate about using computational approaches to understand biological systems.\nCurrently: Developing skills in Python, R, and bioinformatics algorithms | Solving Rosalind problems | Building analysis pipelines\n\n\n\n\n\n\n [Project description] Learn More →\n\n\n\nComing soon: computational biology problem sets View Projects →\n\n\n\nDocumenting my learning journey Read More →\n\n\n\n\n\n\nGitHub | LinkedIn | Email\nInterested in bioinformatics, data science opportunities, or collaboration? Feel free to reach out!"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Cody Geoffroy",
+    "section": "",
+    "text": "[Project description] Learn More →\n\n\n\nComing soon: computational biology problem sets View Projects →\n\n\n\nDocumenting my learning journey Read More →"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Cody Geoffroy",
+    "section": "",
+    "text": "GitHub | LinkedIn | Email\nInterested in bioinformatics, data science opportunities, or collaboration? Feel free to reach out!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a recent graduate with a Bachelor’s in Biomedical Sciences and minors in Genomics/Bioinformatics and Anthropology. I’m currently developing my computational skills through self-directed learning in bioinformatics and data science."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "I’m a recent graduate with a Bachelor’s in Biomedical Sciences and minors in Genomics/Bioinformatics and Anthropology. I’m currently developing my computational skills through self-directed learning in bioinformatics and data science."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nBachelor of Science, Biomedical Sciences\n[University Name], [Year]\nMinor: Genomics & Bioinformatics\nMinor: Anthropology\nRelevant Coursework: - [List key bioinformatics/genomics courses] - [Statistics/data analysis courses] - [Molecular biology courses]"
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About",
+    "section": "Technical Skills",
+    "text": "Technical Skills\nProgramming: Python, R, Bash\nBioinformatics: [Tools you’ve used]\nTools: Git, Linux/WSL, VS Code, RStudio\nCurrently Learning: Rosalind problems, data analysis pipelines"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nComputational genomics\nBioinformatics pipeline development\nData analysis and visualization\n[Your specific interests]"
+  },
+  {
+    "objectID": "about.html#beyond-research",
+    "href": "about.html#beyond-research",
+    "title": "About",
+    "section": "Beyond Research",
+    "text": "Beyond Research\nWhen I’m not coding, I enjoy [your interests - Yu-Gi-Oh, philosophy, etc.]"
+  },
+  {
+    "objectID": "about.html#connect",
+    "href": "about.html#connect",
+    "title": "About",
+    "section": "Connect",
+    "text": "Connect\nGitHub | LinkedIn | Email"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog & Notes",
+    "section": "",
+    "text": "Coming Soon\nThis space will document my learning journey, including: - Rosalind problem walkthroughs with code - Bioinformatics tool tutorials - Data analysis case studies - Course notes and reflections\n\nWhy a blog?\nDocumenting what I learn reinforces concepts and demonstrates continuous growth in the field."
   }
 ]

@@ -1,16 +1,30 @@
 ---
-title: "Blog & Notes"
+title: "Projects"
 ---
 
-*Coming Soon*
+*This page showcases my growing collection of bioinformatics and data science projects.*
 
-This space will document my learning journey, including:
-- Rosalind problem walkthroughs with code
-- Bioinformatics tool tutorials
-- Data analysis case studies
-- Course notes and reflections
+## Current Projects
+
+### Rosalind Problem Solutions
+**Status:** In Progress  
+**Description:** Working through computational biology challenges covering algorithms, genomics, and sequence analysis.  
+**Skills:** Python, algorithm development, problem-solving  
+[View on GitHub](link) *(add when ready)*
 
 ---
 
-**Why a blog?**  
-Documenting what I learn reinforces concepts and demonstrates continuous growth in the field.
+## Planned Projects
+
+### RNA-seq Analysis Pipeline
+Exploring differential gene expression analysis using public datasets
+
+### Genomic Variant Calling
+Building NGS data processing workflow with standard bioinformatics tools
+
+### Data Visualization Dashboard
+Interactive visualizations of genomic data using R/Python
+
+---
+
+*Check back soon - projects are being added as I complete them!*
