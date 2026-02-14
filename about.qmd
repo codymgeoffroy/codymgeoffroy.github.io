@@ -2,4 +2,40 @@
 title: "About"
 ---
 
-About this site
+## Background
+
+I'm a recent graduate with a Bachelor's in Biomedical Sciences and minors in Genomics/Bioinformatics and Anthropology. I'm currently developing my computational skills through self-directed learning in bioinformatics and data science.
+
+## Education
+
+**Bachelor of Science, Biomedical Sciences**  
+[University Name], [Year]  
+Minor: Genomics & Bioinformatics  
+Minor: Anthropology
+
+**Relevant Coursework:**
+- [List key bioinformatics/genomics courses]
+- [Statistics/data analysis courses]
+- [Molecular biology courses]
+
+## Technical Skills
+
+**Programming:** Python, R, Bash  
+**Bioinformatics:** [Tools you've used]  
+**Tools:** Git, Linux/WSL, VS Code, RStudio  
+**Currently Learning:** Rosalind problems, data analysis pipelines
+
+## Research Interests
+
+- Computational genomics
+- Bioinformatics pipeline development
+- Data analysis and visualization
+- [Your specific interests]
+
+## Beyond Research
+
+When I'm not coding, I enjoy [your interests - Yu-Gi-Oh, philosophy, etc.]
+
+## Connect
+
+[GitHub](https://github.com/yourusername) | [LinkedIn](your-profile) | Email

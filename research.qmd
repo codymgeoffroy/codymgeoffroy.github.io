@@ -1,0 +1,28 @@
+---
+title: "Research"
+---
+
+## Undergraduate Research
+
+### [Project Title 1]
+**Lab:** [Professor/Lab Name]  
+**Duration:** [Dates]  
+**Role:** Undergraduate Researcher
+
+**Description:**  
+[2-3 sentences about what you did, what question you were addressing]
+
+**Skills Used:**  
+[Techniques, tools, analysis methods]
+
+**Poster Presentation:**  
+[Conference name and date]
+
+![Research Poster](images/poster1.jpg)
+
+[Download PDF](files/poster1.pdf)
+
+---
+
+### [Project Title 2]
+[Same structure as above]

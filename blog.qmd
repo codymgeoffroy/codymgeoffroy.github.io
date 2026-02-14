@@ -1,0 +1,16 @@
+---
+title: "Blog & Notes"
+---
+
+*Coming Soon*
+
+This space will document my learning journey, including:
+- Rosalind problem walkthroughs with code
+- Bioinformatics tool tutorials
+- Data analysis case studies
+- Course notes and reflections
+
+---
+
+**Why a blog?**  
+Documenting what I learn reinforces concepts and demonstrates continuous growth in the field.

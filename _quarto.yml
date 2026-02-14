@@ -7,7 +7,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: blog.qmd
+        text: Blog
 
 format:
   html:

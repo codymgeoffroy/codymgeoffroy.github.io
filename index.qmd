@@ -1,7 +1,45 @@
 ---
 title: "Cody Geoffroy"
+page-layout: full
 ---
 
-This is a Quarto website.
+# Bioinformatics & Computational Biology
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm building a foundation in bioinformatics through hands-on problem solving and data analysis. With a background in biomedical sciences and genomics, I'm passionate about using computational approaches to understand biological systems.
+
+**Currently:** Developing skills in Python, R, and bioinformatics algorithms | Solving Rosalind problems | Building analysis pipelines
+
+---
+
+## Featured Work
+
+::: {.grid}
+
+::: {.g-col-4}
+### Undergraduate Research
+![Poster](images/poster1.jpg)
+[Project description]
+[Learn More →](research.qmd)
+:::
+
+::: {.g-col-4}
+### Rosalind Solutions
+Coming soon: computational biology problem sets
+[View Projects →](projects.qmd)
+:::
+
+::: {.g-col-4}
+### Analysis Blog
+Documenting my learning journey
+[Read More →](blog.qmd)
+:::
+
+:::
+
+---
+
+## Let's Connect
+
+[GitHub](link) | [LinkedIn](link) | [Email](mailto:email)
+
+Interested in bioinformatics, data science opportunities, or collaboration? Feel free to reach out!
