@@ -2,9 +2,23 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Blog & Notes",
+    "title": "Projects",
     "section": "",
-    "text": "Coming Soon\nThis space will document my learning journey, including: - Rosalind problem walkthroughs with code - Bioinformatics tool tutorials - Data analysis case studies - Course notes and reflections\n\nWhy a blog?\nDocumenting what I learn reinforces concepts and demonstrates continuous growth in the field."
+    "text": "This page showcases my growing collection of bioinformatics and data science projects."
+  },
+  {
+    "objectID": "projects.html#current-projects",
+    "href": "projects.html#current-projects",
+    "title": "Projects",
+    "section": "Current Projects",
+    "text": "Current Projects\n\nRosalind Problem Solutions\nStatus: In Progress\nDescription: Working through computational biology challenges covering algorithms, genomics, and sequence analysis.\nSkills: Python, algorithm development, problem-solving\nView on GitHub (add when ready)"
+  },
+  {
+    "objectID": "projects.html#planned-projects",
+    "href": "projects.html#planned-projects",
+    "title": "Projects",
+    "section": "Planned Projects",
+    "text": "Planned Projects\n\nRNA-seq Analysis Pipeline\nExploring differential gene expression analysis using public datasets\n\n\nGenomic Variant Calling\nBuilding NGS data processing workflow with standard bioinformatics tools\n\n\nData Visualization Dashboard\nInteractive visualizations of genomic data using R/Python\n\nCheck back soon - projects are being added as I complete them!"
   },
   {
     "objectID": "research.html",

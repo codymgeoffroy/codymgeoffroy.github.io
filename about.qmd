@@ -4,13 +4,13 @@ title: "About"
 
 ## Background
 
-I'm a recent graduate with a Bachelor's in Biomedical Sciences and minors in Genomics/Bioinformatics and Anthropology. I'm currently developing my computational skills through self-directed learning in bioinformatics and data science.
+I graduated with a Bachelor's in Biomedical Sciences and minors in Genomics and Bioinformatics as well as Anthropology. I'm currently developing my computational skills through self-directed learning in bioinformatics and data science.
 
 ## Education
 
 **Bachelor of Science, Biomedical Sciences**  
-[University Name], [Year]  
-Minor: Genomics & Bioinformatics  
+University of Central Florida, 2023  
+Minor: Genomics and Bioinformatics  
 Minor: Anthropology
 
 **Relevant Coursework:**
@@ -38,4 +38,4 @@ When I'm not coding, I enjoy [your interests - Yu-Gi-Oh, philosophy, etc.]
 
 ## Connect
 
-[GitHub](https://github.com/yourusername) | [LinkedIn](your-profile) | Email
+[GitHub](https://github.com/codymgeoffroy) | [LinkedIn](www.linkedin.com/in/cody-geoffroy) | [Email](geoffroycody@gmail.com)
