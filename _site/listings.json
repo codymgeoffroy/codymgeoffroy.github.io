@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/posts/2026-02-14-getting-started/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/2026-02-14-getting-started/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/2026-02-14-getting-started/index.html"
+    ]
+  }
+]
