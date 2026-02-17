@@ -2,7 +2,7 @@
 title: "About Me"
 about:
   template: trestles
-  image: images/profile.jpg
+  image: images/CodyGrad23fn-1-2.jpg
   image-shape: round
   links:
     - icon: github
@@ -10,7 +10,7 @@ about:
       href: https://github.com/codymgeoffroy
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/yourprofile
+      href: https://linkedin.com/in/cody-geoffroy
     - icon: envelope
       text: Email
       href: mailto:geoffroycody@gmail.com
@@ -18,12 +18,13 @@ about:
 
 ## Education
 
-**Bachelor of Science in Biomedical Sciences**  
+**Biotechnology, M.S. (incomplete)**  
+University of Central Florida | 2024-2025
+
+**Biomedical Sciences, B.S.**  
 *Minor in Genomics & Bioinformatics | Minor in Anthropology*  
 University of Central Florida | 2019-2023
 
-**Graduate Coursework in Biotechnology**  
-University of Central Florida | 2024-2025
 
 ## My Journey
 
@@ -65,5 +66,4 @@ When I'm not coding or analyzing data, I enjoy:
 I'm actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I'm particularly interested in genomics, algorithm development, and data-driven biological discovery.
 
 **Open to:** Full-time positions, internships, collaborations, and freelance projects
-
-[Download CV](files/CV_CG.pdf){.btn .btn-primary} [Contact Me](mailto:geoffroycody@gmail.com){.btn .btn-outline-secondary}
+[Download Resume](files/Resume_CG.pdf){.btn .btn-primary} [Download CV](files/CV_CG.pdf){.btn .btn-outline-secondary}

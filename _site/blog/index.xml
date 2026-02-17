@@ -10,7 +10,7 @@
 <atom:link href="https://codymgeoffroy.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Bioinformatics &amp; Data Science Portfolio</description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Sat, 14 Feb 2026 22:15:30 GMT</lastBuildDate>
+<lastBuildDate>Sat, 14 Feb 2026 22:19:32 GMT</lastBuildDate>
 <item>
   <title>Learning Blog</title>
   <link>https://codymgeoffroy.github.io/blog/posts/2026-02-14-getting-started/</link>
@@ -31,8 +31,6 @@
 </ul>
 
 
-
-<!-- -->
 
 </section>
 
@@ -67,7 +65,7 @@ No matching items
 </div>
 </div> ]]></description>
   <guid>https://codymgeoffroy.github.io/blog/posts/2026-02-14-getting-started/</guid>
-  <pubDate>Sat, 14 Feb 2026 22:15:30 GMT</pubDate>
+  <pubDate>Sat, 14 Feb 2026 22:19:32 GMT</pubDate>
 </item>
 </channel>
 </rss>

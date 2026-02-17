@@ -1,6 +1,6 @@
 ---
-title: "Cody Geoffroy"
-subtitle: "Bioinformatics | Computational Biology | Data Science"
+title: "Technical Portfolio & Learning Blog"
+subtitle: "Bioinformatics | Molecular Biology | Neuroscience"
 page-layout: full
 toc: false
 listing:
