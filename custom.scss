@@ -1,44 +1,228 @@
 /*-- scss:defaults --*/
 
-// Colors
-$primary: #2c5f7f;
-$secondary: #6c757d;
-$success: #28a745;
+// =====================
+// CHARCOAL + EMERALD (Restrained)
+// =====================
+$body-bg: #1B1B1B;
+$body-color: #FFFFFF;
+$link-color: #34D399;
+$primary: #10B981;
+$secondary: #444444;
+$success: #10B981;
+$border-color: #444444;
 
-// Fonts
-$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$headings-color: #FFFFFF;
 $headings-font-weight: 600;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
 /*-- scss:rules --*/
 
+// Hero Banner
 .hero-banner {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #1B1B1B 0%, #0D2B1E 100%);
+  color: #FFFFFF;
   padding: 4rem 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
   text-align: center;
+  border: 2px solid #10B981;
 }
 
 .hero-banner h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+
+.hero-banner p {
+  color: #CCCCCC;
 }
 
 .hero-banner .btn {
   margin: 0.5rem;
 }
 
+// Grid Cards
 .grid > div {
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: #242424;
+  border: 1px solid #444444;
   border-radius: 8px;
   margin-bottom: 1rem;
-  transition: transform 0.2s;
+  transition: transform 0.2s, border-color 0.2s;
+  color: #FFFFFF;
 }
 
 .grid > div:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.15);
+  border-color: #10B981;
+}
+
+.grid > div p {
+  color: #CCCCCC;
+}
+
+// Navbar
+.navbar {
+  background-color: #141414 !important;
+  border-bottom: 1px solid #444444;
+}
+
+.navbar-brand {
+  color: #34D399 !important;    // Emerald name
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+  color: #34D399 !important;
+}
+
+.nav-link.active {
+  color: #34D399 !important;    // Active page highlighted
+}
+
+// Headings
+h1 {
+  color: #34D399;               // Emerald page titles
+}
+
+h2 {
+  color: #FFFFFF;
+  border-left: 3px solid #10B981;
+  padding-left: 0.75rem;
+}
+
+h3, h4, h5, h6 {
+  color: #FFFFFF;
+}
+
+// Subtitles
+.subtitle {
+  color: #CCCCCC;
+  font-size: 1.1rem;
+}
+
+// Muted text
+.text-muted {
+  color: #A0A0A0 !important;
+}
+
+// Code blocks
+pre {
+  background-color: #242424 !important;
+  border: 1px solid #444444;
+  border-left: 3px solid #10B981;
+  border-radius: 6px;
+}
+
+// Inline code
+code {
+  color: #34D399;
+  background-color: #242424;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+
+// Buttons
+.btn-primary {
+  background-color: #10B981;
+  border-color: #10B981;
+  color: #1B1B1B;
+}
+
+.btn-primary:hover {
+  background-color: #34D399;
+  border-color: #34D399;
+  color: #1B1B1B;
+}
+
+.btn-outline-primary {
+  border-color: #10B981;
+  color: #10B981;
+}
+
+.btn-outline-primary:hover {
+  background-color: #10B981;
+  color: #1B1B1B;
+}
+
+.btn-outline-secondary {
+  border-color: #444444;
+  color: #FFFFFF;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #444444;
+  color: #FFFFFF;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 3px solid #10B981;
+  padding-left: 1rem;
+  color: #CCCCCC;
+}
+
+// Tables
+table {
+  color: #FFFFFF;
+}
+
+thead {
+  background-color: #242424;
+  color: #FFFFFF;
+  border-bottom: 2px solid #10B981;
+}
+
+tbody tr:hover {
+  background-color: #2A2A2A;
+}
+
+// Horizontal rules
+hr {
+  border-color: #444444;
+}
+
+// Blog listing metadata
+.listing-date,
+.listing-author {
+  color: #A0A0A0;
+}
+
+.listing-description {
+  color: #CCCCCC;
+}
+
+// Footer
+.nav-footer {
+  background-color: #141414;
+  border-top: 1px solid #444444;
+  color: #888888;
+}
+
+// Callouts
+.callout {
+  border-color: #10B981;
+  background-color: #242424;
+}
+
+// TOC
+.sidebar nav[role="doc-toc"] ul > li > a {
+  color: #CCCCCC;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a:hover {
+  color: #34D399;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  color: #34D399;
+  border-left: 2px solid #10B981;
 }

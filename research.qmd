@@ -1,108 +1,116 @@
 ---
 title: "Research"
-subtitle: "Academic research in genomics and biotechnology"
+subtitle: "Genomics · Bioinformatics · Biotechnology"
+page-layout: article
+toc: true
+toc-title: "On This Page"
 ---
 
-## Overview
-
-My research experience spans undergraduate and graduate work in genomics, bioinformatics, and biotechnology. Below are highlights from my academic research projects.
+Undergraduate and graduate research grounded in genomics and computational
+biology. My work focuses on applying quantitative methods to biological
+questions — connecting wet-lab context with data-driven analysis.
 
 ---
 
 ## Undergraduate Research
 
-### Project Title
-**Role:** Undergraduate Researcher  
-**Duration:** Year - Year  
-**Advisor:** Dr. Name, Department, University
+### Mutant U1A-RNA binding kinetics with surface plasmon resonance {#undergrad}
 
-#### Abstract
-Brief description of the research project, its goals, and significance (2-3 sentences).
+- **Role:** Undergraduate Researcher
+- **Advisor:** Dr. Robert Borgon · Department of Biomedical Sciences · University of Central Florida
+- **Duration:** [Year] – [Year]
 
-#### Key Contributions
-- Specific contribution #1
-- Specific contribution #2
-- Specific contribution #3
+[2–3 sentences: what the project was, why it mattered, what biological
+question it addressed. Write this as a narrative, not a list.]
 
-#### Methods & Skills
-- Techniques used
-- Analysis methods applied
-- Software/tools utilized
+**Contributions**
 
-#### Results
-Brief summary of findings or outcomes.
+- [Specific, active-voice contribution — what *you* did, not what the lab did]
+- [e.g., "Designed and executed PCR protocols for X samples across Y conditions"]
+- [e.g., "Analyzed sequence alignment output using custom Python scripts"]
+
+**Methods & Tools**
+
+- [Technique or tool] · [Technique or tool] · [Technique or tool]
+
+**Outcome**
+
+[1–2 sentences on what was produced or found — a result, a dataset,
+a presentation, a report. Be specific.]
 
 ::: {.callout-note icon=false}
 ## Presentation
-**Conference Name** | Location | Date  
-[View Poster (PDF)](files/poster1.pdf) | [Abstract](files/abstract1.pdf)
+**[Conference Name]** · [Location] · [Month Year]
+
+[View Poster (PDF)](files/SURE_Poster_Borgon.pdf){.btn .btn-sm .btn-outline-primary}
+[Abstract](files/abstract1.pdf){.btn .btn-sm .btn-outline-secondary}
 :::
 
-![Research poster from [Conference Name]](images/poster1.jpg)
+### Digitization, tracing, and quantification of CGRP-IR axons in the nociceptive cardiac nervous system in a mouse model {#undergrad}
+
+- **Role:** Undergraduate Researcher
+- **Advisor:** Dr. Zixi Cheng · Department of Biomedical Sciences · University of Central Florida
+- **Duration:** [Year] – [Year]
+
+[2–3 sentences: what the project was, why it mattered, what biological
+question it addressed. Write this as a narrative, not a list.]
+
+**Contributions**
+
+- [Specific, active-voice contribution — what *you* did, not what the lab did]
+- [e.g., "Designed and executed PCR protocols for X samples across Y conditions"]
+- [e.g., "Analyzed sequence alignment output using custom Python scripts"]
+
+**Methods & Tools**
+
+- [Technique or tool] · [Technique or tool] · [Technique or tool]
+
+**Outcome**
+
+[1–2 sentences on what was produced or found — a result, a dataset,
+a presentation, a report. Be specific.]
+
+::: {.callout-note icon=false}
+## Presentation
+**[Conference Name]** · [Location] · [Month Year]
+
+[View Poster (PDF)](files/SSS-Poster_CG_Cheng.pdf){.btn .btn-sm .btn-outline-primary}
+[Abstract](files/abstract1.pdf){.btn .btn-sm .btn-outline-secondary}
+:::
 
 ---
 
-## Graduate Coursework Projects
+## Graduate Coursework Projects {#graduate}
 
-### Project Title
-**Course:** Course Name | Semester/Year  
-**Institution:** University Name
+### [Project Title]
 
-#### Project Description
-Description of the graduate-level project (2-3 sentences).
+**Course:** [Course Name] · [Semester Year]
+**Institution:** [University Name]
 
-#### Objectives
-- Objective #1
-- Objective #2
+[2–3 sentences describing the project, the problem it addressed, and the
+approach taken. Lead with what the project *did*, not what you were assigned.]
 
-#### Approach
-Brief methodology description.
-
-#### Outcomes
-What you learned or produced.
+**Key outcomes:** [1 sentence — what you produced or demonstrated.]
 
 ---
 
-## Skills Developed Through Research
-
-**Laboratory Techniques**
-- Specific wet-lab techniques (if applicable)
-- Experimental design
-- Data collection protocols
-
-**Computational Methods**
-- Sequence analysis
-- Statistical modeling
-- Data visualization
-- Pipeline development
-
-**Professional Skills**
-- Scientific writing
-- Poster/presentation design
-- Literature review
-- Collaboration
-
----
-
-## Publications & Presentations
+## Publications & Presentations {#publications}
 
 ### Conference Presentations
-1. **Author(s)**. "Presentation Title." *Conference Name*, Location. Date. [Poster]
 
-### Course Publications (if applicable)
-1. **Author(s)**. "Title." *Course/Department*, Year.
+1. **[Your Name]**, [Co-author if any]. "[Presentation Title]."
+   *[Conference Name]*, [Location]. [Month Year]. \[Poster\]
 
 ---
 
-## Research Interests
+## Research Interests {#interests}
 
-My research interests focus on:
+My primary interests are in computational genomics — particularly sequence
+analysis, variant interpretation, and building reproducible pipelines for
+high-throughput biological data. I'm drawn to work that sits at the
+intersection of algorithmic problem-solving and biological discovery,
+and I'm actively developing the computational foundation to contribute
+to that kind of research.
 
-- **Genomics:** Understanding genetic variation and its functional implications
-- **Computational Biology:** Developing algorithms for biological data analysis
-- **Bioinformatics:** Building pipelines for high-throughput data processing
-- **Systems Biology:** Integrating multi-omics data to understand biological systems
-
-I'm interested in opportunities to apply computational methods to genomic research and contribute to data-driven biological discovery.
-
-[Current Projects →](projects.qmd) | [Contact Me](mailto:your.email@example.com)
+[View Projects →](projects.qmd){.btn .btn-primary}
+[Contact Me](mailto:your.email@example.com){.btn .btn-outline-secondary}

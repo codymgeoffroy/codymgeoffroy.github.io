@@ -53,13 +53,28 @@ I'm working through bioinformatics problem sets, building analysis pipelines, an
 - Pipeline development
 
 ## Interests Beyond Science
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+#### Scuba Diving
+Open-water and nitrox certified. Diving demands methodical preparation, situational awareness, and staying calm under pressure — skills that translate directly to research and problem solving.
+:::
 
-When I'm not coding or analyzing data, I enjoy:
-- **Philosophy:** Exploring existential questions and Taoist thought
-- **Competitive Yu-Gi-Oh:** Strategy and deck building
-- **Writing:** Working on a book project
-- **Film:** Action and tactical/espionage genres
-- **Music:** Gregorian chants and instrumental compositions
+::: {.g-col-12 .g-col-md-6}
+#### Martial Arts
+Black belt in Taekwondo, with training in Muay Thai and Brazilian Jiu-Jitsu. Martial arts taught me that mastery is a process, not a destination — a philosophy I carry into learning bioinformatics.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Yu-Gi-Oh
+Competitive player focused on deck building and strategic play. The game demands pattern recognition, probabilistic thinking, and adapting under pressure.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Writing
+Currently writing *Useless Man: Embracing the Exiled Self* — a philosophical exploration of identity, purpose, and the freedom found in not fitting the expected mold.
+:::
+::::
+
 
 ## What's Next
 

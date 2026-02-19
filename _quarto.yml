@@ -34,8 +34,8 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, custom.scss]
+    theme: [darkly, custom.scss]
+    anchor-sections: false
     css: styles.css
     toc: true
     toc-depth: 3

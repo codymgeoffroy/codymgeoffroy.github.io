@@ -17,8 +17,8 @@ This blog documents my learning journey as I build skills in bioinformatics, com
 
 ## Topics Covered
 
-- 🧬 Bioinformatics algorithms and Rosalind solutions
-- 📊 Data analysis and visualization techniques
-- 💻 Programming tips and tricks (Python, R, Bash)
-- 🛠️ Tools and workflow optimization
-- 📚 Learning resources and reflections
+- Bioinformatics algorithms and Rosalind solutions
+- Data analysis and visualization techniques
+- Programming tips and tricks (Python, R, Bash)
+- Tools and workflow optimization
+- Learning resources and reflections

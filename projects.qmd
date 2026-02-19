@@ -1,6 +1,9 @@
 ---
 title: "Projects"
-subtitle: "Computational biology problems, data analysis, and development work"
+subtitle: "Computational biology · Data analysis · Development"
+page-layout: article
+toc: true
+toc-title: "Jump To"
 listing:
   - id: rosalind-projects
     contents: "projects/rosalind/*.qmd"
@@ -8,61 +11,53 @@ listing:
     sort: "date desc"
     fields: [image, date, title, description, categories]
     categories: true
-    
+
   - id: analysis-projects
     contents: "projects/analysis/*.qmd"
     type: grid
     sort: "date desc"
     fields: [image, date, title, description, categories]
-    
+
   - id: dev-projects
     contents: "projects/development/*.qmd"
     type: default
     sort: "date desc"
 ---
 
-## Overview
+A working collection of bioinformatics problem sets, genomic data analysis,
+and development projects — built while working toward computational biology
+research and data science applications.
 
-This page showcases my computational biology and data science projects. Each project demonstrates problem-solving skills, algorithmic thinking, and practical application of bioinformatics concepts.
+All projects are version-controlled and documented on
+[GitHub](https://github.com/codymgeoffroy).
 
 ---
 
-## 🧬 Rosalind Problem Sets {#rosalind}
+## Rosalind Problem Sets {#rosalind}
 
-Solutions to computational biology challenges from [Rosalind.info](http://rosalind.info), implemented in Python and R with detailed explanations.
+Algorithm implementations in Python and R for problems from
+[Rosalind.info](http://rosalind.info) — covering string algorithms,
+sequence analysis, graph theory, and molecular biology fundamentals.
 
 ::: {#rosalind-projects}
 :::
 
 ---
 
-## 📊 Data Analysis Projects {#analysis}
+## Data Analysis {#analysis}
 
-Genomic data analysis, visualization, and statistical projects demonstrating real-world bioinformatics workflows.
+Applied bioinformatics workflows using R and Python — including genomic
+data processing, statistical analysis, and reproducible visualization.
 
 ::: {#analysis-projects}
 :::
 
 ---
 
-## 💻 Development Projects {#development}
+## Development {#development}
 
-Web development, tools, and pipelines I've built while learning full-stack development and automation.
+Web tools, automation scripts, and pipelines built while developing
+full-stack skills alongside computational biology work.
 
 ::: {#dev-projects}
 :::
-
----
-
-## Skills Demonstrated
-
-Across these projects, I've developed and applied:
-
-- **Algorithm Implementation:** Translating biological problems into computational solutions
-- **Data Wrangling:** Cleaning and processing biological datasets
-- **Statistical Analysis:** Applying appropriate methods for genomic data
-- **Visualization:** Creating clear, informative graphics
-- **Documentation:** Writing reproducible, well-documented code
-- **Version Control:** Managing projects with Git/GitHub
-
-[View All on GitHub →](https://github.com/codymgeoffroy){.btn .btn-primary}
