@@ -50,7 +50,7 @@ R and Python workflows applied to real biological datasets.
 
 ::: {.g-col-12 .g-col-md-4}
 ### Research
-Undergraduate and graduate research in genomics and biotechnology,
+Undergraduate and graduate research in molecular biology, neuroscience, and bioinformatics.
 including presentations and coursework projects.
 
 [Learn More →](research.qmd)

@@ -81,4 +81,5 @@ Currently writing *Useless Man: Embracing the Exiled Self* — a philosophical e
 I'm actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I'm particularly interested in genomics, algorithm development, and data-driven biological discovery.
 
 **Open to:** Full-time positions, internships, collaborations, and freelance projects
+
 [Download Resume](files/Resume_CG.pdf){.btn .btn-primary} [Download CV](files/CV_CG.pdf){.btn .btn-outline-secondary}

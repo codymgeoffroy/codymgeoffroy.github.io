@@ -7,13 +7,6 @@
     "text": "A working collection of bioinformatics problem sets, genomic data analysis, and development projects — built while working toward computational biology research and data science applications.\nAll projects are version-controlled and documented on GitHub."
   },
   {
-    "objectID": "projects.html#overview",
-    "href": "projects.html#overview",
-    "title": "Projects",
-    "section": "",
-    "text": "This page showcases my computational biology and data science projects. Each project demonstrates problem-solving skills, algorithmic thinking, and practical application of bioinformatics concepts."
-  },
-  {
     "objectID": "projects.html#rosalind",
     "href": "projects.html#rosalind",
     "title": "Projects",
@@ -33,13 +26,6 @@
     "title": "Projects",
     "section": "Development",
     "text": "Development\nWeb tools, automation scripts, and pipelines built while developing full-stack skills alongside computational biology work.\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html#skills-demonstrated",
-    "href": "projects.html#skills-demonstrated",
-    "title": "Projects",
-    "section": "Skills Demonstrated",
-    "text": "Skills Demonstrated\nAcross these projects, I’ve developed and applied:\n\nAlgorithm Implementation: Translating biological problems into computational solutions\nData Wrangling: Cleaning and processing biological datasets\nStatistical Analysis: Applying appropriate methods for genomic data\nVisualization: Creating clear, informative graphics\nDocumentation: Writing reproducible, well-documented code\nVersion Control: Managing projects with Git/GitHub\n\nView All on GitHub →"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
@@ -95,7 +81,7 @@
     "href": "about.html#whats-next",
     "title": "About Me",
     "section": "What’s Next",
-    "text": "What’s Next\nI’m actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I’m particularly interested in genomics, algorithm development, and data-driven biological discovery.\nOpen to: Full-time positions, internships, collaborations, and freelance projects Download Resume Download CV"
+    "text": "What’s Next\nI’m actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I’m particularly interested in genomics, algorithm development, and data-driven biological discovery.\nOpen to: Full-time positions, internships, collaborations, and freelance projects\nDownload Resume Download CV"
   },
   {
     "objectID": "index.html",
@@ -105,18 +91,18 @@
     "text": "Biomedical sciences graduate focused on genomics and bioinformatics — developing expertise in Python, R, and computational problem-solving to bridge wet-lab science and data-driven research.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
   },
   {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Technical Portfolio & Learning Blog",
-    "section": "Featured Projects",
-    "text": "Featured Projects\n\n\n🧬 Rosalind Problems\nComputational biology algorithm implementations in Python and R\nView Solutions →\n\n\n📊 Data Analysis\nGenomic data visualization and statistical analysis projects\nExplore →\n\n\n🔬 Research\nUndergraduate and graduate research in genomics and biotech\nLearn More →"
+    "objectID": "index.html#technical-portfolio",
+    "href": "index.html#technical-portfolio",
+    "title": "Building Computational Tools for Biological Discovery",
+    "section": "Technical Portfolio",
+    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python and R. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nData Analysis\nGenomic data visualization and statistical analysis with reproducible R and Python workflows applied to real biological datasets.\nExplore →\n\n\nResearch\nUndergraduate and graduate research in molecular biology, neuroscience, and bioinformatics. including presentations and coursework projects.\nLearn More →"
   },
   {
-    "objectID": "index.html#recent-blog-posts",
-    "href": "index.html#recent-blog-posts",
-    "title": "Technical Portfolio & Learning Blog",
-    "section": "Recent Blog Posts",
-    "text": "Recent Blog Posts\n\n\n\n\n\n\n\n\nLearning Blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "index.html#learning-blog",
+    "href": "index.html#learning-blog",
+    "title": "Building Computational Tools for Biological Discovery",
+    "section": "Learning Blog",
+    "text": "Learning Blog\nDocumenting progress through bioinformatics problems, analysis techniques, and computational tools while building toward a career in computational biology.\n\n\n\n\n\n\n\nLearning Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts →"
   },
   {
     "objectID": "blog/index.html",
@@ -140,88 +126,18 @@
     "text": "Undergraduate and graduate research grounded in genomics and computational biology. My work focuses on applying quantitative methods to biological questions — connecting wet-lab context with data-driven analysis."
   },
   {
-    "objectID": "research.html#overview",
-    "href": "research.html#overview",
-    "title": "Research",
-    "section": "",
-    "text": "My research experience spans undergraduate and graduate work in genomics, bioinformatics, and biotechnology. Below are highlights from my academic research projects."
-  },
-  {
     "objectID": "research.html#undergraduate-research",
     "href": "research.html#undergraduate-research",
     "title": "Research",
     "section": "Undergraduate Research",
-    "text": "Undergraduate Research\n\nMutant U1A-RNA binding kinetics with surface plasmon resonance\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Robert Borgon · Department of Biomedical Sciences · University of Central Florida\nDuration: [Year] – [Year]\n\n[2–3 sentences: what the project was, why it mattered, what biological question it addressed. Write this as a narrative, not a list.]\nContributions\n\n[Specific, active-voice contribution — what you did, not what the lab did]\n[e.g., “Designed and executed PCR protocols for X samples across Y conditions”]\n[e.g., “Analyzed sequence alignment output using custom Python scripts”]\n\nMethods & Tools\n\n[Technique or tool] · [Technique or tool] · [Technique or tool]\n\nOutcome\n[1–2 sentences on what was produced or found — a result, a dataset, a presentation, a report. Be specific.]\n\n\n\n\n\n\nPresentation\n\n\n\n[Conference Name] · [Location] · [Month Year]\nView Poster (PDF) Abstract\n\n\n\n\nDigitization, tracing, and quantification of CGRP-IR axons in the nociceptive cardiac nervous system in a mouse model\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Zixi Cheng · Department of Biomedical Sciences · University of Central Florida\nDuration: [Year] – [Year]\n\n[2–3 sentences: what the project was, why it mattered, what biological question it addressed. Write this as a narrative, not a list.]\nContributions\n\n[Specific, active-voice contribution — what you did, not what the lab did]\n[e.g., “Designed and executed PCR protocols for X samples across Y conditions”]\n[e.g., “Analyzed sequence alignment output using custom Python scripts”]\n\nMethods & Tools\n\n[Technique or tool] · [Technique or tool] · [Technique or tool]\n\nOutcome\n[1–2 sentences on what was produced or found — a result, a dataset, a presentation, a report. Be specific.]\n\n\n\n\n\n\nPresentation\n\n\n\n[Conference Name] · [Location] · [Month Year]\nView Poster (PDF) Abstract"
-  },
-  {
-    "objectID": "research.html#graduate-coursework-projects",
-    "href": "research.html#graduate-coursework-projects",
-    "title": "Research",
-    "section": "Graduate Coursework Projects",
-    "text": "Graduate Coursework Projects\n\nProject Title\nCourse: Course Name | Semester/Year\nInstitution: University Name\n\nProject Description\nDescription of the graduate-level project (2-3 sentences).\n\n\nObjectives\n\nObjective #1\nObjective #2\n\n\n\nApproach\nBrief methodology description.\n\n\nOutcomes\nWhat you learned or produced."
-  },
-  {
-    "objectID": "research.html#skills-developed-through-research",
-    "href": "research.html#skills-developed-through-research",
-    "title": "Research",
-    "section": "Skills Developed Through Research",
-    "text": "Skills Developed Through Research\nLaboratory Techniques - Specific wet-lab techniques (if applicable) - Experimental design - Data collection protocols\nComputational Methods - Sequence analysis - Statistical modeling - Data visualization - Pipeline development\nProfessional Skills - Scientific writing - Poster/presentation design - Literature review - Collaboration"
-  },
-  {
-    "objectID": "research.html#publications-presentations",
-    "href": "research.html#publications-presentations",
-    "title": "Research",
-    "section": "Publications & Presentations",
-    "text": "Publications & Presentations\n\nConference Presentations\n\nAuthor(s). “Presentation Title.” Conference Name, Location. Date. [Poster]\n\n\n\nCourse Publications (if applicable)\n\nAuthor(s). “Title.” Course/Department, Year."
-  },
-  {
-    "objectID": "research.html#research-interests",
-    "href": "research.html#research-interests",
-    "title": "Research",
-    "section": "Research Interests",
-    "text": "Research Interests\nMy research interests focus on:\n\nGenomics: Understanding genetic variation and its functional implications\nComputational Biology: Developing algorithms for biological data analysis\nBioinformatics: Building pipelines for high-throughput data processing\nSystems Biology: Integrating multi-omics data to understand biological systems\n\nI’m interested in opportunities to apply computational methods to genomic research and contribute to data-driven biological discovery.\nCurrent Projects → | Contact Me"
-  },
-  {
-    "objectID": "about.html#beyond-the-lab",
-    "href": "about.html#beyond-the-lab",
-    "title": "About Me",
-    "section": "Beyond the Lab",
-    "text": "Beyond the Lab\n\n\nScuba Diving\nOpen-water and nitrox certified. Diving demands methodical preparation, situational awareness, and staying calm under pressure — skills that translate directly to research and problem solving.\n\n\nMartial Arts\nBlack belt in Taekwondo, with training in Muay Thai and Brazilian Jiu-Jitsu. Martial arts taught me that mastery is a process, not a destination — a philosophy I carry into learning bioinformatics.\n\n\nYu-Gi-Oh\nCompetitive player focused on deck building and strategic play. The game demands pattern recognition, probabilistic thinking, and adapting under pressure.\n\n\nWriting\nCurrently writing Useless Man: Embracing the Exiled Self — a philosophical exploration of identity, purpose, and the freedom found in not fitting the expected mold."
-  },
-  {
-    "objectID": "index.html#technical-portfolio",
-    "href": "index.html#technical-portfolio",
-    "title": "Building Computational Tools for Biological Discovery",
-    "section": "Technical Portfolio",
-    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python and R. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nData Analysis\nGenomic data visualization and statistical analysis with reproducible R and Python workflows applied to real biological datasets.\nExplore →\n\n\nResearch\nUndergraduate and graduate research in genomics and biotechnology, including presentations and coursework projects.\nLearn More →"
-  },
-  {
-    "objectID": "index.html#learning-blog",
-    "href": "index.html#learning-blog",
-    "title": "Building Computational Tools for Biological Discovery",
-    "section": "Learning Blog",
-    "text": "Learning Blog\nDocumenting progress through bioinformatics problems, analysis techniques, and computational tools while building toward a career in computational biology.\n\n\n\n\n\n\n\nLearning Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts →"
-  },
-  {
-    "objectID": "index.html#cody-geoffroy",
-    "href": "index.html#cody-geoffroy",
-    "title": "Cody Geoffroy",
-    "section": "",
-    "text": "Biomedical sciences graduate focused on genomics and bioinformatics — developing expertise in Python, R, and computational problem-solving to bridge wet-lab science and data-driven research.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
-  },
-  {
-    "objectID": "index.html#building-computational-tools-for-biological-discovery",
-    "href": "index.html#building-computational-tools-for-biological-discovery",
-    "title": "Cody Geoffroy",
-    "section": "",
-    "text": "Biomedical sciences graduate focused on genomics and bioinformatics — developing expertise in Python, R, and computational problem-solving to bridge wet-lab science and data-driven research.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
+    "text": "Undergraduate Research\n\nDigitization, tracing, and quantification of CGRP-IR axons in the nociceptive cardiac nervous system in a mouse model\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Zixi Cheng · Department of Biomedical Sciences · University of Central Florida\nDuration: [Year] – [Year]\n\n[2–3 sentences: what the project was, why it mattered, what biological question it addressed. Write this as a narrative, not a list.]\nContributions\n\n[Specific, active-voice contribution — what you did, not what the lab did]\n[e.g., “Designed and executed PCR protocols for X samples across Y conditions”]\n[e.g., “Analyzed sequence alignment output using custom Python scripts”]\n\nMethods & Tools\n\n[Technique or tool] · [Technique or tool] · [Technique or tool]\n\nOutcome\n[1–2 sentences on what was produced or found — a result, a dataset, a presentation, a report. Be specific.]\n\n\n\n\n\n\nPresentation\n\n\n\nStudent Scholar Symposium · University of Central Florida · March 28th, 2023\nView Poster (PDF) Abstract\n\n\n\n\nMutant U1A-RNA binding kinetics with surface plasmon resonance\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Robert Borgon · Department of Biomedical Sciences · University of Central Florida\nDuration: [Year] – [Year]\n\n[2–3 sentences: what the project was, why it mattered, what biological question it addressed. Write this as a narrative, not a list.]\nContributions\n\n[Specific, active-voice contribution — what you did, not what the lab did]\n[e.g., “Designed and executed PCR protocols for X samples across Y conditions”]\n[e.g., “Analyzed sequence alignment output using custom Python scripts”]\n\nMethods & Tools\n\n[Technique or tool] · [Technique or tool] · [Technique or tool]\n\nOutcome\n[1–2 sentences on what was produced or found — a result, a dataset, a presentation, a report. Be specific.]\n\n\n\n\n\n\nPresentation\n\n\n\nAmy Zeh High Impact Practice Student Showcase · University of Central Florida · April 19th, 2023\nView Poster (PDF) Abstract"
   },
   {
     "objectID": "research.html#graduate",
     "href": "research.html#graduate",
     "title": "Research",
     "section": "Graduate Coursework Projects",
-    "text": "Graduate Coursework Projects\n\n[Project Title]\nCourse: [Course Name] · [Semester Year] Institution: [University Name]\n[2–3 sentences describing the project, the problem it addressed, and the approach taken. Lead with what the project did, not what you were assigned.]\nKey outcomes: [1 sentence — what you produced or demonstrated.]"
+    "text": "Graduate Coursework Projects\n\n[Project Title]\nCourse: [Course Name] · [Semester Year] Institution: [University Name]\n\n[2–3 sentences describing what the project did, the problem it addressed, and the approach taken. Lead with the work itself, not the assignment context.]\n\nKey outcome: [1 sentence — what you produced or demonstrated.]"
   },
   {
     "objectID": "research.html#publications",
@@ -235,6 +151,13 @@
     "href": "research.html#interests",
     "title": "Research",
     "section": "Research Interests",
-    "text": "Research Interests\nMy primary interests are in computational genomics — particularly sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data. I’m drawn to work that sits at the intersection of algorithmic problem-solving and biological discovery, and I’m actively developing the computational foundation to contribute to that kind of research.\nView Projects → Contact Me"
+    "text": "Research Interests\nMy primary interests are in computational genomics — particularly sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data. I’m drawn to work at the intersection of algorithmic problem-solving and biological discovery, and I’m actively developing the computational foundation to contribute to that kind of research.\nView Projects → Contact Me"
+  },
+  {
+    "objectID": "research.html#undergrad",
+    "href": "research.html#undergrad",
+    "title": "Research",
+    "section": "Selected Undergraduate Research",
+    "text": "Selected Undergraduate Research\n\nDigitization, Tracing, and Quantification of CGRP-IR Axons in the Nociceptive Cardiac Nervous System\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Zixi Cheng · Department of Biomedical Sciences · University of Central Florida\nDuration: June 2022 – May 2023\nPresentation: Student Scholar Symposium · University of Central Florida · March 28, 2023\n\n\nThis study used C57BL/6J mice which were sacrificed and perfused through the left ventricle with 4°C Zamboni’s fixative, the heart was then harvested and dissected into the right and left atria and ventricles. The samples were immunohistochemically (IHC) stained for calcitonin gene-related peptide (CGRP). The tissues were then prepared as flat-mounts and scanned using automated color fluorescence and confocal microscopy. The samples that were scanned for CGRP-IR axons – at 488 nm – were digitized and traced using a 3D neuron reconstruction software and finally quantified using ImageJ2 (Fiji). Within CGRP-IR axons, 2D and 3D digitalized axonal tracings have not been reported in the whole mouse heart, as a result, this data expanded that very limited dataset.\n\nDownload Poster (PDF)\nMethods & Tools\n[Technique] · [Technique] · [Software/tool] · [Software/tool]\n\n\n\nMutant U1A-RNA Binding Kinetics with Surface Plasmon Resonance\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Robert Borgon · Department of Biomedical Sciences · University of Central Florida\nDuration: August 2022 – May 2023\nPresentation: Amy Zeh High Impact Practice Student Showcase · University of Central Florida · April 19, 2023\n\n\nThis study involved the use of U1A which is a protein subunit that is part of the U1 snRNP and binds to U1 hairpin II (U1hpII) of the snRNA that associates with the U1 snRNP. The U1A wildtype is compared to point mutations incorporated into the mutated protein to find amino acids residues that have significance in binding. The binding efficacy is measured through kinetic data produced via surface plasmon resonance (SPR) which flows U1hpII over a NTA chip that has a ligand (i.e., U1A wildtype or mutants) immobilized to it via a His-tag. The produced binding curves will show the association and disassociation phases in which a mathematical model was applied to obtain the relevant kinetic constants (i.e., ka, kd, kDa). Furthermore, a proteomic analysis was done comparing the RNA recognition motifs (RRMs) of both U1A mutants and another critical subunit in the U1 snRNP.\n\nDownload Poster (PDF)\nMethods & Tools\n[Technique] · [Technique] · [Software/tool] · [Software/tool]\n\n\nMicrobiome gDNA analysis of non-infected and infected zombie ants using Illumina sequencing\n\nRole: Undergraduate Student in Research-intensive Course\nProfessor: Dr. Anna Forsman · Genomics & Bioinformatics Cluster · University of Central Florida\nDuration: January 2022 – May 2023\n\n\nThis study consisted of extracting and analyzing gDNA from the inside of ant gut microbiomes. The ants of interest are known as “Zombie Ants” because of a unique disease they contract from a pathogenic fungus called Ophiocordyceps that causes them to change their behavior and commit suicide so to promote more growth of the fungi. The objective was to find if there are any differences between the gut microbiome of ants infected with Ophiocordyceps (a fungus that manipulates then kills), Beauveria (a fungus that simply kills) or a normal ant that was treated with a placebo. The gDNA was extracted from the ants using a Microprep Kit then ran through a two-step PCR protocol to amplify the extracted gDNA. Next, a SpeedBead cleanup protocol was run to separate the loose primers/small fragments from the amplified gDNA to increase sequencing data quality. Finally, sequencing was performed using an in-house Illumina platform and the data was analyzed using QIIME 2 to cross-reference with BLAST in order to determine the genetic diversity present.\n\nMethods & Tools\n[Technique] · [Technique] · [Software/tool] · [Software/tool]"
   }
 ]
