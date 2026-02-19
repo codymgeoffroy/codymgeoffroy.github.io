@@ -4,42 +4,28 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page showcases my computational biology and data science projects. Each project demonstrates problem-solving skills, algorithmic thinking, and practical application of bioinformatics concepts."
-  },
-  {
-    "objectID": "projects.html#overview",
-    "href": "projects.html#overview",
-    "title": "Projects",
-    "section": "",
-    "text": "This page showcases my computational biology and data science projects. Each project demonstrates problem-solving skills, algorithmic thinking, and practical application of bioinformatics concepts."
+    "text": "A working collection of bioinformatics problem sets, genomic data analysis, and development projects — built while working toward computational biology research and data science applications.\nAll projects are version-controlled and documented on GitHub."
   },
   {
     "objectID": "projects.html#rosalind",
     "href": "projects.html#rosalind",
     "title": "Projects",
-    "section": "🧬 Rosalind Problem Sets",
-    "text": "🧬 Rosalind Problem Sets\nSolutions to computational biology challenges from Rosalind.info, implemented in Python and R with detailed explanations.\n\n\n\n\n\nNo matching items"
+    "section": "Rosalind Problem Sets",
+    "text": "Rosalind Problem Sets\nAlgorithm implementations in Python and R for problems from Rosalind.info — covering string algorithms, sequence analysis, graph theory, and molecular biology fundamentals.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#analysis",
     "href": "projects.html#analysis",
     "title": "Projects",
-    "section": "📊 Data Analysis Projects",
-    "text": "📊 Data Analysis Projects\nGenomic data analysis, visualization, and statistical projects demonstrating real-world bioinformatics workflows.\n\n\n\n\n\nNo matching items"
+    "section": "Data Analysis",
+    "text": "Data Analysis\nApplied bioinformatics workflows using R and Python — including genomic data processing, statistical analysis, and reproducible visualization.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#development",
     "href": "projects.html#development",
     "title": "Projects",
-    "section": "💻 Development Projects",
-    "text": "💻 Development Projects\nWeb development, tools, and pipelines I’ve built while learning full-stack development and automation.\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html#skills-demonstrated",
-    "href": "projects.html#skills-demonstrated",
-    "title": "Projects",
-    "section": "Skills Demonstrated",
-    "text": "Skills Demonstrated\nAcross these projects, I’ve developed and applied:\n\nAlgorithm Implementation: Translating biological problems into computational solutions\nData Wrangling: Cleaning and processing biological datasets\nStatistical Analysis: Applying appropriate methods for genomic data\nVisualization: Creating clear, informative graphics\nDocumentation: Writing reproducible, well-documented code\nVersion Control: Managing projects with Git/GitHub\n\nView All on GitHub →"
+    "section": "Development",
+    "text": "Development\nWeb tools, automation scripts, and pipelines built while developing full-stack skills alongside computational biology work.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
@@ -53,7 +39,7 @@
     "href": "blog/posts/2026-02-14-getting-started/index.html#topics-covered",
     "title": "Learning Blog",
     "section": "Topics Covered",
-    "text": "Topics Covered\n\n🧬 Bioinformatics algorithms and Rosalind solutions\n📊 Data analysis and visualization techniques\n💻 Programming tips and tricks (Python, R, Bash)\n🛠️ Tools and workflow optimization\n📚 Learning resources and reflections"
+    "text": "Topics Covered\n\nBioinformatics algorithms and Rosalind solutions\nData analysis and visualization techniques\nProgramming tips and tricks (Python, R, Bash)\nTools and workflow optimization\nLearning resources and reflections"
   },
   {
     "objectID": "about.html",
@@ -88,7 +74,7 @@
     "href": "about.html#interests-beyond-science",
     "title": "About Me",
     "section": "Interests Beyond Science",
-    "text": "Interests Beyond Science\nWhen I’m not coding or analyzing data, I enjoy: - Philosophy: Exploring existential questions and Taoist thought - Competitive Yu-Gi-Oh: Strategy and deck building - Writing: Working on a book project - Film: Action and tactical/espionage genres - Music: Gregorian chants and instrumental compositions"
+    "text": "Interests Beyond Science\n\n\nScuba Diving\nOpen-water and nitrox certified. Diving demands methodical preparation, situational awareness, and staying calm under pressure — skills that translate directly to research and problem solving.\n\n\nMartial Arts\nBlack belt in Taekwondo, with training in Muay Thai and Brazilian Jiu-Jitsu. Martial arts taught me that mastery is a process, not a destination — a philosophy I carry into learning bioinformatics.\n\n\nYu-Gi-Oh\nCompetitive player focused on deck building and strategic play. The game demands pattern recognition, probabilistic thinking, and adapting under pressure.\n\n\nWriting\nCurrently writing Useless Man: Embracing the Exiled Self — a philosophical exploration of identity, purpose, and the freedom found in not fitting the expected mold."
   },
   {
     "objectID": "about.html#whats-next",
@@ -100,23 +86,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Technical Portfolio & Learning Blog",
+    "title": "Building Computational Tools for Biological Discovery",
     "section": "",
-    "text": "I’m a biomedical sciences graduate with a focus on genomics and bioinformatics, developing expertise in Python, R, and computational problem-solving. My goal is to apply data science and algorithmic thinking to understand complex biological systems.\nCurrently: Solving bioinformatics challenges on Rosalind | Building analysis pipelines | Learning full-stack development\nView My Work → GitHub LinkedIn"
+    "text": "Biomedical sciences graduate focused on genomics and bioinformatics — developing expertise in Python, R, and computational problem-solving to bridge wet-lab science and data-driven research.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
   },
   {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Technical Portfolio & Learning Blog",
-    "section": "Featured Projects",
-    "text": "Featured Projects\n\n\n🧬 Rosalind Problems\nComputational biology algorithm implementations in Python and R\nView Solutions →\n\n\n📊 Data Analysis\nGenomic data visualization and statistical analysis projects\nExplore →\n\n\n🔬 Research\nUndergraduate and graduate research in genomics and biotech\nLearn More →"
+    "objectID": "index.html#technical-portfolio",
+    "href": "index.html#technical-portfolio",
+    "title": "Building Computational Tools for Biological Discovery",
+    "section": "Technical Portfolio",
+    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python and R. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nData Analysis\nGenomic data visualization and statistical analysis with reproducible R and Python workflows applied to real biological datasets.\nExplore →\n\n\nResearch\nUndergraduate and graduate research in genomics and biotechnology, including presentations and coursework projects.\nLearn More →"
   },
   {
-    "objectID": "index.html#recent-blog-posts",
-    "href": "index.html#recent-blog-posts",
-    "title": "Technical Portfolio & Learning Blog",
-    "section": "Recent Blog Posts",
-    "text": "Recent Blog Posts\n\n\n\n\n\n\n\n\nLearning Blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "index.html#learning-blog",
+    "href": "index.html#learning-blog",
+    "title": "Building Computational Tools for Biological Discovery",
+    "section": "Learning Blog",
+    "text": "Learning Blog\nDocumenting progress through bioinformatics problems, analysis techniques, and computational tools while building toward a career in computational biology.\n\n\n\n\n\n\n\nLearning Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts →"
   },
   {
     "objectID": "blog/index.html",
@@ -130,55 +116,41 @@
     "href": "blog/index.html#topics-covered",
     "title": "Learning Blog",
     "section": "Topics Covered",
-    "text": "Topics Covered\n\n🧬 Bioinformatics algorithms and Rosalind solutions\n📊 Data analysis and visualization techniques\n💻 Programming tips and tricks (Python, R, Bash)\n🛠️ Tools and workflow optimization\n📚 Learning resources and reflections"
+    "text": "Topics Covered\n\nBioinformatics algorithms and Rosalind solutions\nData analysis and visualization techniques\nProgramming tips and tricks (Python, R, Bash)\nTools and workflow optimization\nLearning resources and reflections"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research experience spans undergraduate and graduate work in genomics, bioinformatics, and biotechnology. Below are highlights from my academic research projects."
-  },
-  {
-    "objectID": "research.html#overview",
-    "href": "research.html#overview",
-    "title": "Research",
-    "section": "",
-    "text": "My research experience spans undergraduate and graduate work in genomics, bioinformatics, and biotechnology. Below are highlights from my academic research projects."
+    "text": "Undergraduate and graduate research grounded in genomics and computational biology. My work focuses on applying quantitative methods to biological questions — connecting wet-lab context with data-driven analysis."
   },
   {
     "objectID": "research.html#undergraduate-research",
     "href": "research.html#undergraduate-research",
     "title": "Research",
     "section": "Undergraduate Research",
-    "text": "Undergraduate Research\n\nProject Title\nRole: Undergraduate Researcher\nDuration: Year - Year\nAdvisor: Dr. Name, Department, University\n\nAbstract\nBrief description of the research project, its goals, and significance (2-3 sentences).\n\n\nKey Contributions\n\nSpecific contribution #1\nSpecific contribution #2\nSpecific contribution #3\n\n\n\nMethods & Skills\n\nTechniques used\nAnalysis methods applied\nSoftware/tools utilized\n\n\n\nResults\nBrief summary of findings or outcomes.\n\n\n\n\n\n\nPresentation\n\n\n\nConference Name | Location | Date\nView Poster (PDF) | Abstract\n\n\n\n\n\nResearch poster from [Conference Name]"
+    "text": "Undergraduate Research\n\nMutant U1A-RNA binding kinetics with surface plasmon resonance\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Robert Borgon · Department of Biomedical Sciences · University of Central Florida\nDuration: [Year] – [Year]\n\n[2–3 sentences: what the project was, why it mattered, what biological question it addressed. Write this as a narrative, not a list.]\nContributions\n\n[Specific, active-voice contribution — what you did, not what the lab did]\n[e.g., “Designed and executed PCR protocols for X samples across Y conditions”]\n[e.g., “Analyzed sequence alignment output using custom Python scripts”]\n\nMethods & Tools\n\n[Technique or tool] · [Technique or tool] · [Technique or tool]\n\nOutcome\n[1–2 sentences on what was produced or found — a result, a dataset, a presentation, a report. Be specific.]\n\n\n\n\n\n\nPresentation\n\n\n\n[Conference Name] · [Location] · [Month Year]\nView Poster (PDF) Abstract\n\n\n\n\nDigitization, tracing, and quantification of CGRP-IR axons in the nociceptive cardiac nervous system in a mouse model\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Zixi Cheng · Department of Biomedical Sciences · University of Central Florida\nDuration: [Year] – [Year]\n\n[2–3 sentences: what the project was, why it mattered, what biological question it addressed. Write this as a narrative, not a list.]\nContributions\n\n[Specific, active-voice contribution — what you did, not what the lab did]\n[e.g., “Designed and executed PCR protocols for X samples across Y conditions”]\n[e.g., “Analyzed sequence alignment output using custom Python scripts”]\n\nMethods & Tools\n\n[Technique or tool] · [Technique or tool] · [Technique or tool]\n\nOutcome\n[1–2 sentences on what was produced or found — a result, a dataset, a presentation, a report. Be specific.]\n\n\n\n\n\n\nPresentation\n\n\n\n[Conference Name] · [Location] · [Month Year]\nView Poster (PDF) Abstract"
   },
   {
-    "objectID": "research.html#graduate-coursework-projects",
-    "href": "research.html#graduate-coursework-projects",
+    "objectID": "research.html#graduate",
+    "href": "research.html#graduate",
     "title": "Research",
     "section": "Graduate Coursework Projects",
-    "text": "Graduate Coursework Projects\n\nProject Title\nCourse: Course Name | Semester/Year\nInstitution: University Name\n\nProject Description\nDescription of the graduate-level project (2-3 sentences).\n\n\nObjectives\n\nObjective #1\nObjective #2\n\n\n\nApproach\nBrief methodology description.\n\n\nOutcomes\nWhat you learned or produced."
+    "text": "Graduate Coursework Projects\n\n[Project Title]\nCourse: [Course Name] · [Semester Year] Institution: [University Name]\n[2–3 sentences describing the project, the problem it addressed, and the approach taken. Lead with what the project did, not what you were assigned.]\nKey outcomes: [1 sentence — what you produced or demonstrated.]"
   },
   {
-    "objectID": "research.html#skills-developed-through-research",
-    "href": "research.html#skills-developed-through-research",
-    "title": "Research",
-    "section": "Skills Developed Through Research",
-    "text": "Skills Developed Through Research\nLaboratory Techniques - Specific wet-lab techniques (if applicable) - Experimental design - Data collection protocols\nComputational Methods - Sequence analysis - Statistical modeling - Data visualization - Pipeline development\nProfessional Skills - Scientific writing - Poster/presentation design - Literature review - Collaboration"
-  },
-  {
-    "objectID": "research.html#publications-presentations",
-    "href": "research.html#publications-presentations",
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
     "title": "Research",
     "section": "Publications & Presentations",
-    "text": "Publications & Presentations\n\nConference Presentations\n\nAuthor(s). “Presentation Title.” Conference Name, Location. Date. [Poster]\n\n\n\nCourse Publications (if applicable)\n\nAuthor(s). “Title.” Course/Department, Year."
+    "text": "Publications & Presentations\n\nConference Presentations\n\n[Your Name], [Co-author if any]. “[Presentation Title].” [Conference Name], [Location]. [Month Year]. [Poster]"
   },
   {
-    "objectID": "research.html#research-interests",
-    "href": "research.html#research-interests",
+    "objectID": "research.html#interests",
+    "href": "research.html#interests",
     "title": "Research",
     "section": "Research Interests",
-    "text": "Research Interests\nMy research interests focus on:\n\nGenomics: Understanding genetic variation and its functional implications\nComputational Biology: Developing algorithms for biological data analysis\nBioinformatics: Building pipelines for high-throughput data processing\nSystems Biology: Integrating multi-omics data to understand biological systems\n\nI’m interested in opportunities to apply computational methods to genomic research and contribute to data-driven biological discovery.\nCurrent Projects → | Contact Me"
+    "text": "Research Interests\nMy primary interests are in computational genomics — particularly sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data. I’m drawn to work that sits at the intersection of algorithmic problem-solving and biological discovery, and I’m actively developing the computational foundation to contribute to that kind of research.\nView Projects → Contact Me"
   }
 ]
