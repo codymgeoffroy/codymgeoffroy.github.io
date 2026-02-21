@@ -16,7 +16,7 @@ listing:
 # Building Computational Tools for Biological Discovery
 
 Biomedical sciences graduate focused on genomics and bioinformatics —
-developing expertise in Python, R, and computational problem-solving
+developing expertise in Python, R, SQL and computational problem-solving
 to bridge wet-lab science and data-driven research.
 
 **Currently:** Rosalind problems · Analysis pipelines · Full-stack development
@@ -50,8 +50,7 @@ R and Python workflows applied to real biological datasets.
 
 ::: {.g-col-12 .g-col-md-4}
 ### Research
-Undergraduate and graduate research in molecular biology, neuroscience, and bioinformatics.
-including presentations and coursework projects.
+Undergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.
 
 [Learn More →](research.qmd)
 :::

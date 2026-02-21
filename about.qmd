@@ -34,19 +34,19 @@ I'm working through bioinformatics problem sets, building analysis pipelines, an
 
 ## Technical Skills
 
-**Programming Languages**
+#### Programming Languages
 - Python (primary focus for bioinformatics)
 - R (statistical analysis and visualization)
 - Bash/Shell scripting
 - SQL for database querying
 
-**Bioinformatics Tools & Platforms**
+#### Bioinformatics Tools & Platforms
 - Git/GitHub for version control
 - Linux/WSL development environment
 - Quarto for reproducible research
 - Data analysis libraries (pandas, NumPy, BioPython)
 
-**Computational Biology**
+#### Computational Biology
 - Sequence analysis algorithms
 - Statistical methods for genomics
 - Data visualization
