@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+page-layout: article
 about:
   template: trestles
   image: images/CodyGrad23fn-1-2.jpg

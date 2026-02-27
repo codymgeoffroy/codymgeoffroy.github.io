@@ -44,4 +44,4 @@ format:
     link-external-newwindow: true
 
 execute:
-  freeze: auto
+  freeze: false

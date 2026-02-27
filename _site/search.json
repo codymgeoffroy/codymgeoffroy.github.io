@@ -11,33 +11,33 @@
     "href": "projects.html#rosalind",
     "title": "Projects",
     "section": "Rosalind Problem Sets",
-    "text": "Rosalind Problem Sets\nAlgorithm implementations in Python and R for problems from Rosalind.info — covering string algorithms, sequence analysis, graph theory, and molecular biology fundamentals.\n\n\n\n\n\nNo matching items"
+    "text": "Rosalind Problem Sets\nAlgorithm implementations in Python problems from Rosalind.info — covering string algorithms, sequence analysis, graph theory, and molecular biology fundamentals.\nProblem sets with solutions coming soon!\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#analysis",
     "href": "projects.html#analysis",
     "title": "Projects",
     "section": "Data Analysis",
-    "text": "Data Analysis\nApplied bioinformatics workflows using R and Python — including genomic data processing, statistical analysis, and reproducible visualization.\n\n\n\n\n\nNo matching items"
+    "text": "Data Analysis\nApplied bioinformatics workflows using R and Python — including genomic data processing, statistical analysis, and reproducible visualization.\nWorkflows to be added in the near future!\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#development",
     "href": "projects.html#development",
     "title": "Projects",
     "section": "Development",
-    "text": "Development\nWeb tools, automation scripts, and pipelines built while developing full-stack skills alongside computational biology work.\n\n\n\n\n\nNo matching items"
+    "text": "Development\nWeb tools, automation scripts, and pipelines built while developing full-stack skills alongside computational biology work.\nPipelines to be added in the near future!\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
     "href": "blog/posts/2026-02-14-getting-started/index.html",
-    "title": "Learning Blog",
+    "title": "Welcome!",
     "section": "",
     "text": "This blog documents my learning journey as I build skills in bioinformatics, computational biology, and data science. Here you’ll find problem solutions, analysis walkthroughs, tutorials, and reflections on concepts I’m learning."
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html#topics-covered",
     "href": "blog/posts/2026-02-14-getting-started/index.html#topics-covered",
-    "title": "Learning Blog",
+    "title": "Welcome!",
     "section": "Topics Covered",
     "text": "Topics Covered\n\nBioinformatics algorithms and Rosalind solutions\nData analysis and visualization techniques\nProgramming tips and tricks (Python, R, Bash)\nTools and workflow optimization\nLearning resources and reflections"
   },
@@ -95,14 +95,14 @@
     "href": "index.html#technical-portfolio",
     "title": "Building Computational Tools for Biological Discovery",
     "section": "Technical Portfolio",
-    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python and R. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nData Analysis\nGenomic data visualization and statistical analysis with reproducible R and Python workflows applied to real biological datasets.\nExplore →\n\n\nResearch\nUndergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.\nLearn More →"
+    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nData Analysis\nGenomic data visualization and statistical analysis with reproducible R and Python workflows applied to real biological datasets.\nExplore →\n\n\nResearch\nUndergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.\nLearn More →"
   },
   {
     "objectID": "index.html#learning-blog",
     "href": "index.html#learning-blog",
     "title": "Building Computational Tools for Biological Discovery",
     "section": "Learning Blog",
-    "text": "Learning Blog\nDocumenting progress through bioinformatics problems, analysis techniques, and computational tools while building toward a career in computational biology.\n\n\n\n\n\n\n\nLearning Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts →"
+    "text": "Learning Blog\nDocumenting progress through bioinformatics problems, analysis techniques, and computational tools while building toward a career in computational biology.\n\n\n\n\n\n\n\nWelcome!\n\n\nHere’s a tentative timeline of deliverables and what to expect in the future.\n\n\n\nFeb 26, 2026\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts →"
   },
   {
     "objectID": "blog/index.html",
@@ -116,7 +116,7 @@
     "href": "blog/index.html#topics-covered",
     "title": "Learning Blog",
     "section": "Topics Covered",
-    "text": "Topics Covered\n\nBioinformatics algorithms and Rosalind solutions\nData analysis and visualization techniques\nProgramming tips and tricks (Python, R, Bash)\nTools and workflow optimization\nLearning resources and reflections"
+    "text": "Topics Covered\n\nBioinformatics algorithms and Rosalind solutions\nData analysis and visualization techniques\nProgramming tips and tricks (Python, R, Bash, SQL)\nTools and workflow optimization\nLearning resources and reflections"
   },
   {
     "objectID": "research.html",

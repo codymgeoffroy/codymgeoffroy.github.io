@@ -34,7 +34,7 @@ to bridge wet-lab science and data-driven research.
 
 ::: {.g-col-12 .g-col-md-4}
 ### Rosalind Problems
-Computational biology algorithm implementations in Python and R.
+Computational biology algorithm implementations in Python.
 Working through sequence analysis, molecular biology, and graph algorithms.
 
 [View Solutions →](projects.qmd#rosalind)

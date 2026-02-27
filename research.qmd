@@ -19,7 +19,7 @@ Undergraduate research grounded in neuroscience, molecular biology and bioinform
 - **Duration:** June 2022 – May 2023
 - **Presentation:** Student Scholar Symposium · University of Central Florida · March 28, 2023
 
-::: {.abstract}
+::: {.summary}
 This study used C57BL/6J mice which were sacrificed and perfused through the left ventricle with
 4°C Zamboni’s fixative, the heart was then harvested and dissected into the right and left atria and
 ventricles. The samples were immunohistochemically (IHC) stained for calcitonin gene-related peptide

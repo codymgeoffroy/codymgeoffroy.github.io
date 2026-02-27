@@ -35,9 +35,9 @@ All projects are version-controlled and documented on
 
 ## Rosalind Problem Sets {#rosalind}
 
-Algorithm implementations in Python and R for problems from
-[Rosalind.info](http://rosalind.info) — covering string algorithms,
-sequence analysis, graph theory, and molecular biology fundamentals.
+Algorithm implementations in Python problems from [Rosalind.info](http://rosalind.info) — covering string algorithms, sequence analysis, graph theory, and molecular biology fundamentals.
+
+*Problem sets with solutions coming soon!*
 
 ::: {#rosalind-projects}
 :::
@@ -46,8 +46,9 @@ sequence analysis, graph theory, and molecular biology fundamentals.
 
 ## Data Analysis {#analysis}
 
-Applied bioinformatics workflows using R and Python — including genomic
-data processing, statistical analysis, and reproducible visualization.
+Applied bioinformatics workflows using R and Python — including genomic data processing, statistical analysis, and reproducible visualization.
+
+*Workflows to be added in the near future!*
 
 ::: {#analysis-projects}
 :::
@@ -58,6 +59,8 @@ data processing, statistical analysis, and reproducible visualization.
 
 Web tools, automation scripts, and pipelines built while developing
 full-stack skills alongside computational biology work.
+
+*Pipelines to be added in the near future!*
 
 ::: {#dev-projects}
 :::

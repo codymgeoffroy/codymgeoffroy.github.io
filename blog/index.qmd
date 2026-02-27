@@ -1,5 +1,6 @@
 ---
 title: "Learning Blog"
+page-layout: full
 subtitle: "Documenting my journey in bioinformatics and data science"
 listing:
   contents: posts
@@ -10,8 +11,10 @@ listing:
   filter-ui: true
   fields: [image, date, title, description, categories, reading-time]
   feed: true
-page-layout: full
+  image-height: 150px        # keeps card images a consistent height
+  max-description-length: 200  # truncates long descriptions cleanly
 ---
+
 
 This blog documents my learning journey as I build skills in bioinformatics, computational biology, and data science. Here you'll find problem solutions, analysis walkthroughs, tutorials, and reflections on concepts I'm learning.
 
@@ -19,6 +22,6 @@ This blog documents my learning journey as I build skills in bioinformatics, com
 
 - Bioinformatics algorithms and Rosalind solutions
 - Data analysis and visualization techniques
-- Programming tips and tricks (Python, R, Bash)
+- Programming tips and tricks (Python, R, Bash, SQL)
 - Tools and workflow optimization
 - Learning resources and reflections

@@ -1,24 +1,10 @@
 ---
-title: "Learning Blog"
-subtitle: "Documenting my journey in bioinformatics and data science"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  fields: [image, date, title, description, categories, reading-time]
-  feed: true
-page-layout: full
+title: "Welcome!"
+date: 2026-02-26
+image: "thumbnail.png"
+description: "Here's a tentative timeline of deliverables and what to expect in the future."
+categories: [Other]
+page-layout: article
 ---
 
-This blog documents my learning journey as I build skills in bioinformatics, computational biology, and data science. Here you'll find problem solutions, analysis walkthroughs, tutorials, and reflections on concepts I'm learning.
-
-## Topics Covered
-
-- Bioinformatics algorithms and Rosalind solutions
-- Data analysis and visualization techniques
-- Programming tips and tricks (Python, R, Bash)
-- Tools and workflow optimization
-- Learning resources and reflections
+This blog documents my learning journey as I build skills in bioinformatics, computational biology, and data science. Here you’ll find problem solutions, analysis walkthroughs, tutorials, and reflections on concepts I’m learning.
