@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About Me – Cody Geoffroy</title>
+<title>Projects – Cody Geoffroy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-19dad2dfa865db1f20706ec075d05665.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-19dad2dfa865db1f20706ec075d05665.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,19 +67,77 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phase-cards .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phase-cards'] = new List('listing-phase-cards', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Cody Geoffroy</span>
     </a>
   </div>
@@ -88,23 +148,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.qmd"> 
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -130,122 +190,51 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#my-journey" id="toc-my-journey" class="nav-link" data-scroll-target="#my-journey">My Journey</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
-  <li><a href="#interests-beyond-science" id="toc-interests-beyond-science" class="nav-link" data-scroll-target="#interests-beyond-science">Interests Beyond Science</a></li>
-  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s Next</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/CodyGrad23fn-1-2.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">Projects</h1>
+<p class="subtitle lead">Computational biology · Multi-omics analysis · Pipeline development</p>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/codymgeoffroy" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://linkedin.com/in/cody-geoffroy" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="mailto:geoffroycody@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>Biotechnology, M.S. (incomplete)</strong><br>
-University of Central Florida | 2024-2025</p>
-<p><strong>Biomedical Sciences, B.S.</strong><br>
-<em>Minor in Genomics &amp; Bioinformatics | Minor in Anthropology</em><br>
-University of Central Florida | 2019-2023</p>
-</section>
-<section id="my-journey" class="level2">
-<h2 data-anchor-id="my-journey">My Journey</h2>
-<p>My interest in bioinformatics emerged from a fascination with how computational approaches can decode biological complexity. With a foundation in biomedical sciences and genomics, I’m now focused on building strong programming and data analysis skills to bridge wet-lab biology and computational research.</p>
-<p>I’m working through bioinformatics problem sets, building analysis pipelines, and documenting my learning journey through this portfolio. My background includes teaching experience in gymnastics and education, which has strengthened my ability to break down complex concepts and communicate effectively.</p>
-</section>
-<section id="technical-skills" class="level2">
-<h2 data-anchor-id="technical-skills">Technical Skills</h2>
-<section id="programming-languages" class="level4">
-<h4 data-anchor-id="programming-languages">Programming Languages</h4>
-<ul>
-<li>Python (primary focus for bioinformatics)</li>
-<li>R (statistical analysis and visualization)</li>
-<li>Bash/Shell scripting</li>
-<li>SQL for database querying</li>
-</ul>
-</section>
-<section id="bioinformatics-tools-platforms" class="level4">
-<h4 data-anchor-id="bioinformatics-tools-platforms">Bioinformatics Tools &amp; Platforms</h4>
-<ul>
-<li>Git/GitHub for version control</li>
-<li>Linux/WSL development environment</li>
-<li>Quarto for reproducible research</li>
-<li>Data analysis libraries (pandas, NumPy, BioPython)</li>
-</ul>
-</section>
-<section id="computational-biology" class="level4">
-<h4 data-anchor-id="computational-biology">Computational Biology</h4>
-<ul>
-<li>Sequence analysis algorithms</li>
-<li>Statistical methods for genomics</li>
-<li>Data visualization</li>
-<li>Pipeline development</li>
-</ul>
-</section>
-</section>
-<section id="interests-beyond-science" class="level2">
-<h2 data-anchor-id="interests-beyond-science">Interests Beyond Science</h2>
-<div class="grid">
-<section id="scuba-diving" class="level4 g-col-12 g-col-md-6">
-<h4 data-anchor-id="scuba-diving">Scuba Diving</h4>
-<p>Open-water and nitrox certified. Diving demands methodical preparation, situational awareness, and staying calm under pressure — skills that translate directly to research and problem solving.</p>
-</section>
-<section id="martial-arts" class="level4 g-col-12 g-col-md-6">
-<h4 data-anchor-id="martial-arts">Martial Arts</h4>
-<p>Black belt in Taekwondo, with training in Muay Thai and Brazilian Jiu-Jitsu. Martial arts taught me that mastery is a process, not a destination — a philosophy I carry into learning bioinformatics.</p>
-</section>
-<section id="yu-gi-oh" class="level4 g-col-12 g-col-md-6">
-<h4 data-anchor-id="yu-gi-oh">Yu-Gi-Oh</h4>
-<p>Competitive player focused on deck building and strategic play. The game demands pattern recognition, probabilistic thinking, and adapting under pressure.</p>
-</section>
-<section id="writing" class="level4 g-col-12 g-col-md-6">
-<h4 data-anchor-id="writing">Writing</h4>
-<p>Currently writing <em>Useless Man: Embracing the Exiled Self</em> — a philosophical exploration of identity, purpose, and the freedom found in not fitting the expected mold.</p>
-</section>
+
+<section id="psychpgx-multiomics" class="level2">
+<h2 data-anchor-id="psychpgx-multiomics">PsychPGx-MultiOmics</h2>
+<p>Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.</p>
+<p><strong>Demonstrates:</strong> End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.</p>
+<p><strong>Methods:</strong> PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker<br>
+<strong>Code:</strong> <a href="https://github.com/codymgeoffroy/bioinformatics-2026">bioinformatics-2026</a></p>
+<hr>
+<div id="listing-phase-cards" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+
 </div>
-</section>
-<section id="whats-next" class="level2">
-<h2 data-anchor-id="whats-next">What’s Next</h2>
-<p>I’m actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I’m particularly interested in genomics, algorithm development, and data-driven biological discovery.</p>
-<p><strong>Open to:</strong> Full-time positions, internships, collaborations, and freelance projects</p>
-<p><a href="files/Resume_CG.pdf" class="btn btn-primary">Download Resume</a> <a href="files/CV_CG.pdf" class="btn btn-outline-secondary">Download CV</a></p>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -329,7 +318,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

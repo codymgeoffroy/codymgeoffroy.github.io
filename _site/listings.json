@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/projects.html",
+    "listing": "/projects/projects.html",
     "items": []
   },
   {
@@ -14,5 +14,9 @@
     "items": [
       "/blog/posts/2026-02-14-getting-started/index.html"
     ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": []
   }
 ]
