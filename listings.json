@@ -1,7 +1,14 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": []
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/phases/phase0-environment.html",
+      "/projects/phases/phase1-pgx-genotyping.html",
+      "/projects/phases/phase2-rnaseq.html",
+      "/projects/phases/phase3-atacseq.html",
+      "/projects/phases/phase4-integration.html",
+      "/projects/phases/phase5-reporting.html"
+    ]
   },
   {
     "listing": "/index.html",
