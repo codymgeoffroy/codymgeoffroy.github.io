@@ -10,9 +10,9 @@
 <atom:link href="https://codymgeoffroy.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Bioinformatics &amp; Data Science Portfolio</description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Sat, 21 Feb 2026 05:06:52 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Feb 2026 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>Learning Blog</title>
+  <title>Welcome!</title>
   <link>https://codymgeoffroy.github.io/blog/posts/2026-02-14-getting-started/</link>
   <description><![CDATA[ 
 
@@ -20,52 +20,14 @@
 
 
 <p>This blog documents my learning journey as I build skills in bioinformatics, computational biology, and data science. Here you’ll find problem solutions, analysis walkthroughs, tutorials, and reflections on concepts I’m learning.</p>
-<section id="topics-covered" class="level2">
-<h2 data-anchor-id="topics-covered">Topics Covered</h2>
-<ul>
-<li>Bioinformatics algorithms and Rosalind solutions</li>
-<li>Data analysis and visualization techniques</li>
-<li>Programming tips and tricks (Python, R, Bash)</li>
-<li>Tools and workflow optimization</li>
-<li>Learning resources and reflections</li>
-</ul>
 
 
 
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div> ]]></description>
+ ]]></description>
+  <category>Other</category>
   <guid>https://codymgeoffroy.github.io/blog/posts/2026-02-14-getting-started/</guid>
-  <pubDate>Sat, 21 Feb 2026 05:06:52 GMT</pubDate>
+  <pubDate>Thu, 26 Feb 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://codymgeoffroy.github.io/blog/posts/2026-02-14-getting-started/thumbnail.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>

@@ -15,9 +15,10 @@ listing:
 
 # Building Computational Tools for Biological Discovery
 
-Biomedical sciences graduate focused on genomics and bioinformatics —
-developing expertise in Python, R, SQL and computational problem-solving
-to bridge wet-lab science and data-driven research.
+**Currently building:** PsychPGx-MultiOmics — pharmacogenomic 
+stratification of psychiatric brain transcriptomics using SMRI 
+open-access data, MOFA2, XGBoost + SHAP, and VAE benchmarking.
+
 
 **Currently:** Rosalind problems · Analysis pipelines · Full-stack development
 
@@ -41,11 +42,11 @@ Working through sequence analysis, molecular biology, and graph algorithms.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Data Analysis
-Genomic data visualization and statistical analysis with reproducible
-R and Python workflows applied to real biological datasets.
+### PsychPGx-MultiOmics
+Multi-omics integration of pharmacogenomic stratification 
+across brain transcriptomics — MOFA2, DIABLO, XGBoost + SHAP.
 
-[Explore →](projects.qmd#analysis)
+[View Project →](projects.qmd#analysis)
 :::
 
 ::: {.g-col-12 .g-col-md-4}

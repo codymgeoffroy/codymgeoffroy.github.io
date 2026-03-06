@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A working collection of bioinformatics problem sets, genomic data analysis, and development projects — built while working toward computational biology research and data science applications.\nAll projects are version-controlled and documented on GitHub."
+    "text": "Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nCode: bioinformatics-2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#rosalind",
@@ -18,14 +18,14 @@
     "href": "projects.html#analysis",
     "title": "Projects",
     "section": "Data Analysis",
-    "text": "Data Analysis\nApplied bioinformatics workflows using R and Python — including genomic data processing, statistical analysis, and reproducible visualization.\nWorkflows to be added in the near future!\n\n\n\n\n\nNo matching items"
+    "text": "Data Analysis\nMulti-omics integration, pharmacogenomic pipelines, and machine learning applied to brain transcriptomics.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#development",
     "href": "projects.html#development",
     "title": "Projects",
-    "section": "Development",
-    "text": "Development\nWeb tools, automation scripts, and pipelines built while developing full-stack skills alongside computational biology work.\nPipelines to be added in the near future!\n\n\n\n\n\nNo matching items"
+    "section": "Development & Tools",
+    "text": "Development & Tools\nReproducible pipelines, Docker containers, and automation tools built alongside the analysis work.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
@@ -33,13 +33,6 @@
     "title": "Welcome!",
     "section": "",
     "text": "This blog documents my learning journey as I build skills in bioinformatics, computational biology, and data science. Here you’ll find problem solutions, analysis walkthroughs, tutorials, and reflections on concepts I’m learning."
-  },
-  {
-    "objectID": "blog/posts/2026-02-14-getting-started/index.html#topics-covered",
-    "href": "blog/posts/2026-02-14-getting-started/index.html#topics-covered",
-    "title": "Welcome!",
-    "section": "Topics Covered",
-    "text": "Topics Covered\n\nBioinformatics algorithms and Rosalind solutions\nData analysis and visualization techniques\nProgramming tips and tricks (Python, R, Bash)\nTools and workflow optimization\nLearning resources and reflections"
   },
   {
     "objectID": "about.html",
@@ -88,14 +81,14 @@
     "href": "index.html",
     "title": "Building Computational Tools for Biological Discovery",
     "section": "",
-    "text": "Biomedical sciences graduate focused on genomics and bioinformatics — developing expertise in Python, R, SQL and computational problem-solving to bridge wet-lab science and data-driven research.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
+    "text": "Currently building: PsychPGx-MultiOmics — pharmacogenomic stratification of psychiatric brain transcriptomics using SMRI open-access data, MOFA2, XGBoost + SHAP, and VAE benchmarking.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
   },
   {
     "objectID": "index.html#technical-portfolio",
     "href": "index.html#technical-portfolio",
     "title": "Building Computational Tools for Biological Discovery",
     "section": "Technical Portfolio",
-    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nData Analysis\nGenomic data visualization and statistical analysis with reproducible R and Python workflows applied to real biological datasets.\nExplore →\n\n\nResearch\nUndergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.\nLearn More →"
+    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nPsychPGx-MultiOmics\nMulti-omics integration of pharmacogenomic stratification across brain transcriptomics — MOFA2, DIABLO, XGBoost + SHAP.\nView Project →\n\n\nResearch\nUndergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.\nLearn More →"
   },
   {
     "objectID": "index.html#learning-blog",
@@ -138,5 +131,26 @@
     "title": "Research",
     "section": "Research Interests",
     "text": "Research Interests\nMy primary interests are in neuropharmacogenomics pertaining to the expression of neurodegenerative diseases and mental health disorders. In particular, sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data is a major focus of mine. I’m drawn to work at the intersection of algorithmic problem-solving and biological discovery, and I’m actively developing the computational foundation to contribute to that kind of research.\nView Projects → Contact Me"
+  },
+  {
+    "objectID": "projects.html#capstone",
+    "href": "projects.html#capstone",
+    "title": "Projects",
+    "section": "Capstone Project",
+    "text": "Capstone Project\n\n\n\n\n\n\nStatus: In progress — Phase 0 (Environment & Setup)\n\n\n\n\n\nPsychPGx-MultiOmics\nPharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access SMRI Stanley brain collections. Integrates SNP-derived CYP2D6/CYP2C19 continuous activity scores with multi-region RNA-seq and postmortem scATAC-seq (GEO GSE256207) through unsupervised, supervised, and predictive multi-omics integration methods.\nThis project demonstrates end-to-end multi-omics pipeline development — from raw data to interpretable results — using only open-access resources, replicable by any independent researcher without institutional data access.\nData: SMRI Stanley Array & Neuropathology Collections · GEO GSE256207\nMethods: DESeq2 · MOFA2 · DIABLO/mixOmics · XGBoost · SHAP · PyTorch\nCode: bioinformatics-2026\n\n\nProject Phases\n\n🔄 Phase 0: Environment\n⬜ Phase 2: PGx Genotyping\n⬜ Phase 3: RNA-seq Analysis\n⬜ Phase 4: Chromatin Accessibility\n⬜ Phase 5: Integration & ML\n⬜ Phase 6: Reporting"
+  },
+  {
+    "objectID": "projects.html#psychpgx-multiomics",
+    "href": "projects.html#psychpgx-multiomics",
+    "title": "Projects",
+    "section": "",
+    "text": "Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nCode: bioinformatics-2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#phase-deliverables",
+    "href": "projects.html#phase-deliverables",
+    "title": "Projects",
+    "section": "Phase Deliverables",
+    "text": "Phase Deliverables\n\n\n\n\n\nNo matching items"
   }
 ]

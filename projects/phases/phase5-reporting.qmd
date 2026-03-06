@@ -1,0 +1,32 @@
+---
+title: "Phase 0: Environment & Setup"
+description: "Docker container with Bioconductor, Python, and all dependencies. 
+  Reproducible computational environment for the full pipeline."
+image: docker-diagram.png
+---
+
+## Overview
+
+Built a containerized environment using Docker with R 4.4, Python 3.11, and 
+all required packages for multi-omics analysis.
+
+## Key Components
+
+- **Docker image**: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac
+- **Python environment**: xgboost, shap, torch, scanpy
+- **Data pipeline**: Download scripts for SMRI and GEO data
+- **Version control**: All configurations tracked in bioinformatics-2026 repo
+
+## Deliverables
+
+- [Dockerfile](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/docker)
+- [Environment YAML](https://github.com/codymgeoffroy/bioinformatics-2026/blob/main/config/environment.yml)
+- Reproducibility: `docker build -t psychpgx .`
+
+## Methods
+
+[Brief technical description of setup decisions]
+
+## Results
+
+[Screenshot of successful environment build, test output]
