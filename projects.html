@@ -70,76 +70,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-rosalind-projects .list');
+    const listingTargetEl = window.document.querySelector('#listing-phase-cards .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-rosalind-projects'] = new List('listing-rosalind-projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-analysis-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-analysis-projects'] = new List('listing-analysis-projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-dev-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-dev-projects'] = new List('listing-dev-projects', options);
+    window['quarto-listings']['listing-phase-cards'] = new List('listing-phase-cards', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -186,7 +130,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -246,24 +190,14 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Jump To</h2>
-   
-  <ul>
-  <li><a href="#rosalind" id="toc-rosalind" class="nav-link active" data-scroll-target="#rosalind">Rosalind Problem Sets</a></li>
-  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Data Analysis</a></li>
-  <li><a href="#development" id="toc-development" class="nav-link" data-scroll-target="#development">Development</a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Projects</h1>
-<p class="subtitle lead">Computational biology · Data analysis · Development</p>
+<p class="subtitle lead">Computational biology · Multi-omics analysis · Pipeline development</p>
 </div>
 
 
@@ -280,43 +214,15 @@ window.Quarto = {
 </header>
 
 
-<p>A working collection of bioinformatics problem sets, genomic data analysis, and development projects — built while working toward computational biology research and data science applications.</p>
-<p>All projects are version-controlled and documented on <a href="https://github.com/codymgeoffroy">GitHub</a>.</p>
+<section id="psychpgx-multiomics" class="level2">
+<h2 data-anchor-id="psychpgx-multiomics">PsychPGx-MultiOmics</h2>
+<p>Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.</p>
+<p><strong>Demonstrates:</strong> End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.</p>
+<p><strong>Methods:</strong> PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker<br>
+<strong>Code:</strong> <a href="https://github.com/codymgeoffroy/bioinformatics-2026">bioinformatics-2026</a></p>
 <hr>
-<section id="rosalind" class="level2">
-<h2 data-anchor-id="rosalind">Rosalind Problem Sets</h2>
-<p>Algorithm implementations in Python problems from <a href="http://rosalind.info">Rosalind.info</a> — covering string algorithms, sequence analysis, graph theory, and molecular biology fundamentals.</p>
-<p><em>Problem sets with solutions coming soon!</em></p>
-<div id="listing-rosalind-projects" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-phase-cards" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<hr>
-</section>
-<section id="analysis" class="level2">
-<h2 data-anchor-id="analysis">Data Analysis</h2>
-<p>Applied bioinformatics workflows using R and Python — including genomic data processing, statistical analysis, and reproducible visualization.</p>
-<p><em>Workflows to be added in the near future!</em></p>
-<div id="listing-analysis-projects" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<hr>
-</section>
-<section id="development" class="level2">
-<h2 data-anchor-id="development">Development</h2>
-<p>Web tools, automation scripts, and pipelines built while developing full-stack skills alongside computational biology work.</p>
-<p><em>Pipelines to be added in the near future!</em></p>
-<div id="listing-dev-projects" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
 
 </div>
 <div class="listing-no-matching d-none">
@@ -412,7 +318,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -1,31 +1,143 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A working collection of bioinformatics problem sets, genomic data analysis, and development projects — built while working toward computational biology research and data science applications.\nAll projects are version-controlled and documented on GitHub."
+    "text": "Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nCode: bioinformatics-2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects.html#rosalind",
-    "href": "projects.html#rosalind",
+    "objectID": "projects/projects.html#psychpgx-multiomics",
+    "href": "projects/projects.html#psychpgx-multiomics",
     "title": "Projects",
-    "section": "Rosalind Problem Sets",
-    "text": "Rosalind Problem Sets\nAlgorithm implementations in Python problems from Rosalind.info — covering string algorithms, sequence analysis, graph theory, and molecular biology fundamentals.\nProblem sets with solutions coming soon!\n\n\n\n\n\nNo matching items"
+    "section": "",
+    "text": "Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nCode: bioinformatics-2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects.html#analysis",
-    "href": "projects.html#analysis",
-    "title": "Projects",
-    "section": "Data Analysis",
-    "text": "Data Analysis\nApplied bioinformatics workflows using R and Python — including genomic data processing, statistical analysis, and reproducible visualization.\nWorkflows to be added in the near future!\n\n\n\n\n\nNo matching items"
+    "objectID": "projects/phases/phase2-rnaseq.html",
+    "href": "projects/phases/phase2-rnaseq.html",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
   },
   {
-    "objectID": "projects.html#development",
-    "href": "projects.html#development",
-    "title": "Projects",
-    "section": "Development",
-    "text": "Development\nWeb tools, automation scripts, and pipelines built while developing full-stack skills alongside computational biology work.\nPipelines to be added in the near future!\n\n\n\n\n\nNo matching items"
+    "objectID": "projects/phases/phase2-rnaseq.html#overview",
+    "href": "projects/phases/phase2-rnaseq.html#overview",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase2-rnaseq.html#key-components",
+    "href": "projects/phases/phase2-rnaseq.html#key-components",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Key Components",
+    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+  },
+  {
+    "objectID": "projects/phases/phase2-rnaseq.html#deliverables",
+    "href": "projects/phases/phase2-rnaseq.html#deliverables",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
+  },
+  {
+    "objectID": "projects/phases/phase2-rnaseq.html#methods",
+    "href": "projects/phases/phase2-rnaseq.html#methods",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Methods",
+    "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase2-rnaseq.html#results",
+    "href": "projects/phases/phase2-rnaseq.html#results",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Results",
+    "text": "Results\n[Screenshot of successful environment build, test output]"
+  },
+  {
+    "objectID": "projects/phases/phase3-atacseq.html",
+    "href": "projects/phases/phase3-atacseq.html",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase3-atacseq.html#overview",
+    "href": "projects/phases/phase3-atacseq.html#overview",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase3-atacseq.html#key-components",
+    "href": "projects/phases/phase3-atacseq.html#key-components",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Key Components",
+    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+  },
+  {
+    "objectID": "projects/phases/phase3-atacseq.html#deliverables",
+    "href": "projects/phases/phase3-atacseq.html#deliverables",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
+  },
+  {
+    "objectID": "projects/phases/phase3-atacseq.html#methods",
+    "href": "projects/phases/phase3-atacseq.html#methods",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Methods",
+    "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase3-atacseq.html#results",
+    "href": "projects/phases/phase3-atacseq.html#results",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Results",
+    "text": "Results\n[Screenshot of successful environment build, test output]"
+  },
+  {
+    "objectID": "projects/phases/phase5-reporting.html",
+    "href": "projects/phases/phase5-reporting.html",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase5-reporting.html#overview",
+    "href": "projects/phases/phase5-reporting.html#overview",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase5-reporting.html#key-components",
+    "href": "projects/phases/phase5-reporting.html#key-components",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Key Components",
+    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+  },
+  {
+    "objectID": "projects/phases/phase5-reporting.html#deliverables",
+    "href": "projects/phases/phase5-reporting.html#deliverables",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
+  },
+  {
+    "objectID": "projects/phases/phase5-reporting.html#methods",
+    "href": "projects/phases/phase5-reporting.html#methods",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Methods",
+    "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase5-reporting.html#results",
+    "href": "projects/phases/phase5-reporting.html#results",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Results",
+    "text": "Results\n[Screenshot of successful environment build, test output]"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
@@ -81,14 +193,14 @@
     "href": "index.html",
     "title": "Building Computational Tools for Biological Discovery",
     "section": "",
-    "text": "Biomedical sciences graduate focused on genomics and bioinformatics — developing expertise in Python, R, SQL and computational problem-solving to bridge wet-lab science and data-driven research.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
+    "text": "Currently building: PsychPGx-MultiOmics — pharmacogenomic stratification of psychiatric brain transcriptomics using SMRI open-access data, MOFA2, XGBoost + SHAP, and VAE benchmarking.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
   },
   {
     "objectID": "index.html#technical-portfolio",
     "href": "index.html#technical-portfolio",
     "title": "Building Computational Tools for Biological Discovery",
     "section": "Technical Portfolio",
-    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nData Analysis\nGenomic data visualization and statistical analysis with reproducible R and Python workflows applied to real biological datasets.\nExplore →\n\n\nResearch\nUndergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.\nLearn More →"
+    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nPsychPGx-MultiOmics\nMulti-omics integration of pharmacogenomic stratification across brain transcriptomics — MOFA2, DIABLO, XGBoost + SHAP.\nView Project →\n\n\nResearch\nUndergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.\nLearn More →"
   },
   {
     "objectID": "index.html#learning-blog",
@@ -131,5 +243,131 @@
     "title": "Research",
     "section": "Research Interests",
     "text": "Research Interests\nMy primary interests are in neuropharmacogenomics pertaining to the expression of neurodegenerative diseases and mental health disorders. In particular, sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data is a major focus of mine. I’m drawn to work at the intersection of algorithmic problem-solving and biological discovery, and I’m actively developing the computational foundation to contribute to that kind of research.\nView Projects → Contact Me"
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html",
+    "href": "projects/phases/phase0-environment.html",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#overview",
+    "href": "projects/phases/phase0-environment.html#overview",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#key-components",
+    "href": "projects/phases/phase0-environment.html#key-components",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Key Components",
+    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#deliverables",
+    "href": "projects/phases/phase0-environment.html#deliverables",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#methods",
+    "href": "projects/phases/phase0-environment.html#methods",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Methods",
+    "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#results",
+    "href": "projects/phases/phase0-environment.html#results",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Results",
+    "text": "Results\n[Screenshot of successful environment build, test output]"
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html",
+    "href": "projects/phases/phase1-pgx-genotyping.html",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#overview",
+    "href": "projects/phases/phase1-pgx-genotyping.html#overview",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#key-components",
+    "href": "projects/phases/phase1-pgx-genotyping.html#key-components",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Key Components",
+    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#deliverables",
+    "href": "projects/phases/phase1-pgx-genotyping.html#deliverables",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#methods",
+    "href": "projects/phases/phase1-pgx-genotyping.html#methods",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Methods",
+    "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#results",
+    "href": "projects/phases/phase1-pgx-genotyping.html#results",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Results",
+    "text": "Results\n[Screenshot of successful environment build, test output]"
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html",
+    "href": "projects/phases/phase4-integration.html",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#overview",
+    "href": "projects/phases/phase4-integration.html#overview",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#key-components",
+    "href": "projects/phases/phase4-integration.html#key-components",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Key Components",
+    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#deliverables",
+    "href": "projects/phases/phase4-integration.html#deliverables",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#methods",
+    "href": "projects/phases/phase4-integration.html#methods",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Methods",
+    "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#results",
+    "href": "projects/phases/phase4-integration.html#results",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Results",
+    "text": "Results\n[Screenshot of successful environment build, test output]"
   }
 ]
