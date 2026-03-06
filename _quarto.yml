@@ -12,7 +12,7 @@ website:
       - text: "About"
         href: about.qmd
       - text: "Projects"
-        href: projects/index.qmd
+        href: projects.qmd
       - text: "Research"
         href: research.qmd
       - text: "Blog"

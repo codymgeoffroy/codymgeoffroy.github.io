@@ -5,7 +5,7 @@ page-layout: article
 toc: false
 listing:
   - id: phase-cards
-    contents: "projects/psychpgx/*.qmd"
+    contents: "phases/*.qmd"
     type: grid
     sort: "date asc"
     fields: [image, title, description]
