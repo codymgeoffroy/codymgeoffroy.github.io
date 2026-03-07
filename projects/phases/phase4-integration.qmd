@@ -1,32 +1,37 @@
 ---
-title: "Phase 0: Environment & Setup"
-description: "Docker container with Bioconductor, Python, and all dependencies. 
-  Reproducible computational environment for the full pipeline."
-image: docker-diagram.png
+title: "Phase 4: Multi-Omics Integration"
+description: "Unsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns."
+date: 2026-06-10
 ---
 
 ## Overview
 
-Built a containerized environment using Docker with R 4.4, Python 3.11, and 
-all required packages for multi-omics analysis.
+Integrated RNA-seq expression, ATAC-seq accessibility, and pharmacogenomic scores using MOFA2 (unsupervised) and DIABLO (supervised) to identify coordinated multi-omic signatures of metabolizer status.
 
 ## Key Components
 
-- **Docker image**: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac
-- **Python environment**: xgboost, shap, torch, scanpy
-- **Data pipeline**: Download scripts for SMRI and GEO data
-- **Version control**: All configurations tracked in bioinformatics-2026 repo
-
-## Deliverables
-
-- [Dockerfile](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/docker)
-- [Environment YAML](https://github.com/codymgeoffroy/bioinformatics-2026/blob/main/config/environment.yml)
-- Reproducibility: `docker build -t psychpgx .`
+- **MOFA2**: Unsupervised factor discovery across RNA + ATAC modalities
+- **DIABLO**: Supervised integration using CYP activity scores as outcome labels
+- **Input**: DESeq2-normalized expression matrix, ATAC peak accessibility matrix, CYP2D6/CYP2C19 continuous scores
+- **Goal**: Identify latent factors that capture variance explained by pharmacogenomic stratification
 
 ## Methods
 
-[Brief technical description of setup decisions]
+MOFA2 trained on combined RNA + ATAC matrices with 10 latent factors. Assessed factor-PGx correlation via Spearman's ρ. DIABLO trained with multi-block PLS-DA using continuous CYP scores as Y. Extracted loading weights to identify top contributing genes and peaks per component. Cross-validation via 5-fold CV to assess generalization.
+
+## Deliverables
+
+- [MOFA2/DIABLO scripts](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/05_integration)
+- Factor loading tables (CSV): genes and peaks with top weights
+- Factor-PGx correlation heatmaps (PNG)
+- Component plots showing sample separation by metabolizer score
+- Variance explained per modality (bar plots)
 
 ## Results
 
-[Screenshot of successful environment build, test output]
+*(Add figures when complete)*
+
+- MOFA2 factor-PGx correlation matrix (heatmap)
+- Scatterplot of MOFA2 Factor 1 vs. CYP2D6 score
+- DIABLO component 1 vs. component 2 scatterplot colored by CYP tertiles
+- Top 20 genes/peaks per significant factor (bar plots of loadings)

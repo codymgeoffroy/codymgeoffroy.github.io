@@ -1,32 +1,37 @@
 ---
-title: "Phase 0: Environment & Setup"
-description: "Docker container with Bioconductor, Python, and all dependencies. 
-  Reproducible computational environment for the full pipeline."
-image: docker-diagram.png
+title: "Phase 2: RNA-seq Analysis"
+description: "Multi-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions."
+date: 2026-05-01
 ---
 
 ## Overview
 
-Built a containerized environment using Docker with R 4.4, Python 3.11, and 
-all required packages for multi-omics analysis.
+Performed differential gene expression analysis on SMRI Stanley RNA-seq data (7 brain regions) stratified by pharmacogenomic activity scores, identifying metabolizer-associated transcriptomic signatures.
 
 ## Key Components
 
-- **Docker image**: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac
-- **Python environment**: xgboost, shap, torch, scanpy
-- **Data pipeline**: Download scripts for SMRI and GEO data
-- **Version control**: All configurations tracked in bioinformatics-2026 repo
-
-## Deliverables
-
-- [Dockerfile](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/docker)
-- [Environment YAML](https://github.com/codymgeoffroy/bioinformatics-2026/blob/main/config/environment.yml)
-- Reproducibility: `docker build -t psychpgx .`
+- **Input data**: SMRI Stanley RNA-seq (ACC, DLPFC, NAc, Amy, Hipp, subCC, mOFC; n=60-105 per region)
+- **Preprocessing**: Read alignment (STAR), quantification (featureCounts), normalization (DESeq2 size factors)
+- **Stratification**: Correlation-based analysis using continuous CYP2D6/CYP2C19 scores as covariates
+- **Differential expression**: DESeq2 LRT and Wald tests controlling for diagnosis, age, sex, PMI, pH
 
 ## Methods
 
-[Brief technical description of setup decisions]
+DESeq2 design: `~ diagnosis + age + sex + PMI + pH + CYP2D6_score + CYP2C19_score`. Used likelihood ratio test to identify genes where pharmacogenomic covariates improve model fit. FDR-corrected p < 0.05 threshold. Pathway enrichment via clusterProfiler (GO, KEGG, Reactome).
+
+## Deliverables
+
+- [DESeq2 analysis scripts](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/03_rnaseq)
+- DEG tables per region (CSV): `DEGs_[region]_CYP2D6.csv`, `DEGs_[region]_CYP2C19.csv`
+- Volcano plots and heatmaps (PNG)
+- Pathway enrichment tables (CSV)
+- Region-specific and shared DEG Venn diagrams
 
 ## Results
 
-[Screenshot of successful environment build, test output]
+*(Add figures when complete)*
+
+- Volcano plots showing DEGs for each region × enzyme combination
+- Heatmap of top 50 DEGs clustered by metabolizer score
+- Pathway enrichment bar plots (top 10 terms per comparison)
+- Cross-region overlap analysis (Venn diagrams)

@@ -14,12 +14,12 @@ listing:
 
 ## PsychPGx-MultiOmics
 
-Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.
+Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.
 
 **Demonstrates:** End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.
 
 **Methods:** PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker  
-**Code:** [bioinformatics-2026](https://github.com/codymgeoffroy/bioinformatics-2026)
+**Full Code:** [GitHub](https://github.com/codymgeoffroy/bioinformatics-2026)
 
 ---
 

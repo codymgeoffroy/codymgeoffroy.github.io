@@ -1,32 +1,36 @@
 ---
-title: "Phase 0: Environment & Setup"
-description: "Docker container with Bioconductor, Python, and all dependencies. 
-  Reproducible computational environment for the full pipeline."
-image: docker-diagram.png
+title: "Phase 1: Pharmacogenomic Genotyping"
+description: "CYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains."
+date: 2026-04-15
 ---
 
 ## Overview
 
-Built a containerized environment using Docker with R 4.4, Python 3.11, and 
-all required packages for multi-omics analysis.
+Extracted pharmacogenomic variants from SMRI Stanley Array Collection SNP data and computed continuous CYP2D6/CYP2C19 activity scores using PharmCAT and established pharmacogenetic translation tables.
 
 ## Key Components
 
-- **Docker image**: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac
-- **Python environment**: xgboost, shap, torch, scanpy
-- **Data pipeline**: Download scripts for SMRI and GEO data
-- **Version control**: All configurations tracked in bioinformatics-2026 repo
-
-## Deliverables
-
-- [Dockerfile](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/docker)
-- [Environment YAML](https://github.com/codymgeoffroy/bioinformatics-2026/blob/main/config/environment.yml)
-- Reproducibility: `docker build -t psychpgx .`
+- **Input data**: SMRI Stanley Array Collection (n=105 postmortem brains, ~900K SNPs)
+- **Variant extraction**: Isolated CYP2D6 (22q13.2), CYP2C19 (10q23.33) loci from SNP arrays
+- **Star allele calling**: PharmCAT haplotype inference from genotype data
+- **Activity scoring**: Continuous metabolizer scores (0.0-3.0 scale) instead of categorical bins
 
 ## Methods
 
-[Brief technical description of setup decisions]
+Used PharmCAT v2.x pipeline for automated star allele calling from VCF-formatted SNP array data. Activity scores computed as sum of allele function values (e.g., *1/*1 = 2.0, *1/*4 = 1.0, *4/*4 = 0.0 for loss-of-function alleles). Continuous scoring preserves statistical power vs. traditional categorical metabolizer bins (PM/IM/EM/UM).
+
+## Deliverables
+
+- [PharmCAT pipeline script](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/01_pgx)
+- Activity score table (CSV): `pgx_activity_scores.csv`
+- Star allele distribution plots (PNG)
+- Quality control report: genotype call rates, allele frequency validation
 
 ## Results
 
-[Screenshot of successful environment build, test output]
+*(Add figures when complete)*
+
+- Distribution histogram of CYP2D6/CYP2C19 continuous scores
+- Correlation plot between the two enzymes
+- Comparison to published allele frequencies (validation check)
+
