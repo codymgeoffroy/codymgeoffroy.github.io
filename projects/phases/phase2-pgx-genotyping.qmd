@@ -1,5 +1,5 @@
 ---
-title: "Phase 1: Pharmacogenomic Genotyping"
+title: "Phase 2: Pharmacogenomic Genotyping"
 description: "CYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains."
 date: 2026-04-15
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Phase 4: Multi-Omics Integration"
+title: "Phase 5: Multi-Omics Integration"
 description: "Unsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns."
 date: 2026-06-10
 ---

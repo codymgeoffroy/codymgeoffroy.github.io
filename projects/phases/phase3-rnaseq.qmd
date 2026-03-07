@@ -1,5 +1,5 @@
 ---
-title: "Phase 2: RNA-seq Analysis"
+title: "Phase 3: RNA-seq Analysis"
 description: "Multi-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions."
 date: 2026-05-01
 ---

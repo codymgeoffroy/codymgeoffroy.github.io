@@ -1,5 +1,5 @@
 ---
-title: "Phase 5: Predictive Modeling & Interpretation"
+title: "Phase 6: Predictive Modeling & Interpretation"
 description: "XGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline."
 date: 2026-07-01
 ---

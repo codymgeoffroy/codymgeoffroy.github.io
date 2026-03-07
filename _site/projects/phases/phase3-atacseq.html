@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Docker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.">
+<meta name="dcterms.date" content="2026-05-20">
+<meta name="description" content="Single-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.">
 
-<title>Phase 0: Environment &amp; Setup – Cody Geoffroy</title>
+<title>Phase 3: Chromatin Accessibility – Cody Geoffroy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -138,8 +139,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#key-components" id="toc-key-components" class="nav-link" data-scroll-target="#key-components">Key Components</a></li>
-  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   </ul>
 </nav>
@@ -149,12 +150,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Phase 0: Environment &amp; Setup</h1>
+<h1 class="title">Phase 3: Chromatin Accessibility</h1>
 </div>
 
 <div>
   <div class="description">
-    Docker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.
+    Single-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.
   </div>
 </div>
 
@@ -162,6 +163,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 20, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -173,32 +180,40 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
-<p>Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis.</p>
+<p>Analyzed single-nucleus ATAC-seq data from postmortem orbitofrontal cortex to identify open chromatin regions that correlate with CYP-associated gene expression patterns identified in Phase 2.</p>
 </section>
 <section id="key-components" class="level2">
 <h2 data-anchor-id="key-components">Key Components</h2>
 <ul>
-<li><strong>Docker image</strong>: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac</li>
-<li><strong>Python environment</strong>: xgboost, shap, torch, scanpy</li>
-<li><strong>Data pipeline</strong>: Download scripts for SMRI and GEO data</li>
-<li><strong>Version control</strong>: All configurations tracked in bioinformatics-2026 repo</li>
-</ul>
-</section>
-<section id="deliverables" class="level2">
-<h2 data-anchor-id="deliverables">Deliverables</h2>
-<ul>
-<li><a href="https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/docker">Dockerfile</a></li>
-<li><a href="https://github.com/codymgeoffroy/bioinformatics-2026/blob/main/config/environment.yml">Environment YAML</a></li>
-<li>Reproducibility: <code>docker build -t psychpgx .</code></li>
+<li><strong>Input data</strong>: GEO GSE256207 (snATAC-seq, postmortem OFC, n=92 samples)</li>
+<li><strong>Preprocessing</strong>: ArchR or Signac pipeline (fragment deduplication, TSS enrichment QC, peak calling)</li>
+<li><strong>Peak-to-gene linkage</strong>: Cicero or ArchR P2G correlations</li>
+<li><strong>Integration strategy</strong>: Cross-cohort analysis linking ATAC peaks to Phase 2 DEGs via promoter/enhancer annotations</li>
 </ul>
 </section>
 <section id="methods" class="level2">
 <h2 data-anchor-id="methods">Methods</h2>
-<p>[Brief technical description of setup decisions]</p>
+<p>Standard snATAC-seq preprocessing with MACS2 peak calling. Used chromVAR for TF motif enrichment in differentially accessible regions. Since ATAC and RNA-seq are from separate cohorts, integration performed at the gene/region level rather than sample-level (standard cross-cohort approach). Focused on promoter regions (±2kb TSS) and distal regulatory elements linked to DEGs.</p>
+</section>
+<section id="deliverables" class="level2">
+<h2 data-anchor-id="deliverables">Deliverables</h2>
+<ul>
+<li><a href="https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/04_atacseq">ATAC-seq analysis scripts</a></li>
+<li>Differentially accessible peaks (BED files)</li>
+<li>TF motif enrichment tables (CSV)</li>
+<li>Peak-to-gene linkage tables (CSV)</li>
+<li>UMAP visualizations colored by cell type and accessibility patterns</li>
+</ul>
 </section>
 <section id="results" class="level2">
 <h2 data-anchor-id="results">Results</h2>
-<p>[Screenshot of successful environment build, test output]</p>
+<p><em>(Add figures when complete)</em></p>
+<ul>
+<li>UMAP of snATAC-seq cells colored by cell type (excitatory, inhibitory, glia)</li>
+<li>Heatmap of differentially accessible peaks near CYP-associated DEGs</li>
+<li>TF motif enrichment bar plots (top 10 motifs)</li>
+<li>Genome browser tracks showing example loci (e.g., key DEGs with nearby ATAC peaks)</li>
+</ul>
 
 
 </section>
@@ -287,7 +302,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

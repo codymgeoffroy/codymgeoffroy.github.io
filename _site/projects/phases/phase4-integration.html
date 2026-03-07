@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Docker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.">
+<meta name="dcterms.date" content="2026-06-10">
+<meta name="description" content="Unsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.">
 
-<title>Phase 0: Environment &amp; Setup – Cody Geoffroy</title>
+<title>Phase 4: Multi-Omics Integration – Cody Geoffroy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -138,8 +139,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#key-components" id="toc-key-components" class="nav-link" data-scroll-target="#key-components">Key Components</a></li>
-  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   </ul>
 </nav>
@@ -149,12 +150,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Phase 0: Environment &amp; Setup</h1>
+<h1 class="title">Phase 4: Multi-Omics Integration</h1>
 </div>
 
 <div>
   <div class="description">
-    Docker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.
+    Unsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.
   </div>
 </div>
 
@@ -162,6 +163,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 10, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -173,32 +180,40 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
-<p>Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis.</p>
+<p>Integrated RNA-seq expression, ATAC-seq accessibility, and pharmacogenomic scores using MOFA2 (unsupervised) and DIABLO (supervised) to identify coordinated multi-omic signatures of metabolizer status.</p>
 </section>
 <section id="key-components" class="level2">
 <h2 data-anchor-id="key-components">Key Components</h2>
 <ul>
-<li><strong>Docker image</strong>: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac</li>
-<li><strong>Python environment</strong>: xgboost, shap, torch, scanpy</li>
-<li><strong>Data pipeline</strong>: Download scripts for SMRI and GEO data</li>
-<li><strong>Version control</strong>: All configurations tracked in bioinformatics-2026 repo</li>
-</ul>
-</section>
-<section id="deliverables" class="level2">
-<h2 data-anchor-id="deliverables">Deliverables</h2>
-<ul>
-<li><a href="https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/docker">Dockerfile</a></li>
-<li><a href="https://github.com/codymgeoffroy/bioinformatics-2026/blob/main/config/environment.yml">Environment YAML</a></li>
-<li>Reproducibility: <code>docker build -t psychpgx .</code></li>
+<li><strong>MOFA2</strong>: Unsupervised factor discovery across RNA + ATAC modalities</li>
+<li><strong>DIABLO</strong>: Supervised integration using CYP activity scores as outcome labels</li>
+<li><strong>Input</strong>: DESeq2-normalized expression matrix, ATAC peak accessibility matrix, CYP2D6/CYP2C19 continuous scores</li>
+<li><strong>Goal</strong>: Identify latent factors that capture variance explained by pharmacogenomic stratification</li>
 </ul>
 </section>
 <section id="methods" class="level2">
 <h2 data-anchor-id="methods">Methods</h2>
-<p>[Brief technical description of setup decisions]</p>
+<p>MOFA2 trained on combined RNA + ATAC matrices with 10 latent factors. Assessed factor-PGx correlation via Spearman’s ρ. DIABLO trained with multi-block PLS-DA using continuous CYP scores as Y. Extracted loading weights to identify top contributing genes and peaks per component. Cross-validation via 5-fold CV to assess generalization.</p>
+</section>
+<section id="deliverables" class="level2">
+<h2 data-anchor-id="deliverables">Deliverables</h2>
+<ul>
+<li><a href="https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/05_integration">MOFA2/DIABLO scripts</a></li>
+<li>Factor loading tables (CSV): genes and peaks with top weights</li>
+<li>Factor-PGx correlation heatmaps (PNG)</li>
+<li>Component plots showing sample separation by metabolizer score</li>
+<li>Variance explained per modality (bar plots)</li>
+</ul>
 </section>
 <section id="results" class="level2">
 <h2 data-anchor-id="results">Results</h2>
-<p>[Screenshot of successful environment build, test output]</p>
+<p><em>(Add figures when complete)</em></p>
+<ul>
+<li>MOFA2 factor-PGx correlation matrix (heatmap)</li>
+<li>Scatterplot of MOFA2 Factor 1 vs.&nbsp;CYP2D6 score</li>
+<li>DIABLO component 1 vs.&nbsp;component 2 scatterplot colored by CYP tertiles</li>
+<li>Top 20 genes/peaks per significant factor (bar plots of loadings)</li>
+</ul>
 
 
 </section>
@@ -287,7 +302,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

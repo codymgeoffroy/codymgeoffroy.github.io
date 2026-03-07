@@ -1,5 +1,5 @@
 ---
-title: "Phase 0: Environment & Setup"
+title: "Phase 1: Environment & Setup"
 description: "Docker container with Bioconductor, Python, and all dependencies. 
   Reproducible computational environment for the full pipeline."
 image: docker-diagram.png
