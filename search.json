@@ -21,18 +21,18 @@
     "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
   },
   {
-    "objectID": "projects/phases/phase1-environment.html#deliverables",
-    "href": "projects/phases/phase1-environment.html#deliverables",
-    "title": "Phase 1: Environment & Setup",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
-  },
-  {
     "objectID": "projects/phases/phase1-environment.html#methods",
     "href": "projects/phases/phase1-environment.html#methods",
     "title": "Phase 1: Environment & Setup",
     "section": "Methods",
     "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase1-environment.html#deliverables",
+    "href": "projects/phases/phase1-environment.html#deliverables",
+    "title": "Phase 1: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile:\nEnvironment YAML:\nReproducibility:"
   },
   {
     "objectID": "projects/phases/phase1-environment.html#results",
@@ -130,14 +130,14 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: GitHub\n\n\n\n\n\n\n\n\n\n\nCYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.\n\n\n\n\n\n\n\n\n\n\n\n\nUnsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nXGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: GitHub\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\nCYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.\n\n\n\n\n\n\n\n\n\n\n\n\nUnsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nXGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html#psychpgx-multiomics",
     "href": "projects/index.html#psychpgx-multiomics",
     "title": "Projects",
     "section": "",
-    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: GitHub\n\n\n\n\n\n\n\n\n\n\nCYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.\n\n\n\n\n\n\n\n\n\n\n\n\nUnsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nXGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: GitHub\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\nCYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.\n\n\n\n\n\n\n\n\n\n\n\n\nUnsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nXGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
@@ -193,21 +193,21 @@
     "href": "index.html",
     "title": "Building Computational Tools for Biological Discovery",
     "section": "",
-    "text": "Currently building: PsychPGx-MultiOmics — pharmacogenomic stratification of psychiatric brain transcriptomics using SMRI open-access data, MOFA2, XGBoost + SHAP, and VAE benchmarking.\nCurrently: Rosalind problems · Analysis pipelines · Full-stack development\nView Projects GitHub LinkedIn"
+    "text": "Multi-omics pipeline developer focused on pharmacogenomics, brain transcriptomics, and reproducible bioinformatics — using open-access data and modern ML/integration methods.\nCurrent project: PsychPGx-MultiOmics — pharmacogenomic stratification of psychiatric brain RNA-seq using MOFA2, XGBoost + SHAP, and VAE benchmarking.\nView Projects GitHub LinkedIn"
   },
   {
-    "objectID": "index.html#technical-portfolio",
-    "href": "index.html#technical-portfolio",
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
     "title": "Building Computational Tools for Biological Discovery",
-    "section": "Technical Portfolio",
-    "text": "Technical Portfolio\n\n\nRosalind Problems\nComputational biology algorithm implementations in Python. Working through sequence analysis, molecular biology, and graph algorithms.\nView Solutions →\n\n\nPsychPGx-MultiOmics\nMulti-omics integration of pharmacogenomic stratification across brain transcriptomics — MOFA2, DIABLO, XGBoost + SHAP.\nView Project →\n\n\nResearch\nUndergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.\nLearn More →"
+    "section": "Featured Work",
+    "text": "Featured Work\n\n\nPsychPGx-MultiOmics\nPharmacogenomic stratification of psychiatric brain transcriptomics using SMRI open-access data. Integrates CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and scATAC-seq through MOFA2, DIABLO, and supervised ML.\nTech: PharmCAT · DESeq2 · MOFA2 · XGBoost · PyTorch · Docker\nView All Phases →\n\n\nResearch Background\nUndergraduate research in molecular neuroscience and bioinformatics — including synaptic proteomics, neuronal culture modeling, and computational coursework projects in genomics and systems biology.\nLearn More →"
   },
   {
-    "objectID": "index.html#learning-blog",
-    "href": "index.html#learning-blog",
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
     "title": "Building Computational Tools for Biological Discovery",
-    "section": "Learning Blog",
-    "text": "Learning Blog\nDocumenting progress through bioinformatics problems, analysis techniques, and computational tools while building toward a career in computational biology.\n\n\n\n\n\n\n\nWelcome!\n\n\nHere’s a tentative timeline of deliverables and what to expect in the future.\n\n\n\nFeb 26, 2026\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts →"
+    "section": "Recent Posts",
+    "text": "Recent Posts\nInsights from multi-omics analysis, pipeline development, and computational biology problem-solving.\n\n\n\n\n\n\n\nWelcome!\n\n\nHere’s a tentative timeline of deliverables and what to expect in the future.\n\n\n\nFeb 26, 2026\n\n\n\n\n\n\n\n\nNo matching items\n\n\nView All Posts →"
   },
   {
     "objectID": "blog/index.html",
@@ -228,21 +228,21 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Undergraduate research grounded in neuroscience, molecular biology and bioinformatics. My work focuses on applying quantitative methods to biological questions — connecting wet-lab context with data-driven analysis."
+    "text": "Undergraduate research experience spanning wet-lab neuroscience, molecular biology, and computational genomics. This background informs my current focus on building reproducible multi-omics pipelines for pharmacogenomic analysis."
   },
   {
     "objectID": "research.html#undergrad",
     "href": "research.html#undergrad",
     "title": "Research",
-    "section": "Selected Undergraduate Research",
-    "text": "Selected Undergraduate Research\n\nDigitization, Tracing, and Quantification of CGRP-IR Axons in the Nociceptive Cardiac Nervous System\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Zixi Cheng · Department of Biomedical Sciences · University of Central Florida\nDuration: June 2022 – May 2023\nPresentation: Student Scholar Symposium · University of Central Florida · March 28, 2023\n\n\nThis study used C57BL/6J mice which were sacrificed and perfused through the left ventricle with 4°C Zamboni’s fixative, the heart was then harvested and dissected into the right and left atria and ventricles. The samples were immunohistochemically (IHC) stained for calcitonin gene-related peptide (CGRP). The tissues were then prepared as flat-mounts and scanned using automated color fluorescence and confocal microscopy. The samples that were scanned for CGRP-IR axons – at 488 nm – were digitized and traced using a 3D neuron reconstruction software and finally quantified using ImageJ2 (Fiji). Within CGRP-IR axons, 2D and 3D digitalized axonal tracings have not been reported in the whole mouse heart, as a result, this data expanded that very limited dataset.\n\nDownload Poster (PDF)\nMethods & Tools\nFluorescence/Confocal Microscopy · Neurolucida · ImageJ · GraphPad Prism · Microsoft Word/Excel · Adobe Photoshop/Illustrator · BioRendeer\n\n\n\nMutant U1A-RNA Binding Kinetics with Surface Plasmon Resonance\n\nRole: Undergraduate Researcher\nAdvisor: Dr. Robert Borgon · Department of Biomedical Sciences · University of Central Florida\nDuration: August 2022 – May 2023\nPresentation: Amy Zeh High Impact Practice Student Showcase · University of Central Florida · April 19, 2023\n\n\nThis study involved the use of U1A which is a protein subunit that is part of the U1 snRNP and binds to U1 hairpin II (U1hpII) of the snRNA that associates with the U1 snRNP. The U1A wildtype is compared to point mutations incorporated into the mutated protein to find amino acids residues that have significance in binding. The binding efficacy is measured through kinetic data produced via surface plasmon resonance (SPR) which flows U1hpII over a NTA chip that has a ligand (i.e., U1A wildtype or mutants) immobilized to it via a His-tag. The produced binding curves will show the association and disassociation phases in which a mathematical model was applied to obtain the relevant kinetic constants (i.e., ka, kd, kDa). Furthermore, a proteomic analysis was done comparing the RNA recognition motifs (RRMs) of both U1A mutants and another critical subunit in the U1 snRNP.\n\nDownload Poster (PDF)\nMethods & Tools\nSurface Plasmon Resonance · PCR · Bacterial Cell Culture · R (programming language) · TraceDrawer · Microsoft Word/Excel/Powerpoint · GIMP · GraphPad Prism · BioRender\n\n\nMicrobiome gDNA analysis of non-infected and infected zombie ants using Illumina sequencing\n\nRole: Undergraduate Student in Research-intensive Course\nProfessor: Dr. Anna Forsman · Genomics & Bioinformatics Cluster · University of Central Florida\nDuration: January 2022 – May 2023\n\n\nThis study consisted of extracting and analyzing gDNA from the inside of ant gut microbiomes. The ants of interest are known as “Zombie Ants” because of a unique disease they contract from a pathogenic fungus called Ophiocordyceps that causes them to change their behavior and commit suicide so to promote more growth of the fungi. The objective was to find if there are any differences between the gut microbiome of ants infected with Ophiocordyceps (a fungus that manipulates then kills), Beauveria (a fungus that simply kills) or a normal ant that was treated with a placebo. The gDNA was extracted from the ants using a Microprep Kit then ran through a two-step PCR protocol to amplify the extracted gDNA. Next, a SpeedBead cleanup protocol was run to separate the loose primers/small fragments from the amplified gDNA to increase sequencing data quality. Finally, sequencing was performed using an in-house Illumina platform and the data was analyzed using QIIME 2 to cross-reference with BLAST in order to determine the genetic diversity present.\n\nMethods & Tools\nIllumina Sequencing · PCR · QIIME · Agarose Gel Electrophoresis · Microsoft Word/Excel"
+    "section": "Undergraduate Research",
+    "text": "Undergraduate Research\n\nDigitization and Quantification of CGRP-IR Axons in Cardiac Nervous System\nDr. Zixi Cheng | Department of Biomedical Sciences | UCF\nJune 2022 – May 2023\n\nPerformed 3D neuron reconstruction and quantification of calcitonin gene-related peptide (CGRP) immunoreactive axons in mouse cardiac tissue using confocal microscopy and computational image analysis. Created the first 2D/3D digitized tracings of CGRP-IR axons across whole mouse heart chambers, expanding limited existing datasets on cardiac nociceptive innervation patterns.\n\nKey contributions: - Immunohistochemical staining and tissue preparation for flat-mount imaging - 3D axonal tracing using Neurolucida software across four cardiac chambers - Quantitative analysis pipeline development in ImageJ/Fiji - Data visualization and statistical analysis in GraphPad Prism\nView Poster\nMethods: Confocal microscopy · Neurolucida · ImageJ · GraphPad Prism · Adobe Illustrator\n\n\n\nMutant U1A-RNA Binding Kinetics with Surface Plasmon Resonance\nDr. Robert Borgon | Department of Biomedical Sciences | UCF\nAugust 2022 – May 2023\n\nCharacterized binding kinetics of U1A protein mutants to U1 hairpin II RNA using surface plasmon resonance (SPR). Identified functionally significant amino acid residues in the RNA recognition motif by comparing kinetic constants (ka, kd, KD) across wildtype and point mutant variants.\n\nKey contributions: - Recombinant protein expression and purification with His-tag affinity chromatography - SPR kinetic measurements on NTA sensor chips - Kinetic modeling and curve fitting in TraceDrawer - Comparative proteomic analysis of RRM domains across U1 snRNP subunits\nView Poster\nMethods: Surface plasmon resonance · PCR · Bacterial culture · R · TraceDrawer · GraphPad Prism\n\n\n\nMicrobiome Analysis of Ophiocordyceps-Infected Ants\nDr. Anna Forsman | Genomics & Bioinformatics | UCF\nJanuary 2022 – May 2022\n\nAnalyzed gut microbiome composition differences between carpenter ants infected with behavior-manipulating fungi (Ophiocordyceps), non-manipulating pathogenic fungi (Beauveria), and controls. Performed gDNA extraction, two-step PCR amplification, Illumina sequencing, and taxonomic profiling via QIIME 2 to assess microbial community shifts associated with fungal infection.\n\nMethods: Illumina sequencing · PCR · QIIME 2 · Gel electrophoresis"
   },
   {
     "objectID": "research.html#interests",
     "href": "research.html#interests",
     "title": "Research",
-    "section": "Research Interests",
-    "text": "Research Interests\nMy primary interests are in neuropharmacogenomics pertaining to the expression of neurodegenerative diseases and mental health disorders. In particular, sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data is a major focus of mine. I’m drawn to work at the intersection of algorithmic problem-solving and biological discovery, and I’m actively developing the computational foundation to contribute to that kind of research.\nView Projects → Contact Me"
+    "section": "Research Direction",
+    "text": "Research Direction\nCurrent work focuses on neuropharmacogenomics — specifically, how genetic variation in drug metabolism enzymes (CYP2D6, CYP2C19) correlates with brain transcriptomic and epigenomic profiles in psychiatric disorders. This builds on wet-lab molecular biology foundations while developing the computational skills (multi-omics integration, reproducible pipelines, machine learning) needed for independent research in this area.\nThe PsychPGx-MultiOmics project represents the transition from supporting wet-lab research to designing and executing full computational biology analyses end-to-end.\nView Current Project →"
   },
   {
     "objectID": "projects/phases/phase3-rnaseq.html",
