@@ -17,15 +17,16 @@ all required packages for multi-omics analysis.
 - **Data pipeline**: Download scripts for SMRI and GEO data
 - **Version control**: All configurations tracked in bioinformatics-2026 repo
 
-## Deliverables
-
-- [Dockerfile](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/docker)
-- [Environment YAML](https://github.com/codymgeoffroy/bioinformatics-2026/blob/main/config/environment.yml)
-- Reproducibility: `docker build -t psychpgx .`
-
 ## Methods
 
 [Brief technical description of setup decisions]
+
+## Deliverables
+
+- Dockerfile:
+- Environment YAML:
+- Reproducibility:
+
 
 ## Results
 

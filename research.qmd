@@ -6,74 +6,71 @@ toc: true
 toc-title: "On This Page"
 ---
 
-Undergraduate research grounded in neuroscience, molecular biology and bioinformatics. My work focuses on applying quantitative methods to biological questions — connecting wet-lab context with data-driven analysis.
+Undergraduate research experience spanning wet-lab neuroscience, molecular biology, and computational genomics. This background informs my current focus on building reproducible multi-omics pipelines for pharmacogenomic analysis.
 
 ---
 
-## Selected Undergraduate Research {#undergrad}
+## Undergraduate Research {#undergrad}
 
-### Digitization, Tracing, and Quantification of CGRP-IR Axons in the Nociceptive Cardiac Nervous System
+### Digitization and Quantification of CGRP-IR Axons in Cardiac Nervous System
 
-- **Role:** Undergraduate Researcher
-- **Advisor:** Dr. Zixi Cheng · Department of Biomedical Sciences · University of Central Florida
-- **Duration:** June 2022 – May 2023
-- **Presentation:** Student Scholar Symposium · University of Central Florida · March 28, 2023
+Dr. Zixi Cheng | Department of Biomedical Sciences | UCF  
+June 2022 – May 2023
 
 ::: {.summary}
-This study used C57BL/6J mice which were sacrificed and perfused through the left ventricle with
-4°C Zamboni’s fixative, the heart was then harvested and dissected into the right and left atria and
-ventricles. The samples were immunohistochemically (IHC) stained for calcitonin gene-related peptide
-(CGRP). The tissues were then prepared as flat-mounts and scanned using automated color
-fluorescence and confocal microscopy. The samples that were scanned for CGRP-IR axons – at 488
-nm – were digitized and traced using a 3D neuron reconstruction software and finally quantified using
-ImageJ2 (Fiji). Within CGRP-IR axons, 2D and 3D digitalized axonal tracings have not been reported
-in the whole mouse heart, as a result, this data expanded that very limited dataset. 
+Performed 3D neuron reconstruction and quantification of calcitonin gene-related peptide (CGRP) immunoreactive axons in mouse cardiac tissue using confocal microscopy and computational image analysis. Created the first 2D/3D digitized tracings of CGRP-IR axons across whole mouse heart chambers, expanding limited existing datasets on cardiac nociceptive innervation patterns.
 :::
 
-[Download Poster (PDF)](files/SSS-Poster_CG_Cheng.pdf){.btn .btn-sm .btn-outline-primary}
+**Key contributions:**
+- Immunohistochemical staining and tissue preparation for flat-mount imaging
+- 3D axonal tracing using Neurolucida software across four cardiac chambers
+- Quantitative analysis pipeline development in ImageJ/Fiji
+- Data visualization and statistical analysis in GraphPad Prism
 
-**Methods & Tools**
+[View Poster](files/SSS-Poster_CG_Cheng.pdf){.btn .btn-sm .btn-outline-primary}
 
-Fluorescence/Confocal Microscopy · Neurolucida · ImageJ · GraphPad Prism · Microsoft Word/Excel · Adobe Photoshop/Illustrator · BioRendeer
+**Methods:** Confocal microscopy · Neurolucida · ImageJ · GraphPad Prism · Adobe Illustrator
 
 ---
 
 ### Mutant U1A-RNA Binding Kinetics with Surface Plasmon Resonance
 
-- **Role:** Undergraduate Researcher
-- **Advisor:** Dr. Robert Borgon · Department of Biomedical Sciences · University of Central Florida
-- **Duration:** August 2022 – May 2023
-- **Presentation:** Amy Zeh High Impact Practice Student Showcase · University of Central Florida · April 19, 2023
+Dr. Robert Borgon | Department of Biomedical Sciences | UCF                                         
+August 2022 – May 2023
 
 ::: {.summary}
-This study involved the use of U1A which is a protein subunit that is part of the U1 snRNP and binds to U1 hairpin II (U1hpII) of the snRNA that associates with the U1 snRNP. The U1A wildtype is compared to point mutations incorporated into the mutated protein to find amino acids residues that have significance in binding. The binding efficacy is measured through kinetic data produced via surface plasmon resonance (SPR) which flows U1hpII over a NTA chip that has a ligand (i.e., U1A wildtype or mutants) immobilized to it via a His-tag. The produced binding curves will show the association and disassociation phases in which a mathematical model was applied to obtain the relevant kinetic constants (i.e., k<sub>a</sub>, k<sub>d</sub>, k<sub>D</sub><sup>a</sup>). Furthermore, a proteomic analysis was done comparing the RNA recognition motifs (RRMs) of both U1A mutants and another critical subunit in the U1 snRNP.
+Characterized binding kinetics of U1A protein mutants to U1 hairpin II RNA using surface plasmon resonance (SPR). Identified functionally significant amino acid residues in the RNA recognition motif by comparing kinetic constants (k<sub>a</sub>, k<sub>d</sub>, K<sub>D</sub>) across wildtype and point mutant variants.
 :::
 
-[Download Poster (PDF)](files/SURE_Poster_Borgon.pdf){.btn .btn-sm .btn-outline-primary}
+**Key contributions:**
+- Recombinant protein expression and purification with His-tag affinity chromatography
+- SPR kinetic measurements on NTA sensor chips
+- Kinetic modeling and curve fitting in TraceDrawer
+- Comparative proteomic analysis of RRM domains across U1 snRNP subunits
 
-**Methods & Tools**
+[View Poster](files/SURE_Poster_Borgon.pdf){.btn .btn-sm .btn-outline-primary}
 
-Surface Plasmon Resonance · PCR · Bacterial Cell Culture · R (programming language) · TraceDrawer · Microsoft Word/Excel/Powerpoint · GIMP · GraphPad Prism · BioRender  
-
-### Microbiome gDNA analysis of non-infected and infected zombie ants using Illumina sequencing
-
-- **Role:** Undergraduate Student in Research-intensive Course
-- **Professor:** Dr. Anna Forsman · Genomics & Bioinformatics Cluster · University of Central Florida
-- **Duration:** January 2022 – May 2023
-
-::: {.summary}
-This study consisted of extracting and analyzing gDNA from the inside of ant gut microbiomes. The ants of interest are known as “Zombie Ants” because of a unique disease they contract from a pathogenic fungus called Ophiocordyceps that causes them to change their behavior and commit suicide so to promote more growth of the fungi. The objective was to find if there are any differences between the gut microbiome of ants infected with Ophiocordyceps (a fungus that manipulates then kills), Beauveria (a fungus that simply kills) or a normal ant that was treated with a placebo. The gDNA was extracted from the ants using a Microprep Kit then ran through a two-step PCR protocol to amplify the extracted gDNA. Next, a SpeedBead cleanup protocol was run to separate the loose primers/small fragments from the amplified gDNA to increase sequencing data quality. Finally, sequencing was performed using an in-house Illumina platform and the data was analyzed using QIIME 2 to cross-reference with BLAST in order to determine the genetic diversity present.
-:::
-
-**Methods & Tools**
-
-Illumina Sequencing · PCR · QIIME · Agarose Gel Electrophoresis · Microsoft Word/Excel
+**Methods:** Surface plasmon resonance · PCR · Bacterial culture · R · TraceDrawer · GraphPad Prism
 
 ---
 
-## Research Interests {#interests}
+### Microbiome Analysis of Ophiocordyceps-Infected Ants
 
-My primary interests are in neuropharmacogenomics pertaining to the expression of neurodegenerative diseases and mental health disorders. In particular, sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data is a major focus of mine. I'm drawn to work at the intersection of algorithmic problem-solving and biological discovery, and I'm actively developing the computational foundation to contribute to that kind of research.
+Dr. Anna Forsman | Genomics & Bioinformatics | UCF  
+January 2022 – May 2022
 
-[View Projects →](projects.qmd){.btn .btn-primary}
-[Contact Me](mailto:your.email@example.com){.btn .btn-outline-secondary}
+::: {.summary}
+Analyzed gut microbiome composition differences between carpenter ants infected with behavior-manipulating fungi (Ophiocordyceps), non-manipulating pathogenic fungi (Beauveria), and controls. Performed gDNA extraction, two-step PCR amplification, Illumina sequencing, and taxonomic profiling via QIIME 2 to assess microbial community shifts associated with fungal infection.
+:::
+
+**Methods:** Illumina sequencing · PCR · QIIME 2 · Gel electrophoresis
+
+---
+
+## Research Direction {#interests}
+
+Current work focuses on **neuropharmacogenomics** — specifically, how genetic variation in drug metabolism enzymes (CYP2D6, CYP2C19) correlates with brain transcriptomic and epigenomic profiles in psychiatric disorders. This builds on wet-lab molecular biology foundations while developing the computational skills (multi-omics integration, reproducible pipelines, machine learning) needed for independent research in this area.
+
+The PsychPGx-MultiOmics project represents the transition from supporting wet-lab research to designing and executing full computational biology analyses end-to-end.
+
+[View Current Project →](projects/index.qmd){.btn .btn-primary}

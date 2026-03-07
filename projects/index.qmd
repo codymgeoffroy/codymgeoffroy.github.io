@@ -7,7 +7,7 @@ listing:
   - id: phase-cards
     contents: "phases/*.qmd"
     type: grid
-    sort: "date asc"
+    sort: "filename asc"
     fields: [image, title, description]
     grid-columns: 3
 ---

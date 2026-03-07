@@ -15,43 +15,40 @@ listing:
 
 # Building Computational Tools for Biological Discovery
 
-**Currently building:** PsychPGx-MultiOmics — pharmacogenomic 
-stratification of psychiatric brain transcriptomics using SMRI 
-open-access data, MOFA2, XGBoost + SHAP, and VAE benchmarking.
+Multi-omics pipeline developer focused on pharmacogenomics, brain 
+transcriptomics, and reproducible bioinformatics — using open-access 
+data and modern ML/integration methods.
 
+**Current project:** PsychPGx-MultiOmics — pharmacogenomic stratification 
+of psychiatric brain RNA-seq using MOFA2, XGBoost + SHAP, and VAE benchmarking.
 
-**Currently:** Rosalind problems · Analysis pipelines · Full-stack development
-
-[View Projects](projects.qmd){.btn .btn-primary}
+[View Projects](projects/index.qmd){.btn .btn-primary}
 [GitHub](https://github.com/codymgeoffroy){.btn .btn-outline-secondary}
-[LinkedIn](#){.btn .btn-outline-secondary}
+[LinkedIn](https://linkedin.com/in/cody-geoffroy){.btn .btn-outline-secondary}
 :::
 
 ---
 
-## Technical Portfolio
+## Featured Work
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
-### Rosalind Problems
-Computational biology algorithm implementations in Python.
-Working through sequence analysis, molecular biology, and graph algorithms.
-
-[View Solutions →](projects.qmd#rosalind)
-:::
-
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 ### PsychPGx-MultiOmics
-Multi-omics integration of pharmacogenomic stratification 
-across brain transcriptomics — MOFA2, DIABLO, XGBoost + SHAP.
+Pharmacogenomic stratification of psychiatric brain transcriptomics using 
+SMRI open-access data. Integrates CYP2D6/CYP2C19 activity scores with 
+multi-region RNA-seq and scATAC-seq through MOFA2, DIABLO, and supervised ML.
 
-[View Project →](projects.qmd#analysis)
+**Tech:** PharmCAT · DESeq2 · MOFA2 · XGBoost · PyTorch · Docker
+
+[View All Phases →](projects/index.qmd)
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### Research
-Undergraduate research in molecular biology, neuroscience, and bioinformatics including presentations and coursework projects.
+::: {.g-col-12 .g-col-md-6}
+### Research Background
+Undergraduate research in molecular neuroscience and bioinformatics — 
+including synaptic proteomics, neuronal culture modeling, and computational 
+coursework projects in genomics and systems biology.
 
 [Learn More →](research.qmd)
 :::
@@ -60,10 +57,10 @@ Undergraduate research in molecular biology, neuroscience, and bioinformatics in
 
 ---
 
-## Learning Blog
+## Recent Posts
 
-Documenting progress through bioinformatics problems, analysis techniques,
-and computational tools while building toward a career in computational biology.
+Insights from multi-omics analysis, pipeline development, and computational 
+biology problem-solving.
 
 ::: {#blog-listing}
 :::
