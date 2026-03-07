@@ -1,143 +1,143 @@
 [
   {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
+    "objectID": "projects/phases/phase4-integration.html",
+    "href": "projects/phases/phase4-integration.html",
+    "title": "Phase 4: Multi-Omics Integration",
+    "section": "",
+    "text": "Integrated RNA-seq expression, ATAC-seq accessibility, and pharmacogenomic scores using MOFA2 (unsupervised) and DIABLO (supervised) to identify coordinated multi-omic signatures of metabolizer status."
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#overview",
+    "href": "projects/phases/phase4-integration.html#overview",
+    "title": "Phase 4: Multi-Omics Integration",
+    "section": "",
+    "text": "Integrated RNA-seq expression, ATAC-seq accessibility, and pharmacogenomic scores using MOFA2 (unsupervised) and DIABLO (supervised) to identify coordinated multi-omic signatures of metabolizer status."
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#key-components",
+    "href": "projects/phases/phase4-integration.html#key-components",
+    "title": "Phase 4: Multi-Omics Integration",
+    "section": "Key Components",
+    "text": "Key Components\n\nMOFA2: Unsupervised factor discovery across RNA + ATAC modalities\nDIABLO: Supervised integration using CYP activity scores as outcome labels\nInput: DESeq2-normalized expression matrix, ATAC peak accessibility matrix, CYP2D6/CYP2C19 continuous scores\nGoal: Identify latent factors that capture variance explained by pharmacogenomic stratification"
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#methods",
+    "href": "projects/phases/phase4-integration.html#methods",
+    "title": "Phase 4: Multi-Omics Integration",
+    "section": "Methods",
+    "text": "Methods\nMOFA2 trained on combined RNA + ATAC matrices with 10 latent factors. Assessed factor-PGx correlation via Spearman’s ρ. DIABLO trained with multi-block PLS-DA using continuous CYP scores as Y. Extracted loading weights to identify top contributing genes and peaks per component. Cross-validation via 5-fold CV to assess generalization."
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#deliverables",
+    "href": "projects/phases/phase4-integration.html#deliverables",
+    "title": "Phase 4: Multi-Omics Integration",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nMOFA2/DIABLO scripts\nFactor loading tables (CSV): genes and peaks with top weights\nFactor-PGx correlation heatmaps (PNG)\nComponent plots showing sample separation by metabolizer score\nVariance explained per modality (bar plots)"
+  },
+  {
+    "objectID": "projects/phases/phase4-integration.html#results",
+    "href": "projects/phases/phase4-integration.html#results",
+    "title": "Phase 4: Multi-Omics Integration",
+    "section": "Results",
+    "text": "Results\n(Add figures when complete)\n\nMOFA2 factor-PGx correlation matrix (heatmap)\nScatterplot of MOFA2 Factor 1 vs. CYP2D6 score\nDIABLO component 1 vs. component 2 scatterplot colored by CYP tertiles\nTop 20 genes/peaks per significant factor (bar plots of loadings)"
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html",
+    "href": "projects/phases/phase1-pgx-genotyping.html",
+    "title": "Phase 1: Pharmacogenomic Genotyping",
+    "section": "",
+    "text": "Extracted pharmacogenomic variants from SMRI Stanley Array Collection SNP data and computed continuous CYP2D6/CYP2C19 activity scores using PharmCAT and established pharmacogenetic translation tables."
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#overview",
+    "href": "projects/phases/phase1-pgx-genotyping.html#overview",
+    "title": "Phase 1: Pharmacogenomic Genotyping",
+    "section": "",
+    "text": "Extracted pharmacogenomic variants from SMRI Stanley Array Collection SNP data and computed continuous CYP2D6/CYP2C19 activity scores using PharmCAT and established pharmacogenetic translation tables."
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#key-components",
+    "href": "projects/phases/phase1-pgx-genotyping.html#key-components",
+    "title": "Phase 1: Pharmacogenomic Genotyping",
+    "section": "Key Components",
+    "text": "Key Components\n\nInput data: SMRI Stanley Array Collection (n=105 postmortem brains, ~900K SNPs)\nVariant extraction: Isolated CYP2D6 (22q13.2), CYP2C19 (10q23.33) loci from SNP arrays\nStar allele calling: PharmCAT haplotype inference from genotype data\nActivity scoring: Continuous metabolizer scores (0.0-3.0 scale) instead of categorical bins"
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#methods",
+    "href": "projects/phases/phase1-pgx-genotyping.html#methods",
+    "title": "Phase 1: Pharmacogenomic Genotyping",
+    "section": "Methods",
+    "text": "Methods\nUsed PharmCAT v2.x pipeline for automated star allele calling from VCF-formatted SNP array data. Activity scores computed as sum of allele function values (e.g., 1/1 = 2.0, 1/4 = 1.0, 4/4 = 0.0 for loss-of-function alleles). Continuous scoring preserves statistical power vs. traditional categorical metabolizer bins (PM/IM/EM/UM)."
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#deliverables",
+    "href": "projects/phases/phase1-pgx-genotyping.html#deliverables",
+    "title": "Phase 1: Pharmacogenomic Genotyping",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nPharmCAT pipeline script\nActivity score table (CSV): pgx_activity_scores.csv\nStar allele distribution plots (PNG)\nQuality control report: genotype call rates, allele frequency validation"
+  },
+  {
+    "objectID": "projects/phases/phase1-pgx-genotyping.html#results",
+    "href": "projects/phases/phase1-pgx-genotyping.html#results",
+    "title": "Phase 1: Pharmacogenomic Genotyping",
+    "section": "Results",
+    "text": "Results\n(Add figures when complete)\n\nDistribution histogram of CYP2D6/CYP2C19 continuous scores\nCorrelation plot between the two enzymes\nComparison to published allele frequencies (validation check)"
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html",
+    "href": "projects/phases/phase0-environment.html",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#overview",
+    "href": "projects/phases/phase0-environment.html#overview",
+    "title": "Phase 0: Environment & Setup",
+    "section": "",
+    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#key-components",
+    "href": "projects/phases/phase0-environment.html#key-components",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Key Components",
+    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#deliverables",
+    "href": "projects/phases/phase0-environment.html#deliverables",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#methods",
+    "href": "projects/phases/phase0-environment.html#methods",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Methods",
+    "text": "Methods\n[Brief technical description of setup decisions]"
+  },
+  {
+    "objectID": "projects/phases/phase0-environment.html#results",
+    "href": "projects/phases/phase0-environment.html#results",
+    "title": "Phase 0: Environment & Setup",
+    "section": "Results",
+    "text": "Results\n[Screenshot of successful environment build, test output]"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nCode: bioinformatics-2026\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: GitHub\n\n\n\n\n\n\n\n\n\n\nCYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.\n\n\n\n\n\n\n\n\n\n\n\n\nUnsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nXGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/projects.html#psychpgx-multiomics",
-    "href": "projects/projects.html#psychpgx-multiomics",
+    "objectID": "projects/index.html#psychpgx-multiomics",
+    "href": "projects/index.html#psychpgx-multiomics",
     "title": "Projects",
     "section": "",
-    "text": "Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nCode: bioinformatics-2026\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/phases/phase2-rnaseq.html",
-    "href": "projects/phases/phase2-rnaseq.html",
-    "title": "Phase 0: Environment & Setup",
-    "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
-  },
-  {
-    "objectID": "projects/phases/phase2-rnaseq.html#overview",
-    "href": "projects/phases/phase2-rnaseq.html#overview",
-    "title": "Phase 0: Environment & Setup",
-    "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
-  },
-  {
-    "objectID": "projects/phases/phase2-rnaseq.html#key-components",
-    "href": "projects/phases/phase2-rnaseq.html#key-components",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Key Components",
-    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
-  },
-  {
-    "objectID": "projects/phases/phase2-rnaseq.html#deliverables",
-    "href": "projects/phases/phase2-rnaseq.html#deliverables",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
-  },
-  {
-    "objectID": "projects/phases/phase2-rnaseq.html#methods",
-    "href": "projects/phases/phase2-rnaseq.html#methods",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Methods",
-    "text": "Methods\n[Brief technical description of setup decisions]"
-  },
-  {
-    "objectID": "projects/phases/phase2-rnaseq.html#results",
-    "href": "projects/phases/phase2-rnaseq.html#results",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Results",
-    "text": "Results\n[Screenshot of successful environment build, test output]"
-  },
-  {
-    "objectID": "projects/phases/phase3-atacseq.html",
-    "href": "projects/phases/phase3-atacseq.html",
-    "title": "Phase 0: Environment & Setup",
-    "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
-  },
-  {
-    "objectID": "projects/phases/phase3-atacseq.html#overview",
-    "href": "projects/phases/phase3-atacseq.html#overview",
-    "title": "Phase 0: Environment & Setup",
-    "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
-  },
-  {
-    "objectID": "projects/phases/phase3-atacseq.html#key-components",
-    "href": "projects/phases/phase3-atacseq.html#key-components",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Key Components",
-    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
-  },
-  {
-    "objectID": "projects/phases/phase3-atacseq.html#deliverables",
-    "href": "projects/phases/phase3-atacseq.html#deliverables",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
-  },
-  {
-    "objectID": "projects/phases/phase3-atacseq.html#methods",
-    "href": "projects/phases/phase3-atacseq.html#methods",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Methods",
-    "text": "Methods\n[Brief technical description of setup decisions]"
-  },
-  {
-    "objectID": "projects/phases/phase3-atacseq.html#results",
-    "href": "projects/phases/phase3-atacseq.html#results",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Results",
-    "text": "Results\n[Screenshot of successful environment build, test output]"
-  },
-  {
-    "objectID": "projects/phases/phase5-reporting.html",
-    "href": "projects/phases/phase5-reporting.html",
-    "title": "Phase 0: Environment & Setup",
-    "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
-  },
-  {
-    "objectID": "projects/phases/phase5-reporting.html#overview",
-    "href": "projects/phases/phase5-reporting.html#overview",
-    "title": "Phase 0: Environment & Setup",
-    "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
-  },
-  {
-    "objectID": "projects/phases/phase5-reporting.html#key-components",
-    "href": "projects/phases/phase5-reporting.html#key-components",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Key Components",
-    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
-  },
-  {
-    "objectID": "projects/phases/phase5-reporting.html#deliverables",
-    "href": "projects/phases/phase5-reporting.html#deliverables",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
-  },
-  {
-    "objectID": "projects/phases/phase5-reporting.html#methods",
-    "href": "projects/phases/phase5-reporting.html#methods",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Methods",
-    "text": "Methods\n[Brief technical description of setup decisions]"
-  },
-  {
-    "objectID": "projects/phases/phase5-reporting.html#results",
-    "href": "projects/phases/phase5-reporting.html#results",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Results",
-    "text": "Results\n[Screenshot of successful environment build, test output]"
+    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.\nDemonstrates: End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: GitHub\n\n\n\n\n\n\n\n\n\n\nCYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.\n\n\n\n\n\n\n\n\n\n\n\n\nUnsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nXGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
@@ -245,129 +245,129 @@
     "text": "Research Interests\nMy primary interests are in neuropharmacogenomics pertaining to the expression of neurodegenerative diseases and mental health disorders. In particular, sequence analysis, variant interpretation, and building reproducible pipelines for high-throughput biological data is a major focus of mine. I’m drawn to work at the intersection of algorithmic problem-solving and biological discovery, and I’m actively developing the computational foundation to contribute to that kind of research.\nView Projects → Contact Me"
   },
   {
-    "objectID": "projects/phases/phase0-environment.html",
-    "href": "projects/phases/phase0-environment.html",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase5-reporting.html",
+    "href": "projects/phases/phase5-reporting.html",
+    "title": "Phase 5: Predictive Modeling & Interpretation",
     "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+    "text": "Built supervised gradient boosting models (XGBoost) to predict continuous CYP activity scores from RNA-seq and ATAC-seq features, using SHAP for biological interpretation. Benchmarked against a PyTorch VAE and deployed an LLM agent for automated result interpretation."
   },
   {
-    "objectID": "projects/phases/phase0-environment.html#overview",
-    "href": "projects/phases/phase0-environment.html#overview",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase5-reporting.html#overview",
+    "href": "projects/phases/phase5-reporting.html#overview",
+    "title": "Phase 5: Predictive Modeling & Interpretation",
     "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+    "text": "Built supervised gradient boosting models (XGBoost) to predict continuous CYP activity scores from RNA-seq and ATAC-seq features, using SHAP for biological interpretation. Benchmarked against a PyTorch VAE and deployed an LLM agent for automated result interpretation."
   },
   {
-    "objectID": "projects/phases/phase0-environment.html#key-components",
-    "href": "projects/phases/phase0-environment.html#key-components",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase5-reporting.html#key-components",
+    "href": "projects/phases/phase5-reporting.html#key-components",
+    "title": "Phase 5: Predictive Modeling & Interpretation",
     "section": "Key Components",
-    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+    "text": "Key Components\n\nXGBoost model: Predict CYP2D6/CYP2C19 scores from top 500 genes + 500 peaks\nSHAP analysis: Feature importance and interaction plots to identify key predictors\nVAE benchmark: Compare unsupervised deep learning vs. classical integration methods\nLLM agent: Automated interpretation pipeline with PubMed validation to prevent hallucination"
   },
   {
-    "objectID": "projects/phases/phase0-environment.html#deliverables",
-    "href": "projects/phases/phase0-environment.html#deliverables",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
-  },
-  {
-    "objectID": "projects/phases/phase0-environment.html#methods",
-    "href": "projects/phases/phase0-environment.html#methods",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase5-reporting.html#methods",
+    "href": "projects/phases/phase5-reporting.html#methods",
+    "title": "Phase 5: Predictive Modeling & Interpretation",
     "section": "Methods",
-    "text": "Methods\n[Brief technical description of setup decisions]"
+    "text": "Methods\nXGBoost trained with 5-fold CV, hyperparameters tuned via Optuna. SHAP TreeExplainer used to compute feature importance (global) and dependence plots (local). VAE (2-layer encoder/decoder) trained on same multi-omic matrix; latent space correlation with CYP scores assessed. LLM agent (OpenAI GPT-4) queries PubMed for top SHAP features, validates biological plausibility, flags low-confidence claims."
   },
   {
-    "objectID": "projects/phases/phase0-environment.html#results",
-    "href": "projects/phases/phase0-environment.html#results",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase5-reporting.html#deliverables",
+    "href": "projects/phases/phase5-reporting.html#deliverables",
+    "title": "Phase 5: Predictive Modeling & Interpretation",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nXGBoost + SHAP scripts\nVAE implementation (PyTorch)\nLLM agent pipeline\nModel performance tables (CSV): R², MAE per fold\nSHAP summary plots (PNG): top 20 features globally\nSHAP dependence plots (PNG): gene expression vs. SHAP value for top features\nVAE latent space scatter plots vs. CYP scores\nLLM interpretation report (Markdown) with PubMed citations"
+  },
+  {
+    "objectID": "projects/phases/phase5-reporting.html#results",
+    "href": "projects/phases/phase5-reporting.html#results",
+    "title": "Phase 5: Predictive Modeling & Interpretation",
     "section": "Results",
-    "text": "Results\n[Screenshot of successful environment build, test output]"
+    "text": "Results\n(Add figures when complete)\n\nXGBoost performance: predicted vs. actual CYP scores (scatterplot with R²)\nSHAP summary plot (beeswarm) showing top predictive features\nSHAP dependence plot for top gene (e.g., gene X expression vs. SHAP value)\nVAE latent dimension correlation with CYP scores (heatmap)\nLLM-generated interpretation excerpt with PubMed validation flags"
   },
   {
-    "objectID": "projects/phases/phase1-pgx-genotyping.html",
-    "href": "projects/phases/phase1-pgx-genotyping.html",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase3-atacseq.html",
+    "href": "projects/phases/phase3-atacseq.html",
+    "title": "Phase 3: Chromatin Accessibility",
     "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+    "text": "Analyzed single-nucleus ATAC-seq data from postmortem orbitofrontal cortex to identify open chromatin regions that correlate with CYP-associated gene expression patterns identified in Phase 2."
   },
   {
-    "objectID": "projects/phases/phase1-pgx-genotyping.html#overview",
-    "href": "projects/phases/phase1-pgx-genotyping.html#overview",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase3-atacseq.html#overview",
+    "href": "projects/phases/phase3-atacseq.html#overview",
+    "title": "Phase 3: Chromatin Accessibility",
     "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+    "text": "Analyzed single-nucleus ATAC-seq data from postmortem orbitofrontal cortex to identify open chromatin regions that correlate with CYP-associated gene expression patterns identified in Phase 2."
   },
   {
-    "objectID": "projects/phases/phase1-pgx-genotyping.html#key-components",
-    "href": "projects/phases/phase1-pgx-genotyping.html#key-components",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase3-atacseq.html#key-components",
+    "href": "projects/phases/phase3-atacseq.html#key-components",
+    "title": "Phase 3: Chromatin Accessibility",
     "section": "Key Components",
-    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+    "text": "Key Components\n\nInput data: GEO GSE256207 (snATAC-seq, postmortem OFC, n=92 samples)\nPreprocessing: ArchR or Signac pipeline (fragment deduplication, TSS enrichment QC, peak calling)\nPeak-to-gene linkage: Cicero or ArchR P2G correlations\nIntegration strategy: Cross-cohort analysis linking ATAC peaks to Phase 2 DEGs via promoter/enhancer annotations"
   },
   {
-    "objectID": "projects/phases/phase1-pgx-genotyping.html#deliverables",
-    "href": "projects/phases/phase1-pgx-genotyping.html#deliverables",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
-  },
-  {
-    "objectID": "projects/phases/phase1-pgx-genotyping.html#methods",
-    "href": "projects/phases/phase1-pgx-genotyping.html#methods",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase3-atacseq.html#methods",
+    "href": "projects/phases/phase3-atacseq.html#methods",
+    "title": "Phase 3: Chromatin Accessibility",
     "section": "Methods",
-    "text": "Methods\n[Brief technical description of setup decisions]"
+    "text": "Methods\nStandard snATAC-seq preprocessing with MACS2 peak calling. Used chromVAR for TF motif enrichment in differentially accessible regions. Since ATAC and RNA-seq are from separate cohorts, integration performed at the gene/region level rather than sample-level (standard cross-cohort approach). Focused on promoter regions (±2kb TSS) and distal regulatory elements linked to DEGs."
   },
   {
-    "objectID": "projects/phases/phase1-pgx-genotyping.html#results",
-    "href": "projects/phases/phase1-pgx-genotyping.html#results",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase3-atacseq.html#deliverables",
+    "href": "projects/phases/phase3-atacseq.html#deliverables",
+    "title": "Phase 3: Chromatin Accessibility",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nATAC-seq analysis scripts\nDifferentially accessible peaks (BED files)\nTF motif enrichment tables (CSV)\nPeak-to-gene linkage tables (CSV)\nUMAP visualizations colored by cell type and accessibility patterns"
+  },
+  {
+    "objectID": "projects/phases/phase3-atacseq.html#results",
+    "href": "projects/phases/phase3-atacseq.html#results",
+    "title": "Phase 3: Chromatin Accessibility",
     "section": "Results",
-    "text": "Results\n[Screenshot of successful environment build, test output]"
+    "text": "Results\n(Add figures when complete)\n\nUMAP of snATAC-seq cells colored by cell type (excitatory, inhibitory, glia)\nHeatmap of differentially accessible peaks near CYP-associated DEGs\nTF motif enrichment bar plots (top 10 motifs)\nGenome browser tracks showing example loci (e.g., key DEGs with nearby ATAC peaks)"
   },
   {
-    "objectID": "projects/phases/phase4-integration.html",
-    "href": "projects/phases/phase4-integration.html",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase2-rnaseq.html",
+    "href": "projects/phases/phase2-rnaseq.html",
+    "title": "Phase 2: RNA-seq Analysis",
     "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+    "text": "Performed differential gene expression analysis on SMRI Stanley RNA-seq data (7 brain regions) stratified by pharmacogenomic activity scores, identifying metabolizer-associated transcriptomic signatures."
   },
   {
-    "objectID": "projects/phases/phase4-integration.html#overview",
-    "href": "projects/phases/phase4-integration.html#overview",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase2-rnaseq.html#overview",
+    "href": "projects/phases/phase2-rnaseq.html#overview",
+    "title": "Phase 2: RNA-seq Analysis",
     "section": "",
-    "text": "Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis."
+    "text": "Performed differential gene expression analysis on SMRI Stanley RNA-seq data (7 brain regions) stratified by pharmacogenomic activity scores, identifying metabolizer-associated transcriptomic signatures."
   },
   {
-    "objectID": "projects/phases/phase4-integration.html#key-components",
-    "href": "projects/phases/phase4-integration.html#key-components",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase2-rnaseq.html#key-components",
+    "href": "projects/phases/phase2-rnaseq.html#key-components",
+    "title": "Phase 2: RNA-seq Analysis",
     "section": "Key Components",
-    "text": "Key Components\n\nDocker image: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac\nPython environment: xgboost, shap, torch, scanpy\nData pipeline: Download scripts for SMRI and GEO data\nVersion control: All configurations tracked in bioinformatics-2026 repo"
+    "text": "Key Components\n\nInput data: SMRI Stanley RNA-seq (ACC, DLPFC, NAc, Amy, Hipp, subCC, mOFC; n=60-105 per region)\nPreprocessing: Read alignment (STAR), quantification (featureCounts), normalization (DESeq2 size factors)\nStratification: Correlation-based analysis using continuous CYP2D6/CYP2C19 scores as covariates\nDifferential expression: DESeq2 LRT and Wald tests controlling for diagnosis, age, sex, PMI, pH"
   },
   {
-    "objectID": "projects/phases/phase4-integration.html#deliverables",
-    "href": "projects/phases/phase4-integration.html#deliverables",
-    "title": "Phase 0: Environment & Setup",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nDockerfile\nEnvironment YAML\nReproducibility: docker build -t psychpgx ."
-  },
-  {
-    "objectID": "projects/phases/phase4-integration.html#methods",
-    "href": "projects/phases/phase4-integration.html#methods",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase2-rnaseq.html#methods",
+    "href": "projects/phases/phase2-rnaseq.html#methods",
+    "title": "Phase 2: RNA-seq Analysis",
     "section": "Methods",
-    "text": "Methods\n[Brief technical description of setup decisions]"
+    "text": "Methods\nDESeq2 design: ~ diagnosis + age + sex + PMI + pH + CYP2D6_score + CYP2C19_score. Used likelihood ratio test to identify genes where pharmacogenomic covariates improve model fit. FDR-corrected p &lt; 0.05 threshold. Pathway enrichment via clusterProfiler (GO, KEGG, Reactome)."
   },
   {
-    "objectID": "projects/phases/phase4-integration.html#results",
-    "href": "projects/phases/phase4-integration.html#results",
-    "title": "Phase 0: Environment & Setup",
+    "objectID": "projects/phases/phase2-rnaseq.html#deliverables",
+    "href": "projects/phases/phase2-rnaseq.html#deliverables",
+    "title": "Phase 2: RNA-seq Analysis",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nDESeq2 analysis scripts\nDEG tables per region (CSV): DEGs_[region]_CYP2D6.csv, DEGs_[region]_CYP2C19.csv\nVolcano plots and heatmaps (PNG)\nPathway enrichment tables (CSV)\nRegion-specific and shared DEG Venn diagrams"
+  },
+  {
+    "objectID": "projects/phases/phase2-rnaseq.html#results",
+    "href": "projects/phases/phase2-rnaseq.html#results",
+    "title": "Phase 2: RNA-seq Analysis",
     "section": "Results",
-    "text": "Results\n[Screenshot of successful environment build, test output]"
+    "text": "Results\n(Add figures when complete)\n\nVolcano plots showing DEGs for each region × enzyme combination\nHeatmap of top 50 DEGs clustered by metabolizer score\nPathway enrichment bar plots (top 10 terms per comparison)\nCross-region overlap analysis (Venn diagrams)"
   }
 ]

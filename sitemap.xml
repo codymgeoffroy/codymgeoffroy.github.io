@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://codymgeoffroy.github.io/projects/projects.html</loc>
-    <lastmod>2026-03-06T23:42:13.927Z</lastmod>
+    <loc>https://codymgeoffroy.github.io/projects/phases/phase4-integration.html</loc>
+    <lastmod>2026-03-07T00:02:06.463Z</lastmod>
   </url>
   <url>
-    <loc>https://codymgeoffroy.github.io/projects/phases/phase2-rnaseq.html</loc>
+    <loc>https://codymgeoffroy.github.io/projects/phases/phase1-pgx-genotyping.html</loc>
+    <lastmod>2026-03-07T00:02:52.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codymgeoffroy.github.io/projects/phases/phase0-environment.html</loc>
     <lastmod>2026-03-06T23:27:15.582Z</lastmod>
   </url>
   <url>
-    <loc>https://codymgeoffroy.github.io/projects/phases/phase3-atacseq.html</loc>
-    <lastmod>2026-03-06T23:27:15.582Z</lastmod>
-  </url>
-  <url>
-    <loc>https://codymgeoffroy.github.io/projects/phases/phase5-reporting.html</loc>
-    <lastmod>2026-03-06T23:27:15.582Z</lastmod>
+    <loc>https://codymgeoffroy.github.io/projects/index.html</loc>
+    <lastmod>2026-03-06T23:54:26.611Z</lastmod>
   </url>
   <url>
     <loc>https://codymgeoffroy.github.io/blog/posts/2026-02-14-getting-started/index.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://codymgeoffroy.github.io/about.html</loc>
-    <lastmod>2026-02-27T03:04:25.097Z</lastmod>
+    <lastmod>2026-03-06T23:50:55.558Z</lastmod>
   </url>
   <url>
     <loc>https://codymgeoffroy.github.io/index.html</loc>
@@ -37,15 +37,15 @@
     <lastmod>2026-02-27T02:10:01.236Z</lastmod>
   </url>
   <url>
-    <loc>https://codymgeoffroy.github.io/projects/phases/phase0-environment.html</loc>
-    <lastmod>2026-03-06T23:27:15.582Z</lastmod>
+    <loc>https://codymgeoffroy.github.io/projects/phases/phase5-reporting.html</loc>
+    <lastmod>2026-03-07T00:02:06.463Z</lastmod>
   </url>
   <url>
-    <loc>https://codymgeoffroy.github.io/projects/phases/phase1-pgx-genotyping.html</loc>
-    <lastmod>2026-03-06T23:27:15.582Z</lastmod>
+    <loc>https://codymgeoffroy.github.io/projects/phases/phase3-atacseq.html</loc>
+    <lastmod>2026-03-07T00:02:06.463Z</lastmod>
   </url>
   <url>
-    <loc>https://codymgeoffroy.github.io/projects/phases/phase4-integration.html</loc>
-    <lastmod>2026-03-06T23:27:15.582Z</lastmod>
+    <loc>https://codymgeoffroy.github.io/projects/phases/phase2-rnaseq.html</loc>
+    <lastmod>2026-03-07T00:02:06.463Z</lastmod>
   </url>
 </urlset>

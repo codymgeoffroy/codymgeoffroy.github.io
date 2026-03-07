@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -156,12 +156,12 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html"> 
@@ -216,14 +216,105 @@ window.Quarto = {
 
 <section id="psychpgx-multiomics" class="level2">
 <h2 data-anchor-id="psychpgx-multiomics">PsychPGx-MultiOmics</h2>
-<p>Pharmacogenomic stratification of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq (SMRI Stanley Collections) and postmortem scATAC-seq (GEO GSE256207) through MOFA2, DIABLO, XGBoost + SHAP, and a VAE benchmark.</p>
+<p>Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.</p>
 <p><strong>Demonstrates:</strong> End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.</p>
 <p><strong>Methods:</strong> PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker<br>
-<strong>Code:</strong> <a href="https://github.com/codymgeoffroy/bioinformatics-2026">bioinformatics-2026</a></p>
+<strong>Full Code:</strong> <a href="https://github.com/codymgeoffroy/bioinformatics-2026">GitHub</a></p>
 <hr>
 <div id="listing-phase-cards" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-
+<div class="g-col-1" data-index="0" data-listing-date-sort="1776225600000" data-listing-file-modified-sort="1772841772304" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
+<a href="../projects/phases/phase1-pgx-genotyping.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Phase 1: Pharmacogenomic Genotyping
+</h5>
+<div class="card-text listing-description">
+CYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1777608000000" data-listing-file-modified-sort="1772841726463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<a href="../projects/phases/phase2-rnaseq.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Phase 0: Environment &amp; Setup
+</h5>
+<div class="card-text listing-description">
+Multi-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1779249600000" data-listing-file-modified-sort="1772841726463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
+<a href="../projects/phases/phase3-atacseq.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Phase 0: Environment &amp; Setup
+</h5>
+<div class="card-text listing-description">
+Single-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1781064000000" data-listing-file-modified-sort="1772841726463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+<a href="../projects/phases/phase4-integration.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Phase 0: Environment &amp; Setup
+</h5>
+<div class="card-text listing-description">
+Unsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1782878400000" data-listing-file-modified-sort="1772841726463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
+<a href="../projects/phases/phase5-reporting.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Phase 0: Environment &amp; Setup
+</h5>
+<div class="card-text listing-description">
+XGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1772839635582" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<a href="../projects/phases/phase0-environment.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/phases/docker-diagram.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Phase 0: Environment &amp; Setup
+</h5>
+<div class="card-text listing-description">
+Docker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -318,7 +409,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
