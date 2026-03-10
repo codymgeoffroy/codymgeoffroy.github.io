@@ -1,0 +1,27 @@
+---
+title: "Projects"
+subtitle: "Computational biology · Multi-omics analysis · Pipeline development"
+page-layout: article
+toc: false
+listing:
+  - id: phase-cards
+    contents: "phases/*.qmd"
+    type: grid
+    sort: "filename asc"
+    fields: [image, title, description]
+    grid-columns: 3
+---
+
+## PsychPGx-MultiOmics
+
+Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates SNP-derived CYP2D6/CYP2C19 activity scores with multi-region RNA-seq and postmortem scATAC-seq data.
+
+**Demonstrates:** End-to-end multi-omics pipeline execution using only open-access resources — from raw data to interpretable biological insights.
+
+**Methods:** PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker  
+**Full Code:** [GitHub](https://github.com/codymgeoffroy/bioinformatics-2026)
+
+---
+
+::: {#phase-cards}
+:::
