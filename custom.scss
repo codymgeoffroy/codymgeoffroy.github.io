@@ -238,3 +238,8 @@ hr {
   margin-bottom: 1rem;
 }
 
+// Prevent listing card images from being cropped
+.quarto-grid-item .card-img-top {
+  object-fit: contain !important;
+  background-color: #1b1b1b;
+}

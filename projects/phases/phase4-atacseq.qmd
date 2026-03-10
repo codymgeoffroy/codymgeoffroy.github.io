@@ -2,6 +2,7 @@
 title: "Phase 4: Chromatin Accessibility"
 description: "Single-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions."
 date: 2026-05-20
+image: "/images/Phase 4.png"
 ---
 
 ## Overview
