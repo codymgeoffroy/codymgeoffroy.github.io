@@ -1,8 +1,6 @@
 ---
 title: "Synthesis & Reporting"
-description: "Evidence integration across all phases, publication-quality figures,
-  honest limitations documentation, and portfolio finalization."
-date: 2026-08-01
+description: "Evidence integration across all phases, publication-quality figures, honest limitations documentation, and portfolio finalization."
 image: "/images/Phase 6.png" 
 ---
 
@@ -12,8 +10,6 @@ Ties all previous phases into a coherent narrative. Core question: does CYP2C19
 metabolizer status correlate with detectable transcriptomic signatures in
 postmortem psychiatric brain, and is there convergent evidence from chromatin
 accessibility?
-
-**Timeline:** Weeks 14–17
 
 ## Evidence Integration
 

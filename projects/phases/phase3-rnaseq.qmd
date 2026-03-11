@@ -2,7 +2,6 @@
 title: "Brain Transcriptomics"
 description: "Multi-region brain RNA-seq differential expression using DESeq2
   with CYP2C19 as the primary continuous covariate across up to 7 brain regions."
-date: 2026-05-01
 image: "/images/Phase 3.png"
 ---
 
@@ -11,8 +10,6 @@ image: "/images/Phase 3.png"
 Differential gene expression analysis on SMRI Stanley RNA-seq data (up to 7
 brain regions) using CYP2C19 activity score as the primary continuous covariate
 in DESeq2. CYP2D6 run as a separate exploratory model.
-
-**Timeline:** Weeks 5–8
 
 ## Methods
 

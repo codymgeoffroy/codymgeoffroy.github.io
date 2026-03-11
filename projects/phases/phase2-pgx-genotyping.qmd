@@ -3,7 +3,6 @@ title: "PGx Genotyping"
 description: "CYP2C19-primary / CYP2D6-exploratory star allele calling from
   SMRI SNP arrays using PharmCAT, generating continuous activity scores for
   105 brains."
-date: 2026-04-15
 image: "/images/Phase 2.png"
 ---
 
@@ -13,8 +12,6 @@ CYP2C19 and CYP2D6 star allele calling from SMRI Affymetrix SNP 5.0 data using
 PharmCAT. Implements a **CYP2C19-primary / CYP2D6-secondary** strategy — CYP2C19
 is reliably called from SNP arrays, while CYP2D6 is exploratory due to
 structural variation (deletions, duplications, CYP2D7 hybrids) invisible to arrays.
-
-**Timeline:** Weeks 3–5
 
 ## Methods
 

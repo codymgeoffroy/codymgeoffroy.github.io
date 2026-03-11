@@ -2,7 +2,6 @@
 title: "Chromatin Accessibility"
 description: "Single-nucleus ATAC-seq from postmortem OFC (GSE256207) analyzing
   pharmacogene-proximal regulatory regions with cell-type resolution."
-date: 2026-05-20
 image: "/images/Phase 4.png"
 
 ---
@@ -16,8 +15,6 @@ genes and pathway-level concordance with Phase 3 DEGs.
 
 **Note:** GSE256207 samples are different individuals from the SMRI cohort —
 only pathway-level concordance is possible, not sample-level integration.
-
-**Timeline:** Weeks 7–10 (parallelizable with Phase 3)
 
 ## Methods
 

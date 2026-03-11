@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-08-01">
 <meta name="description" content="Evidence integration across all phases, publication-quality figures, honest limitations documentation, and portfolio finalization.">
 
 <title>Synthesis &amp; Reporting – Cody Geoffroy</title>
@@ -163,12 +162,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 1, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -181,7 +174,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
 <p>Ties all previous phases into a coherent narrative. Core question: does CYP2C19 metabolizer status correlate with detectable transcriptomic signatures in postmortem psychiatric brain, and is there convergent evidence from chromatin accessibility?</p>
-<p><strong>Timeline:</strong> Weeks 14–17</p>
 </section>
 <section id="evidence-integration" class="level2">
 <h2 data-anchor-id="evidence-integration">Evidence Integration</h2>
@@ -286,7 +278,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

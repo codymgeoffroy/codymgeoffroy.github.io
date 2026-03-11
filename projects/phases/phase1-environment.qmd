@@ -8,8 +8,6 @@ image: "/images/Phase 1.png"
 
 Foundational phase combining data acquisition, probe coverage validation, and reproducible environment setup. Confirms the raw datasets contain the variants, samples, and coverage needed — and that the full pipeline is reproducible from a single `docker build` command.
 
-**Timeline:** Weeks 1–3
-
 ## Methods
 
 *Coming soon.*
