@@ -1,42 +1,32 @@
 ---
-title: "Phase 6: Predictive Modeling & Interpretation"
-description: "XGBoost + SHAP models predicting CYP metabolizer status from multi-omics, with VAE benchmark and LLM-based interpretation pipeline."
-date: 2026-07-01
+title: "Phase 6: Synthesis & Reporting"
+description: "Evidence integration across all phases, publication-quality figures,
+  honest limitations documentation, and portfolio finalization."
+date: 2026-08-01
 image: "/images/Phase 6.png"
 ---
 
 ## Overview
 
-Built supervised gradient boosting models (XGBoost) to predict continuous CYP activity scores from RNA-seq and ATAC-seq features, using SHAP for biological interpretation. Benchmarked against a PyTorch VAE and deployed an LLM agent for automated result interpretation.
+Ties all previous phases into a coherent narrative. Core question: does CYP2C19
+metabolizer status correlate with detectable transcriptomic signatures in
+postmortem psychiatric brain, and is there convergent evidence from chromatin
+accessibility?
 
-## Key Components
+**Timeline:** Weeks 14–17
 
-- **XGBoost model**: Predict CYP2D6/CYP2C19 scores from top 500 genes + 500 peaks
-- **SHAP analysis**: Feature importance and interaction plots to identify key predictors
-- **VAE benchmark**: Compare unsupervised deep learning vs. classical integration methods
-- **LLM agent**: Automated interpretation pipeline with PubMed validation to prevent hallucination
+## Evidence Integration
 
-## Methods
+*Coming soon.*
 
-XGBoost trained with 5-fold CV, hyperparameters tuned via Optuna. SHAP TreeExplainer used to compute feature importance (global) and dependence plots (local). VAE (2-layer encoder/decoder) trained on same multi-omic matrix; latent space correlation with CYP scores assessed. LLM agent (OpenAI GPT-4) queries PubMed for top SHAP features, validates biological plausibility, flags low-confidence claims.
+## Limitations
+
+*Coming soon.*
 
 ## Deliverables
 
-- [XGBoost + SHAP scripts](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/05_integration)
-- [VAE implementation (PyTorch)](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/05_integration/vae)
-- [LLM agent pipeline](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/06_interpretation)
-- Model performance tables (CSV): R², MAE per fold
-- SHAP summary plots (PNG): top 20 features globally
-- SHAP dependence plots (PNG): gene expression vs. SHAP value for top features
-- VAE latent space scatter plots vs. CYP scores
-- LLM interpretation report (Markdown) with PubMed citations
+*Coming soon.*
 
 ## Results
 
-*(Add figures when complete)*
-
-- XGBoost performance: predicted vs. actual CYP scores (scatterplot with R²)
-- SHAP summary plot (beeswarm) showing top predictive features
-- SHAP dependence plot for top gene (e.g., gene X expression vs. SHAP value)
-- VAE latent dimension correlation with CYP scores (heatmap)
-- LLM-generated interpretation excerpt with PubMed validation flags
+*Coming soon.*

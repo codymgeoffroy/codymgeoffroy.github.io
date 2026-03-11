@@ -1,38 +1,31 @@
 ---
-title: "Phase 4: Chromatin Accessibility"
-description: "Single-nucleus ATAC-seq analysis from postmortem OFC (GEO GSE256207) identifying pharmacogenomically-associated regulatory regions."
+title: "Phase 4: Chromatin Accessibility (scATAC-seq)"
+description: "Single-nucleus ATAC-seq from postmortem OFC (GSE256207) analyzing
+  pharmacogene-proximal regulatory regions with cell-type resolution."
 date: 2026-05-20
 image: "/images/Phase 4.png"
 ---
 
 ## Overview
 
-Analyzed single-nucleus ATAC-seq data from postmortem orbitofrontal cortex to identify open chromatin regions that correlate with CYP-associated gene expression patterns identified in Phase 2.
+Single-nucleus ATAC-seq analysis from postmortem orbitofrontal cortex
+(GSE256207, n=92) with companion snRNA-seq (GSE254569) for cell-type label
+transfer. Focused on chromatin accessibility near pharmacogenomically relevant
+genes and pathway-level concordance with Phase 3 DEGs.
 
-## Key Components
+**Note:** GSE256207 samples are different individuals from the SMRI cohort —
+only pathway-level concordance is possible, not sample-level integration.
 
-- **Input data**: GEO GSE256207 (snATAC-seq, postmortem OFC, n=92 samples)
-- **Preprocessing**: ArchR or Signac pipeline (fragment deduplication, TSS enrichment QC, peak calling)
-- **Peak-to-gene linkage**: Cicero or ArchR P2G correlations
-- **Integration strategy**: Cross-cohort analysis linking ATAC peaks to Phase 2 DEGs via promoter/enhancer annotations
+**Timeline:** Weeks 7–10 (parallelizable with Phase 3)
 
 ## Methods
 
-Standard snATAC-seq preprocessing with MACS2 peak calling. Used chromVAR for TF motif enrichment in differentially accessible regions. Since ATAC and RNA-seq are from separate cohorts, integration performed at the gene/region level rather than sample-level (standard cross-cohort approach). Focused on promoter regions (±2kb TSS) and distal regulatory elements linked to DEGs.
+*Coming soon.*
 
 ## Deliverables
 
-- [ATAC-seq analysis scripts](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/04_atacseq)
-- Differentially accessible peaks (BED files)
-- TF motif enrichment tables (CSV)
-- Peak-to-gene linkage tables (CSV)
-- UMAP visualizations colored by cell type and accessibility patterns
+*Coming soon.*
 
 ## Results
 
-*(Add figures when complete)*
-
-- UMAP of snATAC-seq cells colored by cell type (excitatory, inhibitory, glia)
-- Heatmap of differentially accessible peaks near CYP-associated DEGs
-- TF motif enrichment bar plots (top 10 motifs)
-- Genome browser tracks showing example loci (e.g., key DEGs with nearby ATAC peaks)
+*Coming soon.*

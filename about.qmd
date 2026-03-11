@@ -19,67 +19,92 @@ about:
 
 ## Education
 
-**Biotechnology, M.S. (incomplete)**  
-University of Central Florida | 2024-2025
+**Biotechnology, M.S. (incomplete)** <br>
+University of Central Florida | 2024–2025
 
-**Biomedical Sciences, B.S.**  
-*Minor in Genomics & Bioinformatics | Minor in Anthropology*  
-University of Central Florida | 2019-2023
+**Biomedical Sciences, B.S.** <br>
+*Minor in Genomics & Bioinformatics | Minor in Anthropology* <br>
+University of Central Florida | 2019–2023
 
 
 ## My Journey
 
-My interest in bioinformatics emerged from a fascination with how computational approaches can decode biological complexity. With a foundation in biomedical sciences and genomics, I'm now focused on building strong programming and data analysis skills to bridge wet-lab biology and computational research.
+My interest in bioinformatics emerged from a fascination with how computational
+approaches can decode biological complexity. With a foundation in biomedical
+sciences and genomics, I'm now focused on building strong programming and data
+analysis skills to bridge wet-lab biology and computational research.
 
-I'm working through bioinformatics problem sets, building analysis pipelines, and documenting my learning journey through this portfolio. My background includes teaching experience in gymnastics and education, which has strengthened my ability to break down complex concepts and communicate effectively.
+I'm working through bioinformatics problem sets, building analysis pipelines,
+and documenting my learning journey through this portfolio. My background
+includes teaching experience in gymnastics and education, which has strengthened
+my ability to break down complex concepts and communicate effectively.
 
 ## Technical Skills
 
 #### Programming Languages
 - Python (primary focus for bioinformatics)
-- R (statistical analysis and visualization)
+- R (statistical analysis, DESeq2, MOFA2, mixOmics)
 - Bash/Shell scripting
 - SQL for database querying
 
-#### Bioinformatics Tools & Platforms
-- Git/GitHub for version control
-- Linux/WSL development environment
-- Quarto for reproducible research
-- Data analysis libraries (pandas, NumPy, BioPython)
+#### Bioinformatics & Multi-Omics
+- Pharmacogenomic genotyping (PharmCAT, CYP2C19/CYP2D6 activity scoring)
+- Differential expression analysis (DESeq2 with continuous covariates)
+- Single-cell ATAC-seq (ArchR/Signac, chromVAR, MACS2)
+- Multi-omics integration (MOFA2, DIABLO/mixOmics)
+- Pathway enrichment (clusterProfiler: GO, KEGG, Reactome)
 
-#### Computational Biology
-- Sequence analysis algorithms
-- Statistical methods for genomics
-- Data visualization
-- Pipeline development
+#### Machine Learning & Data Science
+- XGBoost with SHAP interpretability
+- PyTorch (VAE benchmarking)
+- Optuna hyperparameter optimization
+- LLM-based interpretation pipelines (RAG with PubMed)
+
+#### DevOps & Reproducibility
+- Docker containerization (Bioconductor + Python multi-stage builds)
+- Snakemake workflow orchestration
+- Git/GitHub version control + GitHub Actions CI
+- Linux/WSL development environment
+- Quarto for reproducible research and portfolio
 
 ## Interests Beyond Science
 :::: {.grid}
 ::: {.g-col-12 .g-col-md-6}
 #### Scuba Diving
-Open-water and nitrox certified. Diving demands methodical preparation, situational awareness, and staying calm under pressure — skills that translate directly to research and problem solving.
+Open-water and nitrox certified. Diving demands methodical preparation,
+situational awareness, and staying calm under pressure — skills that translate
+directly to research and problem solving.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 #### Martial Arts
-Black belt in Taekwondo, with training in Muay Thai and Brazilian Jiu-Jitsu. Martial arts taught me that mastery is a process, not a destination — a philosophy I carry into learning bioinformatics.
+Black belt in Taekwondo, with training in Muay Thai and Brazilian Jiu-Jitsu.
+Martial arts taught me that mastery is a process, not a destination — a
+philosophy I carry into learning bioinformatics.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 #### Yu-Gi-Oh
-Competitive player focused on deck building and strategic play. The game demands pattern recognition, probabilistic thinking, and adapting under pressure.
+Competitive player focused on deck building and strategic play. The game
+demands pattern recognition, probabilistic thinking, and adapting under
+pressure.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 #### Writing
-Currently writing *Useless Man: Embracing the Exiled Self* — a philosophical exploration of identity, purpose, and the freedom found in not fitting the expected mold.
+Currently writing *Useless Man: Embracing the Exiled Self* — a philosophical
+exploration of identity, purpose, and the freedom found in not fitting the
+expected mold.
 :::
 ::::
 
 
 ## What's Next
 
-I'm actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I'm particularly interested in genomics, algorithm development, and data-driven biological discovery.
+I'm actively seeking opportunities in bioinformatics, computational biology, or
+data science where I can apply my growing technical skills and contribute to
+meaningful research. I'm particularly interested in pharmacogenomics, multi-omics
+integration, and data-driven biological discovery.
 
 **Open to:** Full-time positions, internships, collaborations, and freelance projects
 

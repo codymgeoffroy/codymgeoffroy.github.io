@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Docker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.">
+<meta name="description" content="Downloading and validating SMRI, GEO, and reference datasets alongside a fully reproducible Docker + Snakemake computational environment.">
 
-<title>Phase 1: Environment &amp; Setup – Cody Geoffroy</title>
+<title>Phase 1: Data Acquisition &amp; Environment – Cody Geoffroy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-19dad2dfa865db1f20706ec075d05665.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-9d63465a664ba84e648cd93a93ad56e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -137,7 +137,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-components" id="toc-key-components" class="nav-link" data-scroll-target="#key-components">Key Components</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
@@ -149,12 +148,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Phase 1: Environment &amp; Setup</h1>
+<h1 class="title">Phase 1: Data Acquisition &amp; Environment</h1>
 </div>
 
 <div>
   <div class="description">
-    Docker container with Bioconductor, Python, and all dependencies. Reproducible computational environment for the full pipeline.
+    Downloading and validating SMRI, GEO, and reference datasets alongside a fully reproducible Docker + Snakemake computational environment.
   </div>
 </div>
 
@@ -173,32 +172,20 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
-<p>Built a containerized environment using Docker with R 4.4, Python 3.11, and all required packages for multi-omics analysis.</p>
-</section>
-<section id="key-components" class="level2">
-<h2 data-anchor-id="key-components">Key Components</h2>
-<ul>
-<li><strong>Docker image</strong>: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac</li>
-<li><strong>Python environment</strong>: xgboost, shap, torch, scanpy</li>
-<li><strong>Data pipeline</strong>: Download scripts for SMRI and GEO data</li>
-<li><strong>Version control</strong>: All configurations tracked in bioinformatics-2026 repo</li>
-</ul>
+<p>Foundational phase combining data acquisition, probe coverage validation, and reproducible environment setup. Confirms the raw datasets contain the variants, samples, and coverage needed — and that the full pipeline is reproducible from a single <code>docker build</code> command.</p>
+<p><strong>Timeline:</strong> Weeks 1–3</p>
 </section>
 <section id="methods" class="level2">
 <h2 data-anchor-id="methods">Methods</h2>
-<p>[Brief technical description of setup decisions]</p>
+<p><em>Coming soon.</em></p>
 </section>
 <section id="deliverables" class="level2">
 <h2 data-anchor-id="deliverables">Deliverables</h2>
-<ul>
-<li>Dockerfile:</li>
-<li>Environment YAML:</li>
-<li>Reproducibility:</li>
-</ul>
+<p><em>Coming soon.</em></p>
 </section>
 <section id="results" class="level2">
 <h2 data-anchor-id="results">Results</h2>
-<p>[Screenshot of successful environment build, test output]</p>
+<p><em>Coming soon.</em></p>
 
 
 </section>

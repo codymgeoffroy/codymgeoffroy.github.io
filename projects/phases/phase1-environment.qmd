@@ -1,33 +1,27 @@
 ---
-title: "Phase 1: Environment & Setup"
-description: "Docker container with Bioconductor, Python, and all dependencies. 
-  Reproducible computational environment for the full pipeline."
+title: "Phase 1: Data Acquisition & Environment"
+description: "Downloading and validating SMRI, GEO, and reference datasets
+  alongside a fully reproducible Docker + Snakemake computational environment."
 image: "/images/Phase 1.png"
 ---
 
 ## Overview
 
-Built a containerized environment using Docker with R 4.4, Python 3.11, and 
-all required packages for multi-omics analysis.
+Foundational phase combining data acquisition, probe coverage validation, and
+reproducible environment setup. Confirms the raw datasets contain the variants,
+samples, and coverage needed — and that the full pipeline is reproducible from
+a single `docker build` command.
 
-## Key Components
-
-- **Docker image**: Bioconductor base + DESeq2, MOFA2, mixOmics, Signac
-- **Python environment**: xgboost, shap, torch, scanpy
-- **Data pipeline**: Download scripts for SMRI and GEO data
-- **Version control**: All configurations tracked in bioinformatics-2026 repo
+**Timeline:** Weeks 1–3
 
 ## Methods
 
-[Brief technical description of setup decisions]
+*Coming soon.*
 
 ## Deliverables
 
-- Dockerfile:
-- Environment YAML:
-- Reproducibility:
-
+*Coming soon.*
 
 ## Results
 
-[Screenshot of successful environment build, test output]
+*Coming soon.*

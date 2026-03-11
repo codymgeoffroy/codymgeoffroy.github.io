@@ -1,38 +1,27 @@
 ---
-title: "Phase 3: RNA-seq Analysis"
-description: "Multi-region brain RNA-seq differential expression analysis stratified by CYP2D6/CYP2C19 activity using DESeq2 across 7 brain regions."
+title: "Phase 3: Brain Transcriptomics (RNA-seq)"
+description: "Multi-region brain RNA-seq differential expression using DESeq2
+  with CYP2C19 as the primary continuous covariate across up to 7 brain regions."
 date: 2026-05-01
 image: "/images/Phase 3.png"
 ---
 
 ## Overview
 
-Performed differential gene expression analysis on SMRI Stanley RNA-seq data (7 brain regions) stratified by pharmacogenomic activity scores, identifying metabolizer-associated transcriptomic signatures.
+Differential gene expression analysis on SMRI Stanley RNA-seq data (up to 7
+brain regions) using CYP2C19 activity score as the primary continuous covariate
+in DESeq2. CYP2D6 run as a separate exploratory model.
 
-## Key Components
-
-- **Input data**: SMRI Stanley RNA-seq (ACC, DLPFC, NAc, Amy, Hipp, subCC, mOFC; n=60-105 per region)
-- **Preprocessing**: Read alignment (STAR), quantification (featureCounts), normalization (DESeq2 size factors)
-- **Stratification**: Correlation-based analysis using continuous CYP2D6/CYP2C19 scores as covariates
-- **Differential expression**: DESeq2 LRT and Wald tests controlling for diagnosis, age, sex, PMI, pH
+**Timeline:** Weeks 5–8
 
 ## Methods
 
-DESeq2 design: `~ diagnosis + age + sex + PMI + pH + CYP2D6_score + CYP2C19_score`. Used likelihood ratio test to identify genes where pharmacogenomic covariates improve model fit. FDR-corrected p < 0.05 threshold. Pathway enrichment via clusterProfiler (GO, KEGG, Reactome).
+*Coming soon.*
 
 ## Deliverables
 
-- [DESeq2 analysis scripts](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/03_rnaseq)
-- DEG tables per region (CSV): `DEGs_[region]_CYP2D6.csv`, `DEGs_[region]_CYP2C19.csv`
-- Volcano plots and heatmaps (PNG)
-- Pathway enrichment tables (CSV)
-- Region-specific and shared DEG Venn diagrams
+*Coming soon.*
 
 ## Results
 
-*(Add figures when complete)*
-
-- Volcano plots showing DEGs for each region × enzyme combination
-- Heatmap of top 50 DEGs clustered by metabolizer score
-- Pathway enrichment bar plots (top 10 terms per comparison)
-- Cross-region overlap analysis (Venn diagrams)
+*Coming soon.*

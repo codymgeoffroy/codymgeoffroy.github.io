@@ -15,12 +15,13 @@ listing:
 
 # Building Computational Tools for Biological Discovery
 
-Multi-omics pipeline developer focused on pharmacogenomics, brain 
-transcriptomics, and reproducible bioinformatics — using open-access 
+Multi-omics pipeline developer focused on neuropharmacogenomics, brain
+transcriptomics, and reproducible bioinformatics — using open-access
 data and modern ML/integration methods.
 
-**Current project:** PsychPGx-MultiOmics — pharmacogenomic stratification 
-of psychiatric brain RNA-seq using MOFA2, XGBoost + SHAP, and VAE benchmarking.
+**Current project:** NeuroPGx-MultiOmics — CYP2C19-primary pharmacogenomic
+stratification of psychiatric brain RNA-seq and scATAC-seq using MOFA2,
+XGBoost + SHAP, and VAE benchmarking.
 
 [View Projects](projects/index.qmd){.btn .btn-primary}
 [GitHub](https://github.com/codymgeoffroy){.btn .btn-outline-secondary}
@@ -34,21 +35,20 @@ of psychiatric brain RNA-seq using MOFA2, XGBoost + SHAP, and VAE benchmarking.
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### PsychPGx-MultiOmics
-Pharmacogenomic stratification of psychiatric brain transcriptomics using 
-SMRI open-access data. Integrates CYP2D6/CYP2C19 activity scores with 
-multi-region RNA-seq and scATAC-seq through MOFA2, DIABLO, and supervised ML.
-
-**Tech:** PharmCAT · DESeq2 · MOFA2 · XGBoost · PyTorch · Docker
+### NeuroPGx-MultiOmics
+Pharmacogenomic stratification of psychiatric brain transcriptomics using
+SMRI open-access data. Integrates CYP2C19 activity scores (primary) and
+CYP2D6 scores (exploratory) with multi-region RNA-seq and scATAC-seq
+through MOFA2, DIABLO, and supervised ML.
 
 [View All Phases →](projects/index.qmd)
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ### Research Background
-Undergraduate research in molecular neuroscience and bioinformatics — 
-including synaptic proteomics, neuronal culture modeling, and computational 
-coursework projects in genomics and systems biology.
+Undergraduate research in molecular neuroscience and bioinformatics —
+including cardiac neuroanatomy, RNA-protein binding kinetics, and
+microbiome analysis of parasite-infected ants.
 
 [Learn More →](research.qmd)
 :::
@@ -59,10 +59,11 @@ coursework projects in genomics and systems biology.
 
 ## Recent Posts
 
-Insights from multi-omics analysis, pipeline development, and computational 
+Insights from multi-omics analysis, pipeline development, and computational
 biology problem-solving.
 
 ::: {#blog-listing}
 :::
 
 [View All Posts →](blog/index.qmd){.btn .btn-outline-primary}
+

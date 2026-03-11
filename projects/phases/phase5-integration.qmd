@@ -1,38 +1,32 @@
 ---
-title: "Phase 5: Multi-Omics Integration"
-description: "Unsupervised integration of RNA-seq, ATAC-seq, and pharmacogenomic data using MOFA2 and DIABLO to discover latent metabolizer-associated patterns."
+title: "Phase 5: Integration & Machine Learning"
+description: "MOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP
+  predictive modeling, VAE benchmarking, and LLM-based interpretation."
 date: 2026-06-10
 image: "/images/Phase 5.png"
 ---
 
 ## Overview
 
-Integrated RNA-seq expression, ATAC-seq accessibility, and pharmacogenomic scores using MOFA2 (unsupervised) and DIABLO (supervised) to identify coordinated multi-omic signatures of metabolizer status.
+Unified phase combining unsupervised multi-omics factor analysis (MOFA2,
+DIABLO) with supervised machine learning (XGBoost + SHAP), a VAE benchmark
+(expected to underperform classical methods at small N), and an LLM-based
+PubMed RAG interpretation agent.
 
-## Key Components
+**Timeline:** Weeks 9–15
 
-- **MOFA2**: Unsupervised factor discovery across RNA + ATAC modalities
-- **DIABLO**: Supervised integration using CYP activity scores as outcome labels
-- **Input**: DESeq2-normalized expression matrix, ATAC peak accessibility matrix, CYP2D6/CYP2C19 continuous scores
-- **Goal**: Identify latent factors that capture variance explained by pharmacogenomic stratification
+## Part A: Multi-Omics Factor Analysis
 
-## Methods
+*Coming soon.*
 
-MOFA2 trained on combined RNA + ATAC matrices with 10 latent factors. Assessed factor-PGx correlation via Spearman's ρ. DIABLO trained with multi-block PLS-DA using continuous CYP scores as Y. Extracted loading weights to identify top contributing genes and peaks per component. Cross-validation via 5-fold CV to assess generalization.
+## Part B: Supervised ML & AI Interpretation
+
+*Coming soon.*
 
 ## Deliverables
 
-- [MOFA2/DIABLO scripts](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/05_integration)
-- Factor loading tables (CSV): genes and peaks with top weights
-- Factor-PGx correlation heatmaps (PNG)
-- Component plots showing sample separation by metabolizer score
-- Variance explained per modality (bar plots)
+*Coming soon.*
 
 ## Results
 
-*(Add figures when complete)*
-
-- MOFA2 factor-PGx correlation matrix (heatmap)
-- Scatterplot of MOFA2 Factor 1 vs. CYP2D6 score
-- DIABLO component 1 vs. component 2 scatterplot colored by CYP tertiles
-- Top 20 genes/peaks per significant factor (bar plots of loadings)
+*Coming soon.*

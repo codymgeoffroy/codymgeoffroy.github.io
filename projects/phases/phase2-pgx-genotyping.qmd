@@ -1,37 +1,29 @@
 ---
 title: "Phase 2: Pharmacogenomic Genotyping"
-description: "CYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains."
+description: "CYP2C19-primary / CYP2D6-exploratory star allele calling from
+  SMRI SNP arrays using PharmCAT, generating continuous activity scores for
+  105 brains."
 date: 2026-04-15
 image: "/images/Phase 2.png"
 ---
 
 ## Overview
 
-Extracted pharmacogenomic variants from SMRI Stanley Array Collection SNP data and computed continuous CYP2D6/CYP2C19 activity scores using PharmCAT and established pharmacogenetic translation tables.
+CYP2C19 and CYP2D6 star allele calling from SMRI Affymetrix SNP 5.0 data using
+PharmCAT. Implements a **CYP2C19-primary / CYP2D6-secondary** strategy — CYP2C19
+is reliably called from SNP arrays, while CYP2D6 is exploratory due to
+structural variation (deletions, duplications, CYP2D7 hybrids) invisible to arrays.
 
-## Key Components
-
-- **Input data**: SMRI Stanley Array Collection (n=105 postmortem brains, ~900K SNPs)
-- **Variant extraction**: Isolated CYP2D6 (22q13.2), CYP2C19 (10q23.33) loci from SNP arrays
-- **Star allele calling**: PharmCAT haplotype inference from genotype data
-- **Activity scoring**: Continuous metabolizer scores (0.0-3.0 scale) instead of categorical bins
+**Timeline:** Weeks 3–5
 
 ## Methods
 
-Used PharmCAT v2.x pipeline for automated star allele calling from VCF-formatted SNP array data. Activity scores computed as sum of allele function values (e.g., *1/*1 = 2.0, *1/*4 = 1.0, *4/*4 = 0.0 for loss-of-function alleles). Continuous scoring preserves statistical power vs. traditional categorical metabolizer bins (PM/IM/EM/UM).
+*Coming soon.*
 
 ## Deliverables
 
-- [PharmCAT pipeline script](https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/01_pgx)
-- Activity score table (CSV): `pgx_activity_scores.csv`
-- Star allele distribution plots (PNG)
-- Quality control report: genotype call rates, allele frequency validation
+*Coming soon.*
 
 ## Results
 
-*(Add figures when complete)*
-
-- Distribution histogram of CYP2D6/CYP2C19 continuous scores
-- Correlation plot between the two enzymes
-- Comparison to published allele frequencies (validation check)
-
+*Coming soon.*

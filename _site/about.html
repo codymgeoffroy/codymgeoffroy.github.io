@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-19dad2dfa865db1f20706ec075d05665.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9d63465a664ba84e648cd93a93ad56e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -173,11 +173,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="education" class="level2">
 <h2 data-anchor-id="education">Education</h2>
-<p><strong>Biotechnology, M.S. (incomplete)</strong><br>
-University of Central Florida | 2024-2025</p>
-<p><strong>Biomedical Sciences, B.S.</strong><br>
-<em>Minor in Genomics &amp; Bioinformatics | Minor in Anthropology</em><br>
-University of Central Florida | 2019-2023</p>
+<p><strong>Biotechnology, M.S. (incomplete)</strong> <br> University of Central Florida | 2024–2025</p>
+<p><strong>Biomedical Sciences, B.S.</strong> <br> <em>Minor in Genomics &amp; Bioinformatics | Minor in Anthropology</em> <br> University of Central Florida | 2019–2023</p>
 </section>
 <section id="my-journey" class="level2">
 <h2 data-anchor-id="my-journey">My Journey</h2>
@@ -190,27 +187,38 @@ University of Central Florida | 2019-2023</p>
 <h4 data-anchor-id="programming-languages">Programming Languages</h4>
 <ul>
 <li>Python (primary focus for bioinformatics)</li>
-<li>R (statistical analysis and visualization)</li>
+<li>R (statistical analysis, DESeq2, MOFA2, mixOmics)</li>
 <li>Bash/Shell scripting</li>
 <li>SQL for database querying</li>
 </ul>
 </section>
-<section id="bioinformatics-tools-platforms" class="level4">
-<h4 data-anchor-id="bioinformatics-tools-platforms">Bioinformatics Tools &amp; Platforms</h4>
+<section id="bioinformatics-multi-omics" class="level4">
+<h4 data-anchor-id="bioinformatics-multi-omics">Bioinformatics &amp; Multi-Omics</h4>
 <ul>
-<li>Git/GitHub for version control</li>
-<li>Linux/WSL development environment</li>
-<li>Quarto for reproducible research</li>
-<li>Data analysis libraries (pandas, NumPy, BioPython)</li>
+<li>Pharmacogenomic genotyping (PharmCAT, CYP2C19/CYP2D6 activity scoring)</li>
+<li>Differential expression analysis (DESeq2 with continuous covariates)</li>
+<li>Single-cell ATAC-seq (ArchR/Signac, chromVAR, MACS2)</li>
+<li>Multi-omics integration (MOFA2, DIABLO/mixOmics)</li>
+<li>Pathway enrichment (clusterProfiler: GO, KEGG, Reactome)</li>
 </ul>
 </section>
-<section id="computational-biology" class="level4">
-<h4 data-anchor-id="computational-biology">Computational Biology</h4>
+<section id="machine-learning-data-science" class="level4">
+<h4 data-anchor-id="machine-learning-data-science">Machine Learning &amp; Data Science</h4>
 <ul>
-<li>Sequence analysis algorithms</li>
-<li>Statistical methods for genomics</li>
-<li>Data visualization</li>
-<li>Pipeline development</li>
+<li>XGBoost with SHAP interpretability</li>
+<li>PyTorch (VAE benchmarking)</li>
+<li>Optuna hyperparameter optimization</li>
+<li>LLM-based interpretation pipelines (RAG with PubMed)</li>
+</ul>
+</section>
+<section id="devops-reproducibility" class="level4">
+<h4 data-anchor-id="devops-reproducibility">DevOps &amp; Reproducibility</h4>
+<ul>
+<li>Docker containerization (Bioconductor + Python multi-stage builds)</li>
+<li>Snakemake workflow orchestration</li>
+<li>Git/GitHub version control + GitHub Actions CI</li>
+<li>Linux/WSL development environment</li>
+<li>Quarto for reproducible research and portfolio</li>
 </ul>
 </section>
 </section>
@@ -237,7 +245,7 @@ University of Central Florida | 2019-2023</p>
 </section>
 <section id="whats-next" class="level2">
 <h2 data-anchor-id="whats-next">What’s Next</h2>
-<p>I’m actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I’m particularly interested in genomics, algorithm development, and data-driven biological discovery.</p>
+<p>I’m actively seeking opportunities in bioinformatics, computational biology, or data science where I can apply my growing technical skills and contribute to meaningful research. I’m particularly interested in pharmacogenomics, multi-omics integration, and data-driven biological discovery.</p>
 <p><strong>Open to:</strong> Full-time positions, internships, collaborations, and freelance projects</p>
 <p><a href="files/Resume_CG.pdf" class="btn btn-primary">Download Resume</a> <a href="files/CV_CG.pdf" class="btn btn-outline-secondary">Download CV</a></p>
 
@@ -329,7 +337,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
