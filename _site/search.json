@@ -2,77 +2,77 @@
   {
     "objectID": "projects/phases/phase1-environment.html",
     "href": "projects/phases/phase1-environment.html",
-    "title": "Data Acquisition & Environment",
+    "title": "Data Acquisition",
     "section": "",
     "text": "Foundational phase combining data acquisition, probe coverage validation, and reproducible environment setup. Confirms the raw datasets contain the variants, samples, and coverage needed — and that the full pipeline is reproducible from a single docker build command.\nTimeline: Weeks 1–3"
   },
   {
     "objectID": "projects/phases/phase1-environment.html#overview",
     "href": "projects/phases/phase1-environment.html#overview",
-    "title": "Data Acquisition & Environment",
+    "title": "Data Acquisition",
     "section": "",
     "text": "Foundational phase combining data acquisition, probe coverage validation, and reproducible environment setup. Confirms the raw datasets contain the variants, samples, and coverage needed — and that the full pipeline is reproducible from a single docker build command.\nTimeline: Weeks 1–3"
   },
   {
     "objectID": "projects/phases/phase1-environment.html#methods",
     "href": "projects/phases/phase1-environment.html#methods",
-    "title": "Data Acquisition & Environment",
+    "title": "Data Acquisition",
     "section": "Methods",
     "text": "Methods\nComing soon."
   },
   {
     "objectID": "projects/phases/phase1-environment.html#deliverables",
     "href": "projects/phases/phase1-environment.html#deliverables",
-    "title": "Data Acquisition & Environment",
+    "title": "Data Acquisition",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase1-environment.html#results",
     "href": "projects/phases/phase1-environment.html#results",
-    "title": "Data Acquisition & Environment",
+    "title": "Data Acquisition",
     "section": "Results",
     "text": "Results\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html",
     "href": "projects/phases/phase5-integration.html",
-    "title": "Integration & Machine Learning",
+    "title": "Integration, ML & AI",
     "section": "",
     "text": "Unified phase combining unsupervised multi-omics factor analysis (MOFA2, DIABLO) with supervised machine learning (XGBoost + SHAP), a VAE benchmark (expected to underperform classical methods at small N), and an LLM-based PubMed RAG interpretation agent.\nTimeline: Weeks 9–15"
   },
   {
     "objectID": "projects/phases/phase5-integration.html#overview",
     "href": "projects/phases/phase5-integration.html#overview",
-    "title": "Integration & Machine Learning",
+    "title": "Integration, ML & AI",
     "section": "",
     "text": "Unified phase combining unsupervised multi-omics factor analysis (MOFA2, DIABLO) with supervised machine learning (XGBoost + SHAP), a VAE benchmark (expected to underperform classical methods at small N), and an LLM-based PubMed RAG interpretation agent.\nTimeline: Weeks 9–15"
   },
   {
     "objectID": "projects/phases/phase5-integration.html#part-a-multi-omics-factor-analysis",
     "href": "projects/phases/phase5-integration.html#part-a-multi-omics-factor-analysis",
-    "title": "Integration & Machine Learning",
+    "title": "Integration, ML & AI",
     "section": "Part A: Multi-Omics Factor Analysis",
     "text": "Part A: Multi-Omics Factor Analysis\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html#part-b-supervised-ml-ai-interpretation",
     "href": "projects/phases/phase5-integration.html#part-b-supervised-ml-ai-interpretation",
-    "title": "Integration & Machine Learning",
+    "title": "Integration, ML & AI",
     "section": "Part B: Supervised ML & AI Interpretation",
     "text": "Part B: Supervised ML & AI Interpretation\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html#deliverables",
     "href": "projects/phases/phase5-integration.html#deliverables",
-    "title": "Integration & Machine Learning",
+    "title": "Integration, ML & AI",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html#results",
     "href": "projects/phases/phase5-integration.html#results",
-    "title": "Integration & Machine Learning",
+    "title": "Integration, ML & AI",
     "section": "Results",
     "text": "Results\nComing soon."
   },
@@ -116,14 +116,14 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates CYP2C19 activity scores (primary) and CYP2D6 scores (exploratory) with multi-region RNA-seq and postmortem scATAC-seq data.\nStrategy: CYP2C19-primary (reliable SNP-based calling) · CYP2D6-secondary (CNV limitations documented)\nDemonstrates: End-to-end multi-omics pipeline execution from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: [GitHub]\n\n\n\n\n\n\n\n\n\n\n\n\nDownloading and validating SMRI, GEO, and reference datasets alongside a fully reproducible Docker + Snakemake computational environment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCYP2C19-primary / CYP2D6-exploratory star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression using DESeq2 with CYP2C19 as the primary continuous covariate across up to 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq from postmortem OFC (GSE256207) analyzing pharmacogene-proximal regulatory regions with cell-type resolution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP predictive modeling, VAE benchmarking, and LLM-based interpretation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence integration across all phases, publication-quality figures, honest limitations documentation, and portfolio finalization.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates CYP2C19 activity scores (primary) and CYP2D6 scores (exploratory) with multi-region RNA-seq and postmortem scATAC-seq data.\nStrategy: CYP2C19-primary (reliable SNP-based calling) · CYP2D6-secondary (CNV limitations documented)\nDemonstrates: End-to-end multi-omics pipeline execution from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: [GitHub]\n\n\n\n\n\n\n\n\n\n\n\n\nDownloading and validating SMRI, GEO, and reference datasets alongside a fully reproducible Docker + Snakemake computational environment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCYP2C19-primary / CYP2D6-exploratory star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression using DESeq2 with CYP2C19 as the primary continuous covariate across up to 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq from postmortem OFC (GSE256207) analyzing pharmacogene-proximal regulatory regions with cell-type resolution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP redictive modeling, VAE benchmarking, and LLM-based interpretation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence integration across all phases, publication-quality figures, honest limitations documentation, and portfolio finalization.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html#neuropgx-multiomics",
     "href": "projects/index.html#neuropgx-multiomics",
     "title": "Projects",
     "section": "",
-    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates CYP2C19 activity scores (primary) and CYP2D6 scores (exploratory) with multi-region RNA-seq and postmortem scATAC-seq data.\nStrategy: CYP2C19-primary (reliable SNP-based calling) · CYP2D6-secondary (CNV limitations documented)\nDemonstrates: End-to-end multi-omics pipeline execution from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: [GitHub]\n\n\n\n\n\n\n\n\n\n\n\n\nDownloading and validating SMRI, GEO, and reference datasets alongside a fully reproducible Docker + Snakemake computational environment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCYP2C19-primary / CYP2D6-exploratory star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression using DESeq2 with CYP2C19 as the primary continuous covariate across up to 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq from postmortem OFC (GSE256207) analyzing pharmacogene-proximal regulatory regions with cell-type resolution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP predictive modeling, VAE benchmarking, and LLM-based interpretation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence integration across all phases, publication-quality figures, honest limitations documentation, and portfolio finalization.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pharmacogenomic analysis of psychiatric brain transcriptomics using fully open-access data. This project integrates CYP2C19 activity scores (primary) and CYP2D6 scores (exploratory) with multi-region RNA-seq and postmortem scATAC-seq data.\nStrategy: CYP2C19-primary (reliable SNP-based calling) · CYP2D6-secondary (CNV limitations documented)\nDemonstrates: End-to-end multi-omics pipeline execution from raw data to interpretable biological insights.\nMethods: PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker\nFull Code: [GitHub]\n\n\n\n\n\n\n\n\n\n\n\n\nDownloading and validating SMRI, GEO, and reference datasets alongside a fully reproducible Docker + Snakemake computational environment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCYP2C19-primary / CYP2D6-exploratory star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-region brain RNA-seq differential expression using DESeq2 with CYP2C19 as the primary continuous covariate across up to 7 brain regions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-nucleus ATAC-seq from postmortem OFC (GSE256207) analyzing pharmacogene-proximal regulatory regions with cell-type resolution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP redictive modeling, VAE benchmarking, and LLM-based interpretation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvidence integration across all phases, publication-quality figures, honest limitations documentation, and portfolio finalization.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2026-02-14-getting-started/index.html",
@@ -310,35 +310,35 @@
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html",
     "href": "projects/phases/phase2-pgx-genotyping.html",
-    "title": "PGx Genotyping",
+    "title": "Genotyping",
     "section": "",
     "text": "CYP2C19 and CYP2D6 star allele calling from SMRI Affymetrix SNP 5.0 data using PharmCAT. Implements a CYP2C19-primary / CYP2D6-secondary strategy — CYP2C19 is reliably called from SNP arrays, while CYP2D6 is exploratory due to structural variation (deletions, duplications, CYP2D7 hybrids) invisible to arrays.\nTimeline: Weeks 3–5"
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#overview",
     "href": "projects/phases/phase2-pgx-genotyping.html#overview",
-    "title": "PGx Genotyping",
+    "title": "Genotyping",
     "section": "",
     "text": "CYP2C19 and CYP2D6 star allele calling from SMRI Affymetrix SNP 5.0 data using PharmCAT. Implements a CYP2C19-primary / CYP2D6-secondary strategy — CYP2C19 is reliably called from SNP arrays, while CYP2D6 is exploratory due to structural variation (deletions, duplications, CYP2D7 hybrids) invisible to arrays.\nTimeline: Weeks 3–5"
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#methods",
     "href": "projects/phases/phase2-pgx-genotyping.html#methods",
-    "title": "PGx Genotyping",
+    "title": "Genotyping",
     "section": "Methods",
     "text": "Methods\nComing soon."
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#deliverables",
     "href": "projects/phases/phase2-pgx-genotyping.html#deliverables",
-    "title": "PGx Genotyping",
+    "title": "Genotyping",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#results",
     "href": "projects/phases/phase2-pgx-genotyping.html#results",
-    "title": "PGx Genotyping",
+    "title": "Genotyping",
     "section": "Results",
     "text": "Results\nComing soon."
   }

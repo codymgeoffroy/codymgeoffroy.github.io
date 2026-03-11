@@ -1,7 +1,6 @@
 ---
-title: "Integration & Machine Learning"
-description: "MOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP
-  predictive modeling, VAE benchmarking, and LLM-based interpretation."
+title: "Integration, ML & AI"
+description: "MOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP redictive modeling, VAE benchmarking, and LLM-based interpretation."
 date: 2026-06-10
 image: "/images/Phase 5.png"
 
@@ -9,10 +8,7 @@ image: "/images/Phase 5.png"
 
 ## Overview
 
-Unified phase combining unsupervised multi-omics factor analysis (MOFA2,
-DIABLO) with supervised machine learning (XGBoost + SHAP), a VAE benchmark
-(expected to underperform classical methods at small N), and an LLM-based
-PubMed RAG interpretation agent.
+Unified phase combining unsupervised multi-omics factor analysis (MOFA2, DIABLO) with supervised machine learning (XGBoost + SHAP), a VAE benchmark (expected to underperform classical methods at small N), and an LLM-based PubMed RAG interpretation agent.
 
 **Timeline:** Weeks 9–15
 

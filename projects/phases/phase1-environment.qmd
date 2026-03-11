@@ -1,16 +1,12 @@
 ---
-title: "Data Acquisition & Environment"
-description: "Downloading and validating SMRI, GEO, and reference datasets
-  alongside a fully reproducible Docker + Snakemake computational environment."
+title: "Data Acquisition"
+description: "Downloading and validating SMRI, GEO, and reference datasets alongside a fully reproducible Docker + Snakemake computational environment."
 image: "/images/Phase 1.png"
 ---
 
 ## Overview
 
-Foundational phase combining data acquisition, probe coverage validation, and
-reproducible environment setup. Confirms the raw datasets contain the variants,
-samples, and coverage needed — and that the full pipeline is reproducible from
-a single `docker build` command.
+Foundational phase combining data acquisition, probe coverage validation, and reproducible environment setup. Confirms the raw datasets contain the variants, samples, and coverage needed — and that the full pipeline is reproducible from a single `docker build` command.
 
 **Timeline:** Weeks 1–3
 
