@@ -1,5 +1,5 @@
 ---
-title: "Phase 1: Data Acquisition & Environment"
+title: "Data Acquisition & Environment"
 description: "Downloading and validating SMRI, GEO, and reference datasets
   alongside a fully reproducible Docker + Snakemake computational environment."
 image: "/images/Phase 1.png"

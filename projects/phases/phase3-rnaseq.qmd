@@ -1,5 +1,5 @@
 ---
-title: "Phase 3: Brain Transcriptomics (RNA-seq)"
+title: "Brain Transcriptomics"
 description: "Multi-region brain RNA-seq differential expression using DESeq2
   with CYP2C19 as the primary continuous covariate across up to 7 brain regions."
 date: 2026-05-01

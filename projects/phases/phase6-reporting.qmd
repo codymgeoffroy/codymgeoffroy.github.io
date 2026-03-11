@@ -1,9 +1,9 @@
 ---
-title: "Phase 6: Synthesis & Reporting"
+title: "Synthesis & Reporting"
 description: "Evidence integration across all phases, publication-quality figures,
   honest limitations documentation, and portfolio finalization."
 date: 2026-08-01
-image: "/images/Phase 6.png"
+image: "/images/Phase 6.png" 
 ---
 
 ## Overview

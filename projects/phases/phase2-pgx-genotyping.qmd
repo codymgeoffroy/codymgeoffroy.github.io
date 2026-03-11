@@ -1,5 +1,5 @@
 ---
-title: "Phase 2: Pharmacogenomic Genotyping"
+title: "PGx Genotyping"
 description: "CYP2C19-primary / CYP2D6-exploratory star allele calling from
   SMRI SNP arrays using PharmCAT, generating continuous activity scores for
   105 brains."

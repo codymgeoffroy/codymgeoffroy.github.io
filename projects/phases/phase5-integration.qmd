@@ -1,9 +1,10 @@
 ---
-title: "Phase 5: Integration & Machine Learning"
+title: "Integration & Machine Learning"
 description: "MOFA2/DIABLO multi-omics integration combined with XGBoost + SHAP
   predictive modeling, VAE benchmarking, and LLM-based interpretation."
 date: 2026-06-10
 image: "/images/Phase 5.png"
+
 ---
 
 ## Overview

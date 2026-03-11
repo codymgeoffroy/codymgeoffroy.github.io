@@ -1,9 +1,10 @@
 ---
-title: "Phase 4: Chromatin Accessibility (scATAC-seq)"
+title: "Chromatin Accessibility"
 description: "Single-nucleus ATAC-seq from postmortem OFC (GSE256207) analyzing
   pharmacogene-proximal regulatory regions with cell-type resolution."
 date: 2026-05-20
 image: "/images/Phase 4.png"
+
 ---
 
 ## Overview

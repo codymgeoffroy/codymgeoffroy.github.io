@@ -2,112 +2,112 @@
   {
     "objectID": "projects/phases/phase1-environment.html",
     "href": "projects/phases/phase1-environment.html",
-    "title": "Phase 1: Data Acquisition & Environment",
+    "title": "Data Acquisition & Environment",
     "section": "",
     "text": "Foundational phase combining data acquisition, probe coverage validation, and reproducible environment setup. Confirms the raw datasets contain the variants, samples, and coverage needed — and that the full pipeline is reproducible from a single docker build command.\nTimeline: Weeks 1–3"
   },
   {
     "objectID": "projects/phases/phase1-environment.html#overview",
     "href": "projects/phases/phase1-environment.html#overview",
-    "title": "Phase 1: Data Acquisition & Environment",
+    "title": "Data Acquisition & Environment",
     "section": "",
     "text": "Foundational phase combining data acquisition, probe coverage validation, and reproducible environment setup. Confirms the raw datasets contain the variants, samples, and coverage needed — and that the full pipeline is reproducible from a single docker build command.\nTimeline: Weeks 1–3"
   },
   {
     "objectID": "projects/phases/phase1-environment.html#methods",
     "href": "projects/phases/phase1-environment.html#methods",
-    "title": "Phase 1: Data Acquisition & Environment",
+    "title": "Data Acquisition & Environment",
     "section": "Methods",
     "text": "Methods\nComing soon."
   },
   {
     "objectID": "projects/phases/phase1-environment.html#deliverables",
     "href": "projects/phases/phase1-environment.html#deliverables",
-    "title": "Phase 1: Data Acquisition & Environment",
+    "title": "Data Acquisition & Environment",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase1-environment.html#results",
     "href": "projects/phases/phase1-environment.html#results",
-    "title": "Phase 1: Data Acquisition & Environment",
+    "title": "Data Acquisition & Environment",
     "section": "Results",
     "text": "Results\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html",
     "href": "projects/phases/phase5-integration.html",
-    "title": "Phase 5: Integration & Machine Learning",
+    "title": "Integration & Machine Learning",
     "section": "",
     "text": "Unified phase combining unsupervised multi-omics factor analysis (MOFA2, DIABLO) with supervised machine learning (XGBoost + SHAP), a VAE benchmark (expected to underperform classical methods at small N), and an LLM-based PubMed RAG interpretation agent.\nTimeline: Weeks 9–15"
   },
   {
     "objectID": "projects/phases/phase5-integration.html#overview",
     "href": "projects/phases/phase5-integration.html#overview",
-    "title": "Phase 5: Integration & Machine Learning",
+    "title": "Integration & Machine Learning",
     "section": "",
     "text": "Unified phase combining unsupervised multi-omics factor analysis (MOFA2, DIABLO) with supervised machine learning (XGBoost + SHAP), a VAE benchmark (expected to underperform classical methods at small N), and an LLM-based PubMed RAG interpretation agent.\nTimeline: Weeks 9–15"
   },
   {
     "objectID": "projects/phases/phase5-integration.html#part-a-multi-omics-factor-analysis",
     "href": "projects/phases/phase5-integration.html#part-a-multi-omics-factor-analysis",
-    "title": "Phase 5: Integration & Machine Learning",
+    "title": "Integration & Machine Learning",
     "section": "Part A: Multi-Omics Factor Analysis",
     "text": "Part A: Multi-Omics Factor Analysis\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html#part-b-supervised-ml-ai-interpretation",
     "href": "projects/phases/phase5-integration.html#part-b-supervised-ml-ai-interpretation",
-    "title": "Phase 5: Integration & Machine Learning",
+    "title": "Integration & Machine Learning",
     "section": "Part B: Supervised ML & AI Interpretation",
     "text": "Part B: Supervised ML & AI Interpretation\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html#deliverables",
     "href": "projects/phases/phase5-integration.html#deliverables",
-    "title": "Phase 5: Integration & Machine Learning",
+    "title": "Integration & Machine Learning",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase5-integration.html#results",
     "href": "projects/phases/phase5-integration.html#results",
-    "title": "Phase 5: Integration & Machine Learning",
+    "title": "Integration & Machine Learning",
     "section": "Results",
     "text": "Results\nComing soon."
   },
   {
     "objectID": "projects/phases/phase4-atacseq.html",
     "href": "projects/phases/phase4-atacseq.html",
-    "title": "Phase 4: Chromatin Accessibility (scATAC-seq)",
+    "title": "Chromatin Accessibility",
     "section": "",
     "text": "Single-nucleus ATAC-seq analysis from postmortem orbitofrontal cortex (GSE256207, n=92) with companion snRNA-seq (GSE254569) for cell-type label transfer. Focused on chromatin accessibility near pharmacogenomically relevant genes and pathway-level concordance with Phase 3 DEGs.\nNote: GSE256207 samples are different individuals from the SMRI cohort — only pathway-level concordance is possible, not sample-level integration.\nTimeline: Weeks 7–10 (parallelizable with Phase 3)"
   },
   {
     "objectID": "projects/phases/phase4-atacseq.html#overview",
     "href": "projects/phases/phase4-atacseq.html#overview",
-    "title": "Phase 4: Chromatin Accessibility (scATAC-seq)",
+    "title": "Chromatin Accessibility",
     "section": "",
     "text": "Single-nucleus ATAC-seq analysis from postmortem orbitofrontal cortex (GSE256207, n=92) with companion snRNA-seq (GSE254569) for cell-type label transfer. Focused on chromatin accessibility near pharmacogenomically relevant genes and pathway-level concordance with Phase 3 DEGs.\nNote: GSE256207 samples are different individuals from the SMRI cohort — only pathway-level concordance is possible, not sample-level integration.\nTimeline: Weeks 7–10 (parallelizable with Phase 3)"
   },
   {
     "objectID": "projects/phases/phase4-atacseq.html#methods",
     "href": "projects/phases/phase4-atacseq.html#methods",
-    "title": "Phase 4: Chromatin Accessibility (scATAC-seq)",
+    "title": "Chromatin Accessibility",
     "section": "Methods",
     "text": "Methods\nComing soon."
   },
   {
     "objectID": "projects/phases/phase4-atacseq.html#deliverables",
     "href": "projects/phases/phase4-atacseq.html#deliverables",
-    "title": "Phase 4: Chromatin Accessibility (scATAC-seq)",
+    "title": "Chromatin Accessibility",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase4-atacseq.html#results",
     "href": "projects/phases/phase4-atacseq.html#results",
-    "title": "Phase 4: Chromatin Accessibility (scATAC-seq)",
+    "title": "Chromatin Accessibility",
     "section": "Results",
     "text": "Results\nComing soon."
   },
@@ -233,112 +233,112 @@
   {
     "objectID": "projects/phases/phase3-rnaseq.html",
     "href": "projects/phases/phase3-rnaseq.html",
-    "title": "Phase 3: Brain Transcriptomics (RNA-seq)",
+    "title": "Brain Transcriptomics",
     "section": "",
     "text": "Differential gene expression analysis on SMRI Stanley RNA-seq data (up to 7 brain regions) using CYP2C19 activity score as the primary continuous covariate in DESeq2. CYP2D6 run as a separate exploratory model.\nTimeline: Weeks 5–8"
   },
   {
     "objectID": "projects/phases/phase3-rnaseq.html#overview",
     "href": "projects/phases/phase3-rnaseq.html#overview",
-    "title": "Phase 3: Brain Transcriptomics (RNA-seq)",
+    "title": "Brain Transcriptomics",
     "section": "",
     "text": "Differential gene expression analysis on SMRI Stanley RNA-seq data (up to 7 brain regions) using CYP2C19 activity score as the primary continuous covariate in DESeq2. CYP2D6 run as a separate exploratory model.\nTimeline: Weeks 5–8"
   },
   {
     "objectID": "projects/phases/phase3-rnaseq.html#methods",
     "href": "projects/phases/phase3-rnaseq.html#methods",
-    "title": "Phase 3: Brain Transcriptomics (RNA-seq)",
+    "title": "Brain Transcriptomics",
     "section": "Methods",
     "text": "Methods\nComing soon."
   },
   {
     "objectID": "projects/phases/phase3-rnaseq.html#deliverables",
     "href": "projects/phases/phase3-rnaseq.html#deliverables",
-    "title": "Phase 3: Brain Transcriptomics (RNA-seq)",
+    "title": "Brain Transcriptomics",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase3-rnaseq.html#results",
     "href": "projects/phases/phase3-rnaseq.html#results",
-    "title": "Phase 3: Brain Transcriptomics (RNA-seq)",
+    "title": "Brain Transcriptomics",
     "section": "Results",
     "text": "Results\nComing soon."
   },
   {
     "objectID": "projects/phases/phase6-reporting.html",
     "href": "projects/phases/phase6-reporting.html",
-    "title": "Phase 6: Synthesis & Reporting",
+    "title": "Synthesis & Reporting",
     "section": "",
     "text": "Ties all previous phases into a coherent narrative. Core question: does CYP2C19 metabolizer status correlate with detectable transcriptomic signatures in postmortem psychiatric brain, and is there convergent evidence from chromatin accessibility?\nTimeline: Weeks 14–17"
   },
   {
     "objectID": "projects/phases/phase6-reporting.html#overview",
     "href": "projects/phases/phase6-reporting.html#overview",
-    "title": "Phase 6: Synthesis & Reporting",
+    "title": "Synthesis & Reporting",
     "section": "",
     "text": "Ties all previous phases into a coherent narrative. Core question: does CYP2C19 metabolizer status correlate with detectable transcriptomic signatures in postmortem psychiatric brain, and is there convergent evidence from chromatin accessibility?\nTimeline: Weeks 14–17"
   },
   {
     "objectID": "projects/phases/phase6-reporting.html#evidence-integration",
     "href": "projects/phases/phase6-reporting.html#evidence-integration",
-    "title": "Phase 6: Synthesis & Reporting",
+    "title": "Synthesis & Reporting",
     "section": "Evidence Integration",
     "text": "Evidence Integration\nComing soon."
   },
   {
     "objectID": "projects/phases/phase6-reporting.html#limitations",
     "href": "projects/phases/phase6-reporting.html#limitations",
-    "title": "Phase 6: Synthesis & Reporting",
+    "title": "Synthesis & Reporting",
     "section": "Limitations",
     "text": "Limitations\nComing soon."
   },
   {
     "objectID": "projects/phases/phase6-reporting.html#deliverables",
     "href": "projects/phases/phase6-reporting.html#deliverables",
-    "title": "Phase 6: Synthesis & Reporting",
+    "title": "Synthesis & Reporting",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase6-reporting.html#results",
     "href": "projects/phases/phase6-reporting.html#results",
-    "title": "Phase 6: Synthesis & Reporting",
+    "title": "Synthesis & Reporting",
     "section": "Results",
     "text": "Results\nComing soon."
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html",
     "href": "projects/phases/phase2-pgx-genotyping.html",
-    "title": "Phase 2: Pharmacogenomic Genotyping",
+    "title": "PGx Genotyping",
     "section": "",
     "text": "CYP2C19 and CYP2D6 star allele calling from SMRI Affymetrix SNP 5.0 data using PharmCAT. Implements a CYP2C19-primary / CYP2D6-secondary strategy — CYP2C19 is reliably called from SNP arrays, while CYP2D6 is exploratory due to structural variation (deletions, duplications, CYP2D7 hybrids) invisible to arrays.\nTimeline: Weeks 3–5"
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#overview",
     "href": "projects/phases/phase2-pgx-genotyping.html#overview",
-    "title": "Phase 2: Pharmacogenomic Genotyping",
+    "title": "PGx Genotyping",
     "section": "",
     "text": "CYP2C19 and CYP2D6 star allele calling from SMRI Affymetrix SNP 5.0 data using PharmCAT. Implements a CYP2C19-primary / CYP2D6-secondary strategy — CYP2C19 is reliably called from SNP arrays, while CYP2D6 is exploratory due to structural variation (deletions, duplications, CYP2D7 hybrids) invisible to arrays.\nTimeline: Weeks 3–5"
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#methods",
     "href": "projects/phases/phase2-pgx-genotyping.html#methods",
-    "title": "Phase 2: Pharmacogenomic Genotyping",
+    "title": "PGx Genotyping",
     "section": "Methods",
     "text": "Methods\nComing soon."
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#deliverables",
     "href": "projects/phases/phase2-pgx-genotyping.html#deliverables",
-    "title": "Phase 2: Pharmacogenomic Genotyping",
+    "title": "PGx Genotyping",
     "section": "Deliverables",
     "text": "Deliverables\nComing soon."
   },
   {
     "objectID": "projects/phases/phase2-pgx-genotyping.html#results",
     "href": "projects/phases/phase2-pgx-genotyping.html#results",
-    "title": "Phase 2: Pharmacogenomic Genotyping",
+    "title": "PGx Genotyping",
     "section": "Results",
     "text": "Results\nComing soon."
   }
