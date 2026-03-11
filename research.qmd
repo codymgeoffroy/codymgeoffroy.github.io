@@ -71,6 +71,6 @@ Analyzed gut microbiome composition differences between carpenter ants infected 
 
 Current work focuses on **neuropharmacogenomics** — specifically, how genetic variation in drug metabolism enzymes (CYP2D6, CYP2C19) correlates with brain transcriptomic and epigenomic profiles in psychiatric disorders. This builds on wet-lab molecular biology foundations while developing the computational skills (multi-omics integration, reproducible pipelines, machine learning) needed for independent research in this area.
 
-The PsychPGx-MultiOmics project represents the transition from supporting wet-lab research to designing and executing full computational biology analyses end-to-end.
+The NeuroPGx-MultiOmics project represents the transition from supporting wet-lab research to designing and executing full computational biology analyses end-to-end.
 
 [View Current Project →](projects/index.qmd){.btn .btn-primary}

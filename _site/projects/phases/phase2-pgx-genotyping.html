@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-04-15">
-<meta name="description" content="CYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.">
+<meta name="description" content="CYP2C19-primary / CYP2D6-exploratory star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.">
 
 <title>Phase 2: Pharmacogenomic Genotyping – Cody Geoffroy</title>
 <style>
@@ -138,7 +138,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-components" id="toc-key-components" class="nav-link" data-scroll-target="#key-components">Key Components</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
@@ -155,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    CYP2D6/CYP2C19 star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.
+    CYP2C19-primary / CYP2D6-exploratory star allele calling from SMRI SNP arrays using PharmCAT, generating continuous activity scores for 105 brains.
   </div>
 </div>
 
@@ -180,38 +179,20 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
-<p>Extracted pharmacogenomic variants from SMRI Stanley Array Collection SNP data and computed continuous CYP2D6/CYP2C19 activity scores using PharmCAT and established pharmacogenetic translation tables.</p>
-</section>
-<section id="key-components" class="level2">
-<h2 data-anchor-id="key-components">Key Components</h2>
-<ul>
-<li><strong>Input data</strong>: SMRI Stanley Array Collection (n=105 postmortem brains, ~900K SNPs)</li>
-<li><strong>Variant extraction</strong>: Isolated CYP2D6 (22q13.2), CYP2C19 (10q23.33) loci from SNP arrays</li>
-<li><strong>Star allele calling</strong>: PharmCAT haplotype inference from genotype data</li>
-<li><strong>Activity scoring</strong>: Continuous metabolizer scores (0.0-3.0 scale) instead of categorical bins</li>
-</ul>
+<p>CYP2C19 and CYP2D6 star allele calling from SMRI Affymetrix SNP 5.0 data using PharmCAT. Implements a <strong>CYP2C19-primary / CYP2D6-secondary</strong> strategy — CYP2C19 is reliably called from SNP arrays, while CYP2D6 is exploratory due to structural variation (deletions, duplications, CYP2D7 hybrids) invisible to arrays.</p>
+<p><strong>Timeline:</strong> Weeks 3–5</p>
 </section>
 <section id="methods" class="level2">
 <h2 data-anchor-id="methods">Methods</h2>
-<p>Used PharmCAT v2.x pipeline for automated star allele calling from VCF-formatted SNP array data. Activity scores computed as sum of allele function values (e.g., <em>1/</em>1 = 2.0, <em>1/</em>4 = 1.0, <em>4/</em>4 = 0.0 for loss-of-function alleles). Continuous scoring preserves statistical power vs.&nbsp;traditional categorical metabolizer bins (PM/IM/EM/UM).</p>
+<p><em>Coming soon.</em></p>
 </section>
 <section id="deliverables" class="level2">
 <h2 data-anchor-id="deliverables">Deliverables</h2>
-<ul>
-<li><a href="https://github.com/codymgeoffroy/bioinformatics-2026/tree/main/projects/psychpgx/01_pgx">PharmCAT pipeline script</a></li>
-<li>Activity score table (CSV): <code>pgx_activity_scores.csv</code></li>
-<li>Star allele distribution plots (PNG)</li>
-<li>Quality control report: genotype call rates, allele frequency validation</li>
-</ul>
+<p><em>Coming soon.</em></p>
 </section>
 <section id="results" class="level2">
 <h2 data-anchor-id="results">Results</h2>
-<p><em>(Add figures when complete)</em></p>
-<ul>
-<li>Distribution histogram of CYP2D6/CYP2C19 continuous scores</li>
-<li>Correlation plot between the two enzymes</li>
-<li>Comparison to published allele frequencies (validation check)</li>
-</ul>
+<p><em>Coming soon.</em></p>
 
 
 </section>
@@ -300,7 +281,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/codymgeoffroy\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 subtitle: "Computational biology · Multi-omics analysis · Pipeline development"
-page-layout: full
+page-layout: article
 toc: false
 listing:
   - id: phase-cards
@@ -25,7 +25,7 @@ scATAC-seq data.
 
 **Methods:** PharmCAT · DESeq2 · MOFA2 · DIABLO · XGBoost · SHAP · PyTorch · Docker
 
-**Full Code:** [GitHub](https://github.com/codymgeoffroy/NeuroPGx-MultiOmics)
+**Full Code:** [[GitHub](https://github.com/codymgeoffroy/NeuroPGx-MultiOmics)]
 
 ---
 
